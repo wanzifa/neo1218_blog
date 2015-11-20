@@ -2,24 +2,32 @@
 <html>
 <head>
     <meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="../static/css/base.css" />
     <title>neo1218's blog</title>
 </head>
 <body>
-    <div class="head">
-        <h1><a href="{{ url_for("index") }}">This is neo1218</a></h1>
-    </div>
-    <div class="posts">
-            {% block content %}
-                <p>welcome to neo1218's blog</p>
-            {% endblock content %}
-    </div>
-
-    <div class="foot">
+<div id="index">
+	<div id="navagate">
+		<ul>
+			<li><a href="http://121.43.230.104:1218/index.html">Posts</a></li>
+			<li><a href="news.asp">Code</a></li>
+			<li><a href="contact.asp">Think</a></li>
+		<li><a href="http://121.43.230.104:1218/about.html">About</a></li>
+		</ul>
+	</div>
+    <!--div id="headed">
+        <h1><a href="{#{ url_for("index") }#}">This is neo1218</a></h1>
+    </div-->
+    {% block content %}
+		<p>welcome to neo1218's blog</p>
+    {% endblock content %}
+    <div id="foot">
             <p>
                 2015 @neo1218
                 touch me via <a href="neo1218@yeah.net">Mail</a>
                 follow me on <a href="https://github.com/neo1218">Github</a>
             </p>
     </div>
+</div>
 </body>
 </html>

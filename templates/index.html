@@ -1,8 +1,17 @@
 {% extends "base.html" %}
 
 {% block content %}
+<div style="width:auto; height:100px;">
+	<img src="../static/img/loveb.png" style="width:100%;height:100%;"/>
+</div>
+<div id="index-right">
+	<img src="../static/img/loveblog.png" style="width:100%;height:100%;"/>
+</div>
+
+<div id="index-left">
     <h2>List of posts</h2>
     {% with pages=pages %}
         {% include "_list.html" %}
     {% endwith %}
+</div>
 {% endblock content %}
