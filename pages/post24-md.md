@@ -1,7 +1,6 @@
 title: "import this"
 date: 2015-05-25 18:49:24
 tags: 博客 python
----
 
 	The Zen of Python, by Tim Peters
 	

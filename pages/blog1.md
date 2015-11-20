@@ -1,7 +1,7 @@
 title: Flask 文档笔记(1) flaskr
 date: 2015-08-13 15:48:53
 tags: Flask web
----
+
 **flaskr**<br/>
 flaskr 是flask文档中的一个实例，是一个微型blog。我觉得flaskr很是特别，因为它几乎都是原生的flask操作，
 没有用到太多的扩展。通过它，我们可以了解一个纯正的flask。<br/>

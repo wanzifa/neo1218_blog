@@ -1,7 +1,7 @@
 title: "flask后台集成ckEditor编辑器"
 date: 2015-04-24 21:12:34
 tags: 博客 flask
----
+
 ### 传统的集成方式需要手动下载ckeditor，复制粘贴大量代码，十分麻烦，于是自己写了一个包，简化集成过程。
 
 	包: flask-ckeditor

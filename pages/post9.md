@@ -1,7 +1,7 @@
 title: "flask学习笔记(6)——API 中"
 date: 2015-04-06 00:46:27
 tags: 博客 flask
----
+
 在上一篇博文中我们已经安装了flask-httpauth，接下来我们可以利用它进行用户认证了；<br/>
 在我们初始化flask-httpauth扩展之前，我们要先创建一个HTTPBasicAuth类对象。<br/>
 初始化Flask-HTTPAuth(app/api-1-0/authentication.py)

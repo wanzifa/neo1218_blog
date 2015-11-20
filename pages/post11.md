@@ -1,7 +1,7 @@
 title: "uwsgi配置(1)——进程与线程"
 date: 2015-04-07 22:42:41
 tags: 博客 uwsgi
----
+
 最近在看《flask web 开发》的时候遇到了一个小bug，邮件发送不了，只有手动(ctrl+c)停止主程序后，邮件才可以发送。可见，一般的uwsgi配置启动命令已经满足不了我们越来越复杂的程序了，我记得在我的第一篇博客<a href="http://neo1218.github.io/2015/03/20/post1/" target="_blank">CentOS+uWSGI+Nginx 部署flask全记录 </a>中说到先把<strong>程序跑起来</strong>再说，但是现在不仅仅是跑起来，而且还要<strong>跑的好</strong>。所以我打算开辟一个新战场——uwsgi web服务器配置。<br/>
 ok，回到博客的主题——进程与线程，其实上文中的邮箱bug就是一个进程问题，发送邮件的进程和网站主程序的进程冲突了，导致运行网站主程序的时候邮件无法发送。那么该如何解决呢？我们只要修改uwsgi服务器的启动命令(在命令里增加配置)：<br/>
 <code>uwsgi --socket 121.43.230.104:5000 --protocol=http -w wsgi:app -H /root/www/flaskr/venv <strong>--master --processes 4 --threads 2</strong></code>

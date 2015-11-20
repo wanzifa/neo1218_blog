@@ -1,7 +1,7 @@
 title: "flask 学习笔记(1)——flask简介&安装"
 date: 2015-04-01 00:13:27
 tags: 博客 flask
----
+
 1.flask简介
 ---
 互联网的世界是自由的、是神奇的。而<strong>python flask</strong>则是我们进入网络内核世界的一个工具！

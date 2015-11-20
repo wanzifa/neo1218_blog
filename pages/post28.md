@@ -1,7 +1,7 @@
 title: "python 学习笔记(day 2)"
 date: 2015-06-10 00:08:06
 tags: 博客 python
----
+
 今天的主题是python的内存管理<br/>
 ![内存](http://7xj431.com1.z0.glb.clouddn.com/image.jpg)<br/>
 python的特性: 动态语言,面向对象，python的内存管理也很有特点,用一句话概括
