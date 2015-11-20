@@ -1,7 +1,7 @@
 title: "python 学习笔记(day 1)"
 date: 2015-06-04 14:54:38
 tags: 博客 python
----
+
 <strong>前言:</strong><br/>
 接触python快半年了,回过头把基础再总结一下应该会更好.<br/>
 <strong>1.python style</strong><br/>
