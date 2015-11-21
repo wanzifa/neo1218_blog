@@ -21,7 +21,7 @@ freezer = Freezer(app)
 @app.route('/index')
 def index():
 	# this is index.html, I will write it
-    return render_template('index.html', pages=pages)
+    return render_template('index_b.html', pages=pages)
 
 
 @app.route('/<path:path>/')
