@@ -4,10 +4,11 @@
 
 # URL
 
-    http://121.43.230.104:4399/index
+	http://neo1218.muxistudio.com
 
 # toolkit
 
     Flask
     Frozen-flask
     Flask-flatpages
+	bootstrap
