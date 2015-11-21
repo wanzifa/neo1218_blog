@@ -1,6 +1,7 @@
 title: "flask 学习笔记(1)——flask简介&安装"
 date: 2015-04-01 00:13:27
 tags: 博客 flask
+img: http://7xj431.com1.z0.glb.clouddn.com/love.png
 
 1.flask简介
 ---

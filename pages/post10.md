@@ -1,6 +1,7 @@
 title: "flask学习笔记(7)——API 下"
 date: 2015-04-06 09:43:36
 tags: 博客 flask
+img: http://7xj431.com1.z0.glb.clouddn.com/11111
 
 在上一篇博文中，我们成功的处理了客户端的认证系统，在这一篇博客中我们将解释如何把资源json序列化，以及如何处理资源的url问题。<br/>
 <strong>资源和JSON的序列化转换</strong></br>

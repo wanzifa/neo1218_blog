@@ -60,7 +60,7 @@
             <button type="button" class="btn btn-primary btn-xs" data-toggle="offcanvas">Toggle nav</button>
           </p>
           <div class="jumbotron" style="background-image:../static/img/loveblog.png">
-			<h1>This is Neo1218 !</h1>
+			  <h1>This is Neo1218 !</h1>
             <p>我是neo1218, 主攻后端, 是终端的狂热爱好者, 相信python、vim、Mac 大法好! 喜欢开源!</p>
           </div>
 		  <div class="row">

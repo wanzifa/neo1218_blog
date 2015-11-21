@@ -1,6 +1,7 @@
 title: "Flask学习笔记(4)——web 表单"
 date: 2015-04-03 00:37:45
 tags: 博客 flask
+img: http://7xj431.com1.z0.glb.clouddn.com/love.png
 
 <strong>这次博客的主题是 web 表单</strong>
 <p><strong>wiki百科解释</strong>：web 表单是一个网页表单，可以将用户输入的数据发送到服务器进行处理。因为互联网用户使用复选框，单选按钮或文本字段填写表格，所以WebForms的形式类似文件或数据库。例如，WebForms可以用来进入航运或信用卡资料订购产品，或可用于检索数据（例如，搜索引擎上搜索）。

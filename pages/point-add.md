@@ -1,6 +1,7 @@
 title: Difference between ++*p, *p++, and *++p
 date: 2015-09-24 18:50:00
 tags: C&C++
+img: http://7xj431.com1.z0.glb.clouddn.com/83AQD.jpg
 
 ## 猜猜这些代码的输出结果吧!
 program1

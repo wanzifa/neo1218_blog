@@ -1,6 +1,7 @@
 title: "Windows下搭建github博客"
 date: 2015-04-18 16:05:23
 tags: 博客 文章
+img: http://7xj431.com1.z0.glb.clouddn.com/2222
 
 在本篇博客的开头，我要先说明几点：<br/>
 1.注意标题，本文介绍的是在windows下搭建github博客，如果是mac请移步<a href="http://jinyixinseraph.github.io/2015/04/03/OS-X%E4%B8%8B%E6%90%AD%E5%BB%BAHexo/" target="_blank">OS X下搭建Hexo</a><br/>

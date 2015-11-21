@@ -1,6 +1,7 @@
 title: "flask学习笔记(3)——蓝图"
 date: 2015-04-02 22:40:12
 tags: 博客 flask
+img: http://7xj431.com1.z0.glb.clouddn.com/love.png
 
 今天花了一下午，把博客的源码看了一遍，对蓝图有了大致的了解。在这篇博客中我想对蓝图的应用做一个总结，可能会有疏忽，但就是想理清楚自己的思路。<br/>
 <strong>1.为什么要用蓝图</strong><br/>

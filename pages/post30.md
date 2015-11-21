@@ -1,6 +1,7 @@
 title: python尾递归优化
 date: 2015-09-05 18:55:32
 tags: python小记
+img: http://7xj431.com1.z0.glb.clouddn.com/2kWVh9jrFWU.jpg
 
 ## 一般递归与尾递归
 #### 一般递归:

@@ -1,6 +1,7 @@
 title: "python 正则表达式"
 date: 2015-05-15 18:54:43
 tags: 博客 python
+img: http://7xj431.com1.z0.glb.clouddn.com/1212
 
 1.正则表达式
 ---

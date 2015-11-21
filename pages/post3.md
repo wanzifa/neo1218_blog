@@ -1,6 +1,7 @@
 title: "flask 学习笔记(2)——flask基本程序结构"
 date: 2015-04-01 00:24:45
 tags: 博客 flask
+img: http://7xj431.com1.z0.glb.clouddn.com/2kWVh9jrFWU.jpg
 
 #本次笔记将介绍flask的基本程序结构，并写出第一个web应用
 --------------我们选择在服务器端直接编程---------------

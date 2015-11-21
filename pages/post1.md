@@ -1,6 +1,7 @@
 title: "CentOS+uWSGI+Nginx 部署flask全记录"
 date: 2015-03-20 00:36:37
 tags: 博客 flask
+img: http://7xj431.com1.z0.glb.clouddn.com/love.png
 
 步骤0.准备工作
 ---

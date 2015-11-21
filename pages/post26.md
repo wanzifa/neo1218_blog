@@ -1,6 +1,7 @@
 title: "Github gist 的使用"
 date: 2015-05-28 18:17:02
 tags: 博客 文章
+img: http://7xj431.com1.z0.glb.clouddn.com/love.png
 
 <strong>github</strong> 一个代码托管网站,一个follow大神的网站!<br/>
 哈哈，大家在使用github的时候有没有瞥见导航栏的Gist呢？<br>

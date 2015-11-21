@@ -1,6 +1,7 @@
 title: "flask学习笔记（5）——API 上"
 date: 2015-04-04 17:13:18
 tags: 博客 flask
+img: http://7xj431.com1.z0.glb.clouddn.com/love.png
 
 今天把flask web 开发教程上的api看完了，成功得到了教程实例的api，这篇博文主要以这个实例为例，对api进行总结，也是帮助自己理清思路。
 ok开始吧！<br/>

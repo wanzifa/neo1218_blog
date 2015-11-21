@@ -1,6 +1,7 @@
 title: "知道别人是怎么想的"
 date: 2015-04-11 03:52:26
 tags: 博客 推荐
+img: http://7xj431.com1.z0.glb.clouddn.com/love.png
 
 <p>这篇博文不同于之前的每一篇博文，这是一个文章的集合处，我会把我看到的好的文章的链接放在上面，就如标题所说的——知道别人是怎么想的！</p><br/>
 1>><a href="http://www.ruanyifeng.com/blog/2013/02/tpb.html" target="_blank">纪录片《TPB AFK》与现行版权制度</a><br/>
