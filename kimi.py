@@ -39,6 +39,11 @@ def tag(tag):
     return render_template('tag.html', pages=tagged, tag=tag)
 
 
+@app.route('/about')
+def about():
+	return render_template("about.html")
+
+
 if __name__ == "__main__":
     if len(sys.argv) > 1  and sys.argv[1] == "build":
         freezer.freeze()
