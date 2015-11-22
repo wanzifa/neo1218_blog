@@ -1,6 +1,7 @@
 {% extends "base.html" %}
-
 {% block content %}
+<div id="page" style="margin-top:50px; margin-left:200px; margin-right:200px;">
     <h2>{{ page.title }}</h2>
     {{ page.html|safe }}
+</div>
 {% endblock content %}

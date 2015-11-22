@@ -1,15 +1,10 @@
+<!-- _list.html: 显示文章列表 -->
 <ul>
-{% for page in pages %}
-    <li>
-        <a href="{{ url_for("page", path=page.path) }}">{{ page.title }}</a>
-        {#% if page.meta.tags|length %}
-            | Tagged:
-            {% for page_tag in page.meta.tags %}
-                <a href="{{ url_for("tag", tag=page_tag) }}">{{ page_tag }}</a>
-            {% endfor %}
-        {% endif %#}
-	</li>
-{% else %}
-    <li>No post so far.</li>
-{% endfor %}
+	{% for page in pages %}
+		<li>
+			<a href="{{ url_for("page", path=page.path) }}">{{ page.title }}</a>
+		</li>
+	{% else %}
+		<li>居然一篇文章都没有</li>
+	{% endfor %}
 </ul>

@@ -1,4 +1,11 @@
 # coding: utf-8
+"""
+	neo1218_blog
+	~~~~~~~~~~~~
+
+		this is neo1218 ! ==>
+		my personal blog
+"""
 
 import sys
 from flask import Flask, render_template
@@ -20,23 +27,29 @@ freezer = Freezer(app)
 
 @app.route('/index')
 def index():
-	# this is index.html, I will write it
-    return render_template('index_b.html', pages=pages)
+	"""
+	首页:
+		1. 显示个人简介
+		2. 显示最近发布的文章
+		3. 显示文章类别标签(
+			1. C&C++
+			2. Python
+			3. Vim
+			4. Linux
+			5. OSC
+			6. Thoughts
+		)
+		4. 显示脚注(copyright, code)
+	"""
+	articals = (p for p in pages if 'date' in p.meta)
+	latest = sorted(articals, reverse=True, key=lambda p: p.meta['date'])
+	return render_template('index_b.html', pages=latest[:12])
 
 
 @app.route('/<path:path>/')
 def page(path):
     page = pages.get_or_404(path)
     return render_template('page.html', page=page)
-
-
-@app.route('/tag/<string:tag>/')
-def tag(tag):
-	# for p in pages:
-	#	if tag in p.meta.get('tags', [])
-	#		tagged.append(tag)
-    tagged = [p for p in pages if tag in p.meta.get('tags', [])]
-    return render_template('tag.html', pages=tagged, tag=tag)
 
 
 @app.route('/about')

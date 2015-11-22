@@ -1,122 +1,68 @@
 <!DOCTYPE html>
 {% extends "base.html" %}
-<!--html lang="zh-CN">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <link rel="icon" href="../../favicon.ico">
-
-	<title>neo1218's blog</title>
-
-    <link href="//cdn.bootcss.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
-
-    <link href="../static/css/index_b.css" rel="stylesheet">
-
-	<script src="../../assets/js/ie8-responsive-file-warning.js"></script>
-    <script src="../../assets/js/ie-emulation-modes-warning.js"></script>
-
-      <script src="//cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-      <script src="//cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
-  </head-->
-
-  <!--body>
-    <nav class="navbar navbar-fixed-top navbar-inverse">
-      <div class="container">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-		  <a class="navbar-brand" href="#">neo1218_blog</a>
-        </div>
-        <div id="navbar" class="collapse navbar-collapse">
-          <ul class="nav navbar-nav">
-			  <li class="active"><a href="#">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#contact">Contact</a></li>
-		  </ul>
-		</div>
-	  </div>
-	</nav-->
-
 {% block content %}
-    <div class="container">
+<div class="container">
 
-      <div class="row row-offcanvas row-offcanvas-right">
+	<div class="row row-offcanvas row-offcanvas-right">
 
-        <div class="col-xs-12 col-sm-9">
-          <p class="pull-right visible-xs">
-            <button type="button" class="btn btn-primary btn-xs" data-toggle="offcanvas">Toggle nav</button>
-          </p>
-          <div class="jumbotron" style="background-image:../static/img/loveblog.png">
-			<h1>This is Neo1218 !</h1>
-            <p>我是neo1218, 主攻后端, 是终端的狂热爱好者, 相信python、vim、Mac 大法好! 喜欢开源!</p>
-          </div>
-		  <div class="row">
-		  {% for page in pages %}
-            <div class="col-xs-6 col-lg-4"
-				style='width:30%; height:140px;
-					margin: 12px;
-					font-size:20px; background-image:url({{ page.img }});
-					color:#F5F5F5;
-					opacity:0.9;'>
-				<div
-					style='width:auto; height:140px;
-						margin: 12px;
-						font-size:20px;
-						color:#F5F5F5;
-						position:absolute;'>
-					<h2><a style="color:yellow;" href="{{ url_for("page", path=page.path)}}">{{ page.title }}</a></h2>
-				<!-- p>{{ page.html[:90]|safe }}</p-->
-				<p>{{ page.date }}</p>
-				<p>{{ page.tag }}</p>
-				</div>
-			</div><!--/.col-xs-6.col-lg-4-->
-		 {% endfor %}
-         </div><!--/row-->
-        </div><!--/.col-xs-12.col-sm-9-->
+		<div class="col-xs-12 col-sm-9">
+			<p class="pull-right visible-xs">
+			<button type="button" class="btn btn-primary btn-xs" data-toggle="offcanvas">Toggle nav</button>
+			</p>
+			<div class="jumbotron" style="background-image:../static/img/loveblog.png">
+				<h1>This is Neo1218 !</h1>
+				<p>我是neo1218, 主攻后端, 是终端的狂热爱好者, 相信python、vim、Mac 大法好! 喜欢开源!</p>
+			</div>
+			<div class="row">
+				{% for page in pages %}
+				<div class="col-xs-6 col-lg-4"
+		 style='width:30%; height:140px;
+		 margin: 12px;
+		 font-size:20px; background-image:url({{ page.img }});
+		 color:#F5F5F5;
+		 opacity:0.9;'>
+					<div
+		 style='width:auto; height:140px;
+		 margin: 12px;
+		 font-size:20px;
+		 color:#F5F5F5;
+		 position:absolute;'>
+						<h2><a style="color:yellow;" href="{{ url_for("page", path=page.path)}}">{{ page.title }}</a></h2>
+						<p>{{ page.date }}</p>
+						<p>{{ page.tag }}</p>
+					</div>
+				</div><!--/.col-xs-6.col-lg-4-->
+				{% endfor %}
+			</div><!--/row-->
+		</div><!--/.col-xs-12.col-sm-9-->
 
-        <div class="col-xs-6 col-sm-3 sidebar-offcanvas" id="sidebar">
-          <div class="list-group">
-			  <a href="#" class="list-group-item active">有空去逛一逛哦</a>
-			  <a href="https://github.com/neo1218" class="list-group-item">My Github</a>
-			  <a href="http://www.jobbole.com/" class="list-group-item">伯乐在线</a>
-			  <a href="https://www.v2ex.com/" class="list-group-item">V2EX</a>
-			  <a href="http://segmentfault.com/u/neo1218" class="list-group-item">SegmentFault</a>
-			  <a href="http://stackoverflow.com" class="list-group-item">StackOverFlow</a>
-			  <a href="http://www.pocoo.org/team/" class="list-group-item">Pocoo Team</a>
-			  <a href="http://lucumr.pocoo.org/about/" class="list-group-item">Armin Ronacher's blog</a>
-			  <a href="http://blog.miguelgrinberg.com" class="list-group-item">miguelgrinberg's blog</a>
-			  <a href="http://zxc0328.github.io" class="list-group-item">zindex's blog</a>
-          </div>
-        </div><!--/.sidebar-offcanvas-->
-	  </div><!--/row-->
-	<!--div id="foot">
-		<p>
-		  &copy; neo1218 @2015: touch me via <a href="neo1218@yeah.net">mail</a>
-		  &nbsp; &nbsp; &nbsp;
-		  this blog's code host on <a href="https://github.com/neo1218/neo1218_blog">github repo</a> by neo1218
-		</p>
-    </div-->
-
-      <hr>
- 
-    </div><!--/.container-->
+		<div class="col-xs-6 col-sm-3 sidebar-offcanvas" id="sidebar">
+			<div class="list-group">
+				<a href="#" class="list-group-item active">有空去逛一逛哦</a>
+				<a href="https://github.com/neo1218" class="list-group-item">My Github</a>
+				<a href="http://www.jobbole.com/" class="list-group-item">伯乐在线</a>
+				<a href="https://www.v2ex.com/" class="list-group-item">V2EX</a>
+				<a href="http://segmentfault.com/u/neo1218" class="list-group-item">SegmentFault</a>
+				<a href="http://stackoverflow.com" class="list-group-item">StackOverFlow</a>
+				<a href="http://www.pocoo.org/team/" class="list-group-item">Pocoo Team</a>
+				<a href="http://lucumr.pocoo.org/about/" class="list-group-item">Armin Ronacher's blog</a>
+				<a href="http://blog.miguelgrinberg.com" class="list-group-item">miguelgrinberg's blog</a>
+				<a href="http://zxc0328.github.io" class="list-group-item">zindex's blog</a>
+			</div>
+		</div><!--/.sidebar-offcanvas-->
+	</div><!--/row-->
+	<hr>
+</div><!--/.container-->
 
 
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="//cdn.bootcss.com/jquery/1.11.3/jquery.min.js"></script>
-    <script src="//cdn.bootcss.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+<!-- Bootstrap core JavaScript
+	================================================== -->
+	<!-- Placed at the end of the document so the pages load faster -->
+	<script src="//cdn.bootcss.com/jquery/1.11.3/jquery.min.js"></script>
+	<script src="//cdn.bootcss.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 
-    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+	<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+	<script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
 
-    <script src="offcanvas.js"></script>
-{% endblock content %}
+	<script src="offcanvas.js"></script>
+	{% endblock content %}
