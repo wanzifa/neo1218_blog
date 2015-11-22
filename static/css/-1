@@ -1,45 +1,49 @@
-body {test-align: center;}
+title: why reload?
+date: 2015-09-08 22:26:03
+tags: python小记
+img: http://7xj431.com1.z0.glb.clouddn.com/love.png
 
-#index  { MARGIN-RIGHT: auto; MARGIN-LEFT: auto; }
+## 设定编码的惯例
+当设定python文件编码时
 
-#navagate ul {
-	list-style-type:none;
-	margin:0;
-	padding:0;
-	padding-top:6px;
-	padding-bottom:6px;
-}
+    import sys
 
-#navagate li {
-	display:inline;
-}
+    reload(sys)
+    sys.setdefaultencoding('utf-8')
 
-#navagate a:link, a:visited {
-	font-weight:bold;
-	color:#FFFFFF;
-	background-color:#98bf21;
-	text-align:center;
-	padding:6px;
-	text-decoration:none;
-	text-transform:uppercase;
-}
+三行搞定，妈妈再也不用担心汉字乱码了！😄
 
-#navagate a:hover, a:active {
-	background-color:#7A991A;
-}
+## 然而：问题来了
+几个月后的一天，一名女程序员问我：为什么要 reload(sys) ? 😔
 
-#headed a:link, a:visited {
-	font-weight:bold;
-	color:#FF0000;
-	background-color:#98bf21;
-	text-align:center;
-	padding:6px;
-	text-decoration:none;
-	text-transform:uppercase;
-}
+## SO: Why reload(sys)
+### 1. sys
 
-#headed a:hover, a:active {
-	background-color:#7A991A;
-}
+    sys 是一个python模块，包含系统对应的功能，比如通过argv获取运行时命令行参数
+具体见http://www.cnblogs.com/diege/archive/2012/10/03/2710776.html <br/>
 
+### 2. setdefaultencoding 函数
 
+    setdefaultencoding 是sys模块提供的一个函数，用来<strong>修改默认编码</strong><br/>
+
+### 3. python 加载模块的过程
+
+    运行解释器 -> 加载库文件(ex: site.py) -> 加载模块(ex: sys)
+
+### 4. python reload 函数
+
+    reload 是python内置函数，用于在当前运行时重新加载模块，不会改变先前文件中的模块状态
+
+### 5. reload(sys)
+如果我们尝试运行
+
+    >> import sys
+    >> sys.setdefaultencoding('utf-8')
+    AttributeError: 'module' object has no attribute 'setdefaultencoding'
+
+这又是怎么回事呢？<br/>
+当我们导入加载 sys 模块时首先会加载 site.py(/usr/lib/python2.7), 看一下 site.py 的源码：
+![源码](http://7xj431.com1.z0.glb.clouddn.com/屏幕快照%202015-09-08%20下午11.17.14.png)<br/>
+
+原来setdefaultencoding函数被site.py删掉啦！至于为什么要删，注释里写了：使用户无法在初始化后改变编码<br/>
+而 reload(sys) 则避免了site.py的调用，所以可以使用 setdefaultencoding 函数改变编码<br/>
