@@ -52,7 +52,7 @@ def page(path):
     return render_template('page.html', page=page)
 
 
-@app.route('/football')
+@app.route('/football/')
 def football():
 	return render_template("football.html")
 
