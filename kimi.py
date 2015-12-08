@@ -5,6 +5,13 @@
 
 		this is neo1218 ! ==>
 		my personal blog
+        yes, my personal blog wondelful
+        just me and thinking
+        blog is good
+        make your heart
+        follow your heart
+        who you are and who I am!
+        just neo1218 !
 """
 
 import sys
@@ -43,7 +50,7 @@ def index():
 	"""
 	articals = (p for p in pages if 'date' in p.meta)
 	latest = sorted(articals, reverse=True, key=lambda p: p.meta['date'])
-	return render_template('index_b.html', pages=latest[:12])
+	return render_template('index_b.html', pages=latest)
 
 
 @app.route('/<path:path>/')
