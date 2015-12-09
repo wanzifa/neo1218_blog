@@ -10,13 +10,19 @@
         <meta name="author" content="">
         <link rel="icon" href="../../favicon.ico">
 
-        <title>Narrow Jumbotron Template for Bootstrap</title>
+        <title>neo1218's blog</title>
 
         <!-- Bootstrap core CSS -->
         <link href="//cdn.bootcss.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
 
         <!-- Custom styles for this template -->
-        <link href="jumbotron-narrow.css" rel="stylesheet">
+        <link href="../static/css/jumbotron-narrow.css" rel="stylesheet">
+
+        <!-- Bootstrap js for this template -->
+        <!-- jQuery文件。务必在bootstrap.min.js 之前引入 -->
+        <script src="//cdn.bootcss.com/jquery/1.11.3/jquery.min.js"></script>
+        <!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
+        <script src="//cdn.bootcss.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 
         <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
         <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
@@ -30,51 +36,2908 @@
     </head>
 
     <body>
-
-        <div class="container">
-            <div class="header clearfix">
+        <div class="container" >
+            <div class="header clearfix" style='background-image:url("http://7xj431.com1.z0.glb.clouddn.com/love.png");'>
                 <nav>
                     <ul class="nav nav-pills pull-right">
-                        <li role="presentation" class="active"><a href="#">Home</a></li>
+                        <li role="presentation" class="active"><a href="/index">Home</a></li>
                         <li role="presentation"><a href="#">About</a></li>
                         <li role="presentation"><a href="#">Contact</a></li>
                     </ul>
                 </nav>
-                <h3 class="text-muted">Project name</h3>
+                <h3 class="text-muted"><strong>neo1218's blog</strong></h3>
             </div>
-
-            <div class="jumbotron">
-                <h1>Jumbotron heading</h1>
-                <p class="lead">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-                <p><a class="btn btn-lg btn-success" href="#" role="button">Sign up today</a></p>
-            </div>
-
-            <div class="row marketing">
-                <div class="col-lg-6">
-                    <h4>Subheading</h4>
-                    <p>Donec id elit non mi porta gravida at eget metus. Maecenas faucibus mollis interdum.</p>
-
-                    <h4>Subheading</h4>
-                    <p>Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Cras mattis consectetur purus sit amet fermentum.</p>
-
-                    <h4>Subheading</h4>
-                    <p>Maecenas sed diam eget risus varius blandit sit amet non magna.</p>
+            
+<div class="jumbotron" style='background-image:url("http://7xj431.com1.z0.glb.clouddn.com/i_need_rest_by_gada_chan-d34h65n.jpg");'>
+    <strong><h1>This is Neo1218</h1></strong>
+    <p class="lead">
+    <span class="label label-default">vim</span>
+    <span class="label label-primary">python</span>
+    <span class="label label-success">Mac</span>
+    <span class="label label-info">shell</span>
+    <span class="label label-warning">Linux</span>
+    <span class="label label-danger">node.js</span>
+    <span class="label label-default">...</span>
+    </p>
+    <!-- Button trigger modal -->
+    <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
+        About Me
+    </button>
+    <!-- Modal -->
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="myModalLabel">about me</h4>
                 </div>
-
-                <div class="col-lg-6">
-                    <h4>Subheading</h4>
-                    <p>Donec id elit non mi porta gravida at eget metus. Maecenas faucibus mollis interdum.</p>
-
-                    <h4>Subheading</h4>
-                    <p>Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Cras mattis consectetur purus sit amet fermentum.</p>
-
-                    <h4>Subheading</h4>
-                    <p>Maecenas sed diam eget risus varius blandit sit amet non magna.</p>
+                <div class="modal-body">
+                    <!-- _about.html: just about me -->
+<html>
+    <body>
+        <h3>我是neo1218</h3>
+        <p>
+        <nav class="navbar navbar-default">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="https://github.com/neo1218">
+                        <img width="29" height="29" alt="Brand" src="../static/img/GitHub.svg.png">
+                    </a>
+                    <a class="navbar-brand" href="http://segmentfault.com/u/neo1218">
+                        <img width="29" height="29" alt="Brand" src="../static/img/sg.png">
+                    </a>
+                    <a class="navbar-brand" href="https://twitter.com/_neo1218_?lang=zh-cn">
+                        <img width="29" height="29" alt="Brand" src="../static/img/twitter.png">
+                    </a>
+                    <a class="navbar-brand" href="https://www.facebook.com/profile.php?id=100009095675220">
+                        <img width="29" height="29" alt="Brand" src="../static/img/facebook.png">
+                    </a>
+                    <a class="navbar-brand" href="http://www.jobbole.com/members/neo1218/">
+                        <img width="29" height="29" alt="Brand" src="../static/img/bole.png">
+                    </a>
+                    <a class="navbar-brand" href="http://www.gzevergrandefc.com/default.aspx">
+                        <img width="29" height="29" alt="Brand" src="../static/img/evergrand.png">
+                    </a>
                 </div>
             </div>
+        </nav>
+        </p>
+        <p>
+            我是neo1218,是终端的狂热爱好者,相信Python Flask Mac Node Vim Linux大法好!
+        </p>
+        <h3>一些项目</h3>
+        <p>
+        <a href="https://github.com/neo1218/neo1218_blog"><strong>neo1218_blog:</strong></a>这个博客<br/>
+        <a href="https://github.com/neo1218/mana"><strong>mana:</strong></a>flask项目生成器 happy generate flask project<br/>
+        <a href="https://github.com/neo1218/MuxiVim"><strong>MuxiVim:</strong></a>我的vim编辑器 vim for muxi studio<br/>
+        <a href="https://github.com/neo1218/muxi"><strong>muxi:</strong></a>简单的python web框架[开发中] on top of flask<br/>
+        <a href="https://github.com/neo1218/rest"><strong>rest:</strong></a>restful API framework for flask[开发中]<br/>
+        <a href="https://github.com/progit/progit2-zh"><strong>progit2-zh:</strong></a>《progit2》中文版翻译<br/>
+        </p>
+        <h3>木犀团队</h3>
+        <p>
+        come from muxi-studio<br/>
+        <a href="http://muxistudio.com/">website</a>
+        <a href="https://github.com/Muxi-Studio">github</a>
+        </p>
+    </body>
+</html>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="row marketing">
+    
+        <div class="col-lg-6">
+            <h4>调度场算法(编写中)</h4>
+            <p>
+            <!-- Button trigger modal -->
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#0">
+                Read Post
+            </button>
+            </p>
+            <!-- Modal -->
+            <div class="modal fade bs-example-modal-lg" id="0" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                <div class="modal-dialog modal-lg" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                            <h4 class="modal-title" id="myModalLabel">调度场算法(编写中)</h4>
+                        </div>
+                        <div class="modal-body">
+                            <h2>调度场算法</h2>
+<h3>调度场</h3>
+<pre><code>形象化的表示用于暂时存储数据,进行数据调度的容器,在调度场算法中指[符号栈]
+</code></pre>
+<h3>前缀,中缀,后缀表达式</h3>
+<pre><code>表达式有这三种表现形式, 我们人类一般使用的是中缀表达式,比如: 1+2, 这样与我们的思维"一加二"相符.
+前缀和后缀表达式则是相应的符号位发生变化,前缀:+12, 后缀:12+。
+
+虽然中缀表达式与我们的思维相符而且似乎让我们觉得更自然，但是我们使用中缀表达式时不得不考虑括号和计算优先级的
+问题，或许你会觉得这很简单，但是这是因为你的经验，计算机当下还毫无经验可谈。所以相比于中缀表达式，计算机更喜欢
+自左向右，按序计算的后缀表达式，这更加符合计算机的内存模型。
+</code></pre>
+<h3>调度场算法</h3>
+<pre><code>调度场算法则是解决了中缀表达式与后缀表达式的转化
+
+比如现在有一个中缀表达式   1+2-(3+4)/7*8, 那么如何利用调度场算法将其转换为后缀式呢?
+
+首先我们需要定义一个[数字栈]和一个[符号栈], 数字栈用于自左向右扫描中缀式的时候暂存数字, 符号栈则实现计算和符号的调度
+
+                  1+2-(3+4)/7*8
+                ==================&gt;
+num  [数字栈]                       [符号栈]              后缀式
+ 1      [1]                             [+]
+
+ 2      [2]                             [-]
+        [1]                             [+]
+
+ 3      [2]                             [(] &lt;- top
+        [1]                             [-]
+                                        [+]
+
+ 4      [3]                             [+]
+        [2]                             [(]
+        [1]                             [-]
+                                        [+]
+
+ 5      [4]                             )   &lt;---
+        [3]                             [+] ()匹配,弹出+,删除弹出后的栈顶(
+        [2]                             [(] &lt;---
+        [1]                             [-]
+                                        [+]
+
+ 6      [2]                             [-]                 34+
+        [1]                             [+]
+
+ 7      [7]                             [/]
+        [2]                             [-]                 34+
+        [1]                             [+]
+
+ 8      [8]                             [*]                 34+7/
+        [2]                             [-]
+        [1]                             [+]
+
+                   34+7/8*21-+
+</code></pre>
+<h3>C++ 代码实现</h3>
+<h2>调度场算法用于AST</h2>
+<h3>A(bstract)S(tructure)T(ree)</h3>
+<h2>调度场算法用于计算器</h2>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        <div class="col-lg-6">
+            <h4>记爬取CET4报名网站的那一夜</h4>
+            <p>
+            <!-- Button trigger modal -->
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#1">
+                Read Post
+            </button>
+            </p>
+            <!-- Modal -->
+            <div class="modal fade bs-example-modal-lg" id="1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                <div class="modal-dialog modal-lg" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                            <h4 class="modal-title" id="myModalLabel">记爬取CET4报名网站的那一夜</h4>
+                        </div>
+                        <div class="modal-body">
+                            <h2>首先:</h2>
+<pre><code>中秋节快乐
+</code></pre>
+<h2>然后:</h2>
+<pre><code>没有了...
+</code></pre>
+<h2>回寝室之前在304的晚上</h2>
+<p>转眼间就大二了，于是就要考四级，考四级就要报名，于是去了报名网站http://cet.tinyin.net/accuse.asp, 上传了照片，报了名,理论上就结束了。但是，中秋要来了，我要做点什么。<br/>
+四级报名网站为了公平公正，将每个报名学生的基本信息(姓名、学号、大头照、报考等级)放在了网上，这样同学院、同年级的同学就可以进行监督。不得不说，证件照是很吸引人的部分，于是我审查了页面元素，希望可以发现更多a。</p>
+<pre><code>&lt;img width="120" border="0" height="160" src="photos/2014210761.jpg"&gt;&lt;/img&gt;
+</code></pre>
+<p><code>photos/2014210761.jpg</code>，有意思，看上去似乎是某个子目录，于是我尝试加上了主机名</p>
+<pre><code>http://cet.tinyin.net/photos/2014210761.jpg
+</code></pre>
+<p>于是我可爱的证件照出现了。。。而且，等我登录过期后，我依然可以访问这个url看到图片(现在就可以试试)！！这意味着我可以通过改变学号看到同学的大头照!😄</p>
+<h2>然而我并不知道学号</h2>
+<p>是的，我知道我的同学的名字，但是记不住学号。但是CET4报名网站已经将姓名学号一并奉上了，我要做的就是抓取姓名和学号信息，并将这些信息写入文件，建立关系，就像这样:</p>
+<pre><code>学生学号：2014210761 学生姓名：朱承浩
+学生学号：2014210781 学生姓名：我室友
+......  ......  ....... .....  ......
+</code></pre>
+<h2>买了两瓶啤酒🍺 ，开爬! 当然还有 httpfox</h2>
+<h3>模拟登录</h3>
+<p>首先就是要登录进报名网站，才可以访问信息页的url。打开 httpfox，监听登录过程
+<img alt="监听过程" src="http://7xj431.com1.z0.glb.clouddn.com/屏幕快照%202015-09-27%20上午4.31.54.png" /> <br/>
+<img alt="相关信息" src="http://7xj431.com1.z0.glb.clouddn.com/屏幕快照%202015-09-27%20上午4.34.51.png" /> <br/>
+CET4网站为了防我这种好奇心很强的人还是做了一些处理，登录url<code>/login.asp</code>实际上是一个refer，真正的登录url是<code>http://cet.tinyin.net/reginfo.asp</code>，我要做的，就是利用我的用户名和密码登入网站，获取cookie，然后利用cookie进行后续登录。当然，首先需要把我自己变成浏览器啦</p>
+<pre><code>def __init__(self):
+    self.user_agent = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.10; rv:42.0) Gecko/20100101 Firefox/42.0"
+    self.headers = {
+            'User-Agent':self.user_agent,
+            'Referer':'http://cet.tinyin.net/login.asp',
+            'Accept-encoding':'gzip'
+    }
+    self.postdata = urllib.urlencode({
+            'stype':'#',
+            'stuno':'2014214761',
+            'stupwd':'密码就不说了'
+    })
+</code></pre>
+<p>然后就是登录获取cookie</p>
+<pre><code>def analog_login(self):
+    """
+    登录cet4网站，获取cookie，并将
+    cookie保存至文件
+    """
+    filename = 'cet4_cookie.txt'
+    cookie = cookielib.MozillaCookieJar(filename)
+    opener = urllib2.build_opener(urllib2.HTTPCookieProcessor(cookie))
+
+    login_url = 'http://cet.tinyin.net/reginfo.asp'
+    request = urllib2.Request(login_url, self.postdata, self.headers)
+    opener.open(request)
+    cookie.save(ignore_discard=True, ignore_expires=True)
+</code></pre>
+<p>cookie get!!!</p>
+<pre><code># Netscape HTTP Cookie File
+# http://www.netscape.com/newsref/std/cookie_spec.html
+# This is a generated file!  Do not edit.
+
+cet.tinyin.net  FALSE   /   FALSE       ASPSESSlllllDAQBASRAC   LKNFEMDCDOLABMFPLLLLL
+</code></pre>
+<h3>该正则表达式上场了!</h3>
+<p>首先实验一下，cookie能否正常使用, 尝试访问 http://cet.tinyin.net/accuse.asp 页面, cookie是没问题，但是html却是中文乱码，没关系，改成utf-8，就行</p>
+<pre><code>html = response.read().decode('gbk').encode('utf-8’)
+</code></pre>
+<p><img alt="html" src="http://7xj431.com1.z0.glb.clouddn.com/屏幕快照%202015-09-25%20下午11.48.57.png" /> <br/>
+现在，一切都豁然开朗了，我只需要爬取<td>标签，将获取的学号和姓名写入文件就行了。</p>
+<pre><code>正则表达式 parttern = re.compile('&lt;td width=25% &gt;(.*?)&lt;br&gt;&lt;br&gt;(.*?)&lt;br&gt;&lt;br&gt;', re.S)
+</code></pre>
+<p><a href="https://github.com/neo1218/CET4-photo/blob/master/stuinfo.txt">爬取的信息文件</a> <br/></p>
+<h3>flask 靠你了</h3>
+<p>接下来就是用flask搭一个搜索引擎了。在文字编码这一块用了很长时间，因为表单的输入数据编码和文件的编码是不匹配的，经过几次实验，我发现需要将表单输入数据decode为汉字编码</p>
+<pre><code>name = form.name.data.decode('utf-8')
+</code></pre>
+<p>编码真头痛！！看一下这篇吧http://dengshuan.me/misc/xi-shuo-bian-ma-yu-luan-ma.html <br/></p>
+<h3>ok了</h3>
+<p><img alt="有图为证" src="http://7xj431.com1.z0.glb.clouddn.com/屏幕快照%202015-09-27%20上午5.22.50.png" /> <br/></p>
+<h2>备注</h2>
+<h4>实际的过程没有上面说的这么的一气呵成，中间还睡了一觉😄 <br/></h4>
+<h4>两瓶啤酒没有喝完<br/></h4>
+<h4>信息都是公开的，应该没有侵犯隐私吧😔 <br/></h4>
+<h4>开心就好😄 <br/></h4>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        <div class="col-lg-6">
+            <h4>Difference between ++*p,*p++,*++p</h4>
+            <p>
+            <!-- Button trigger modal -->
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#2">
+                Read Post
+            </button>
+            </p>
+            <!-- Modal -->
+            <div class="modal fade bs-example-modal-lg" id="2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                <div class="modal-dialog modal-lg" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                            <h4 class="modal-title" id="myModalLabel">Difference between ++*p,*p++,*++p</h4>
+                        </div>
+                        <div class="modal-body">
+                            <h2>猜猜这些代码的输出结果吧!</h2>
+<p>program1</p>
+<pre><code># include &lt;iostream&gt;
+using namespace std;
+
+int main(void)
+{
+    int arr[] = {10, 20};  // 定义并初始化了一个数组
+    int *p = arr;  // 定义一个指针指向这个数组
+    ++*p;
+    cout &lt;&lt; "arr[0]=" &lt;&lt; arr[0] &lt;&lt; " arr[1]=" &lt;&lt; arr[1] &lt;&lt; " *p=" &lt;&lt; *p &lt;&lt; endl;
+    return 0;
+}
+</code></pre>
+<p>program2</p>
+<pre><code># include &lt;iostream&gt;
+using namespace std;
+
+int main(void)
+{
+    int arr[] = {10, 20};  // 定义并初始化了一个数组
+    int *p = arr;  // 定义一个指针指向这个数组
+    *p++;
+    cout &lt;&lt; "arr[0]=" &lt;&lt; arr[0] &lt;&lt; " arr[1]=" &lt;&lt; arr[1] &lt;&lt; " *p=" &lt;&lt; *p &lt;&lt; endl;
+    return 0;
+}
+</code></pre>
+<p>program3</p>
+<pre><code># include &lt;iostream&gt;
+using namespace std;
+
+int main(void)
+{
+    int arr[] = {10, 20};  // 定义并初始化了一个数组
+    int *p = arr;  // 定义一个指针指向这个数组
+    *++p;
+    cout &lt;&lt; "arr[0]=" &lt;&lt; arr[0] &lt;&lt; " arr[1]=" &lt;&lt; arr[1] &lt;&lt; " *p=" &lt;&lt; *p &lt;&lt; endl;
+    return 0;
+}
+</code></pre>
+<h2>如何计算？</h2>
+<p>只要遵循下面这两个原则，判断就很简单了</p>
+<pre><code>1. ++p 的优先级和 *p 是一样的, 都具有右结合性
+2. p++ 的优先级高于 ++p 和 *p, 具有左结合性
+</code></pre>
+<h2>猜对了吗?</h2>
+<p>program1输出:</p>
+<pre><code>arr[0]=10 arr[1]=20 *p=11
+</code></pre>
+<p>program2输出:</p>
+<pre><code>arr[0]=10 arr[1]=20 *p=20
+</code></pre>
+<p>program3输出:</p>
+<pre><code>arr[0]=10 arr[1]=20 *p=20
+</code></pre>
+<h2>总结</h2>
+<pre><code>虽然这篇博客很短，但是很好的总结了自增自减运算符和*运算符的优先级关系
+</code></pre>
+<h2>参考</h2>
+<p><a href="www.geeksforgeeks.org/difference-between-p-p-and-p/">原文(英文)</a> <br/></p>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        <div class="col-lg-6">
+            <h4>how to write a restful API with flask</h4>
+            <p>
+            <!-- Button trigger modal -->
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#3">
+                Read Post
+            </button>
+            </p>
+            <!-- Modal -->
+            <div class="modal fade bs-example-modal-lg" id="3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                <div class="modal-dialog modal-lg" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                            <h4 class="modal-title" id="myModalLabel">how to write a restful API with flask</h4>
+                        </div>
+                        <div class="modal-body">
+                            <p>请见github repo: </p>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        <div class="col-lg-6">
+            <h4>数据结构之 线性表</h4>
+            <p>
+            <!-- Button trigger modal -->
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#4">
+                Read Post
+            </button>
+            </p>
+            <!-- Modal -->
+            <div class="modal fade bs-example-modal-lg" id="4" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                <div class="modal-dialog modal-lg" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                            <h4 class="modal-title" id="myModalLabel">数据结构之 线性表</h4>
+                        </div>
+                        <div class="modal-body">
+                            <h2>线性表的定义</h2>
+<pre><code>线性表是由n个数据元素a0, a1...ai...an-1组成的有限序列
+
+        组成          关系
+数据项 ----&gt; 数据元素 ----&gt; 数据结构
+</code></pre>
+<h3>线性表的抽象数据类型</h3>
+<pre><code>线性表的抽象数据类型是指一个逻辑概念上的类型和这个类型的操作集合
+类型：数据集合、该数据集合上的操作集合
+类型是类
+</code></pre>
+<h3>抽象符号表示</h3>
+<pre><code>线性表的数据集合可以表示为: a0,a1,a2...an-1
+这些数据集合的数据结构都是抽象数据类型: DataType
+</code></pre>
+<h2>线性表操作集合</h2>
+<pre><code>(1) ListInitiate(L): 初始化线性表
+(2) ListLength(L): 求线性表的长度
+(3) ListDelete(L, i, x):
+    删除线性表L的第i个元素, 所删除的数据元素由输出参数x带回, 删除成功返回1、删除失败返回0,
+    删除成功的条件：0=&lt;i&lt;ListLength(L)
+(4) ListInsert(L, i, x):
+    在线性表L的第i个元素前插入一个元素x,插入成功返回1，插入失败返回0,
+    插入成功的条件是: 0=&lt;i&lt;=ListLength(L)
+(5) ListGet(L, i, x): 索引数据元素
+</code></pre>
+<h2>线性表的存储结构</h2>
+<h3>1. 顺序存储结构</h3>
+<h4>1.1. 定义</h4>
+<pre><code>将有限数据元素在内存中顺序存储: 物理和逻辑上的顺序
+</code></pre>
+<h4>1.2 顺序存储结构的实现</h4>
+<pre><code>顺序存储结构的具体实现就是数组: 即逻辑上相邻的数据元素在物理上也相邻
+
+     ----------------------------------------
+list | a0 | a1 | a2 | ...| ai-1 | ... |     |
+     ----------------------------------------
+       0    1    2          i-1       MaxSize-1
+
+list就是一个顺序表(线性表的顺序存储结构的简称)
+这里的list对应于一个静态数组(即内存的分配和释放是系统完成的),
+最大存储大小为 MaxSize, 当前存储元素的个数用size表示
+可以用C语言实现，如下：
+
+    typedef struct
+    {
+        DataType list[MaxSize];
+        int size;
+
+    } SeqList;
+</code></pre>
+<h4>1.3 顺序表操作的实现</h4>
+<p>1.3.1: 初始化顺序表</p>
+<pre><code>int ListInitiate(SeqList *L)  // 利用结构体创建一个顺序表L
+{
+    L-&gt;size = 0;
+    return 0;
+}
+</code></pre>
+<p>1.3.2: 求当前数据元素的个数</p>
+<pre><code>int ListLength(SeqList L)
+{
+    return L-&gt;size;
+}
+</code></pre>
+<p>1.3.3: 插入数据元素(前插)</p>
+<pre><code>/*先移动后插入*/
+int ListInsert(SeqList *L, int i, DataType x)
+{
+    /*在顺序表第i个位置前插入数据元素x，插入成功返回1
+      插入失败返回0*/
+
+    // 判断线性表是否已满
+    int j;
+    if(L-&gt;size &gt;= MaxSize){
+        printf("线性表已满，不能插入!\n");
+        return 0;
+    }
+
+    // 判断参数i是否正确
+    else if(i &lt; 0 || i &gt; L-&gt;size){
+        printf("参数i不合法! \n");
+        return 0;
+    }
+
+    else{
+        // 将插入位置后的数据元素从后到前依次向后移动一位
+        for(j=L-&gt;size; j &gt; i; j--) L-&gt;list[j] = L-&gt;list[j-1];
+
+        L-&gt;list[i] = x;  // 第i个位置空出
+        L-&gt;size++;
+        return 1;
+    }
+}
+</code></pre>
+<p>1.3.4: 删除数据元素</p>
+<pre><code>int ListDelete(SeqList *L, int i, DataType *x)
+{
+    // 删除顺序表L中第i(0=&lt;i&lt;size)个元素，并将该元素保存到x中(x以指针最为适宜)
+
+    // 判断顺序表是否为空
+    if(L-&gt;size == 0){
+        printf("顺序表以空,无数据可删\n");
+        return 0;
+    }
+
+    // 判断i是否符合条件
+    if(i &lt; 0 || i &gt;= size ){
+        printf("参数i不合法\n")
+        return 0;
+    }
+
+    else{
+        // 保存被删除的数据元素
+        *x = L-&gt;list[i];
+
+        // 从前向后依次移动
+        for(j=i+1; j &lt;= L-&gt;size - 1; j++) L-&gt;list[j-1] = L-&gt;list[j];
+
+        L-&gt;size--;
+        return 1;
+    }
+}
+</code></pre>
+<p>1.3.5: 取顺序表中的元素</p>
+<pre><code>int ListGet(SeqList L, int i, DataType *x)
+{
+    if(i &lt; 0 || i &gt; L-&gt;size){
+        print("i 超出范围\n");
+        return 0;
+    }
+
+    else{
+        *x = L-&gt;list[i];
+        return 1;
+    }
+}
+</code></pre>
+<h4>1.4 顺序表效率分析</h4>
+<ol>
+<li>
+<p>插入操作平均移动次数<br/></p>
+<p>(0+1+...+n)/(n+1) = n/2</p>
+</li>
+<li>
+<p>删除操作平均移动次数<br/></p>
+<p>(0+1+...+n-1)/n = (n-1)/2</p>
+</li>
+</ol>
+<p>可见，除插入、删除操作的时间复杂度是O(n),其余操作的时间复杂度是O(1)<br/>
+但是需要预先确定存储容量的大小<br/></p>
+<h3>2. 链式存储结构</h3>
+<pre><code>链式存储结构，即采用指针将有限的数据元素相连,指针域和数据元素域构成结点。
+链式存储结构中，元素在逻辑上是相互连接的，但是在物理内存中不一定相邻(这样更符合实际)。
+线性表的链式存储结构，简称为: 链表。
+链表分为单链表、单循环链表和双循环链表。
+这里以单链表为主进行链表操作介绍。
+</code></pre>
+<h4>2.1. 单链表</h4>
+<h5>2.1.1: 定义</h5>
+<pre><code>构成链表的结点只有一个指向直接后继结点的指针域
+
+                ---------------
+单链表的结点结构| data | next |
+                ---------------
+
+typedef struct
+{
+    DataType data;  // 数据
+    struct Node *next;  // 指针:指向下一个结点
+
+}SLNode;
+
+头指针：指向单链表的指针
+
+头指针 ---&gt; |\\\\\|   ^   |           头指针 ---&gt; [////][   ] ---&gt; [ a0 ][    ] ---&gt; [  an-1  ][  ^  ]
+                空链                                            非空链
+
+单链表一般构造为带头结点的链表，这样可以保证头指针的值不会改变
+</code></pre>
+<h5>2.1.2 单链表的操作实现</h5>
+<p>1.单链表需要程序员申请内存用于储存数据元素,申请的内存需要释放</p>
+<pre><code>void * malloc(unsigned size): 用于动态申请size大小的内存，并返回指向所申请内存空间首地址的指针
+void free(*p): 以指向申请内存空间首地址的指针为实参，释放该内存空间
+</code></pre>
+<p>2.单链表的结点定义</p>
+<pre><code>typedef struct Node
+{
+    DataType data;
+    struct Node *next;
+
+}SLNode
+</code></pre>
+<p>3.操作实现
+3.1 初始化线性表(链表)</p>
+<pre><code>int ListInitiate(SLNode **head)
+{
+    *head = (SLNode *)malloc(sizeof(SLNode));  // 创建头结点，由head指向头结点
+    (*head-&gt;next) = Null;
+    return 0;
+}
+              *head-&gt;next
+                _____
+head ---&gt; [////][ ^ ]
+          -----------
+            *head
+</code></pre>
+<p>3.2 求当前数据元素的个数</p>
+<pre><code>int ListLength(SLNode *head)
+{
+    SLNode *p = head;
+    int size = 0;  // 长度计数器
+
+    while(p-&gt;next != Null){
+        p = p-&gt;next;
+        size++;
+    }
+    return size;
+}
+
+head ---&gt; [///][  ] ---&gt; [a0][next] ---&gt; [a2][next] ---&gt; [ai][^]
+            /\
+            ||
+            p
+</code></pre>
+<p>3.3 插入操作</p>
+<pre><code>int ListInsert(SLNode *head, int i, DataType x)
+{
+    // 注意⚠ : 我们可以操纵的指针是指向结点的指针
+    SLNode *p, *q;
+    int j = -1;  // 表示包含头结点
+
+    p = head;
+
+    while(p-&gt;next != Null &amp;&amp; j &lt; i-1){
+        p = p-&gt;next;
+        j++;
+    }
+
+    if(j != i-1){
+        printf("i 有错误哦\n");
+        return 0;
+    }
+
+    /*执行插入操作*/
+    q = (SLNode *)malloc(sizeof(SLNode));
+    q-&gt;data = x;
+
+    q-&gt;next = p-&gt;next;
+    p-&gt;next = q;
+    return 1;
+}
+</code></pre>
+<p>3.4 删除结点操作(需要动态释放内存)</p>
+<pre><code>--&gt; [ /// ][   ] --&gt; [ a0 ][   ] --&gt; [ a1 ][   ] --&gt; [  ai  ][   ] --&gt; [ ai+1 ][   ]
+
+int ListDelete(SLNode *head, int i, DataType *x)
+{
+    SLNode *p, *s;
+    int j;
+
+    p = head;
+    j = -1;  // 表示包含头结点
+
+    while(p-&gt;next != NULL &amp;&amp; p-&gt;next-&gt;next != NULL &amp;&amp; j &lt; i-1){
+        p = p-&gt;next;
+        j++;
+    }
+
+    if(j != i - 1){
+        printf("删除位置出错了!\n");
+        return 0;
+    }
+
+    s = p-&gt;next;
+    *x = s-&gt;data;
+    p-&gt;next = p-&gt;next-&gt;next;
+    free(s);  // 释放内存空间
+    return 1;
+}
+</code></pre>
+<p>3.5 获取结点元素的操作</p>
+<pre><code>int ListGet(SLNode *head, int i, DataType *x)
+{
+    SLNode *p;
+    int j;
+
+    p = head;
+    j = -1;  // 包含头指针
+    while(p-&gt;next != NULL &amp;&amp; j &lt; i){
+        // 遍历单链表
+        p = p-&gt;next;
+        j++;
+    }
+    // 此时p是在第i个位置上
+
+    if(j != i){
+        printf("获取位置i错误\n");
+        return 0;
+    }
+
+    *x = p-&gt;data;
+    return 1;
+}
+</code></pre>
+<p>4.单链表效率分析</p>
+<pre><code>单链表插入和删除数据元素时无须移动数据元素，但是需要进行数据元素的比较，算法的时间复杂度时O(n)
+而且单链表的每一个结点都有指针域,空间利用效率不高。
+但是单链表更加灵活，可以跟据实际情况申请内存。
+</code></pre>
+<h2>补充: 循环单链表、双向链表、静态链表</h2>
+<h3>1. 循环单链表</h3>
+<pre><code>单链表处理从头到尾的过程很方便，但无法处理从尾到头的过程，
+于是便有了循环链表，将链表的头尾连接起来
+</code></pre>
+<p>1 循环单链表是空链表:</p>
+<pre><code>head --&gt; [////][    ]    :     *head -&gt; next != NULL = head
+              |___|
+</code></pre>
+<p>2 一般循环单链表:</p>
+<pre><code>head --&gt; [//][] -&gt; [//][a0] -&gt; [//][a1] -&gt; [][]...-&gt;[//][an]
+            |___________________________________________|
+
+这时只需把循环判断条件 p-&gt;next != NULL, p-&gt;next-&gt;next != NULL 中的 NULL 改为 head
+</code></pre>
+<h3>2. 双向链表</h3>
+<pre><code>双向链表的结点中包含前驱指针域
+
+[ prior ][ data ][ next ]
+-------------------------
+    双向循环链表结点
+</code></pre>
+<p>双向循环链表结点结构体的实现</p>
+<pre><code>typedef struct Node
+{
+
+    DataType data;
+    struct Node *next;
+    struct Node *prior;
+
+}DLNode;
+</code></pre>
+<p>1 双向循环链表是空链表</p>
+<pre><code>         |--|        |---|
+head --&gt; |-[  ][//][  ] -|
+</code></pre>
+<p>2 一般双向链表</p>
+<pre><code>head --&gt; [  ][//][  ] &lt;--&gt; [  ][//][  ] &lt;--&gt; [  ][//][  ]
+</code></pre>
+<p>当查找某一个结点的前驱结点时,使用单链表需要从头开始进行查找，时间效率太低, 而双向链表可以有效的解决前驱结点的查找问题。</p>
+<h3>3. 静态链表</h3>
+<pre><code>静态链表就是由数组构成的链表，通过在数组中构造一个或一个以上的指针域，存储下一个数组元素的索引值，形成链表
+</code></pre>
+<h2>参考</h2>
+<p><a href="https://zh.wikipedia.org/wiki/%E7%BA%BF%E6%80%A7%E8%A1%A8">维基百科:线性表</a> <br/>
+<a href="http://3961409.blog.51cto.com/3951409/1045218">线性表顺序存储插入和删除新节点时平均移动次数 </a> <br/></p>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        <div class="col-lg-6">
+            <h4>python三个内置装饰器用法小结</h4>
+            <p>
+            <!-- Button trigger modal -->
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#5">
+                Read Post
+            </button>
+            </p>
+            <!-- Modal -->
+            <div class="modal fade bs-example-modal-lg" id="5" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                <div class="modal-dialog modal-lg" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                            <h4 class="modal-title" id="myModalLabel">python三个内置装饰器用法小结</h4>
+                        </div>
+                        <div class="modal-body">
+                            <h2>python 装饰器</h2>
+<p>具体参见：<a href="http://python.jobbole.com/81683/">12步轻松搞定python装饰器</a><br/>
+简单的说：装饰器就是一个以函数对象为参数的类或函数，在装饰器中可以定义被装饰函数之前或之后的行为，从而达到修饰函数的目的。装饰器还可以定义参数层接收参数，
+并将参数传递给被装饰函数。<br/></p>
+<h2>python 内置三大装饰器🆒</h2>
+<p>python 内置了三个重要的装饰器：</p>
+<pre><code>@staticmethod, @classmethod, @property
+</code></pre>
+<p>这三个装饰器应用广泛，在类中发挥着重要的作用。<br/>
+<br/>
+由于个人水平有限，这篇博客主要介绍这三个装饰器怎么用，源码就不涉及了。<br/>
+<br/></p>
+<h2>@staticmethod</h2>
+<p>顾名思义，这个装饰器用于类中，将类方法变成静态方法，即在对象调用的过程中不传入对象或类实例</p>
+<pre><code>class This_is_a_class(object):
+
+    ...
+    @staticmethod
+    def this_is_staticmethod():
+        print "I am a staticmethod!"
+    ...
+</code></pre>
+<p>运行</p>
+<pre><code>&gt;&gt; obj = This_is_a_class()
+&gt;&gt; obj.this_is_staticmethod()
+I am a staticmethod!
+</code></pre>
+<p>@staticmethod 就相当于把被修饰函数变成一个独立的函数，并且可以把函数的位置约束在类中，这就是所谓的 身在曹营心在汉吧！<br/></p>
+<h2>@classmethod</h2>
+<p>顾名思义，这个装饰器用于类中，可以使类方法接收类作为参数</p>
+<pre><code>class This_is_a_class(object):
+
+    ...
+    @classmethod
+    def this_is_classmethod(cls):
+        print "I am a classmethod!"
+    ...
+</code></pre>
+<p>运行</p>
+<pre><code>&gt;&gt; obj = This_is_a_class()
+&gt;&gt; obj.this_is_classmethod()
+I am a classmethod!
+</code></pre>
+<p>一般调用类作为参数的函数需要在类外定义，但 @classmethod 使我们可以在类中调用类作为参数，更加方便我们组织代码!<br/></p>
+<h2>@property</h2>
+<p>@property 可以将方法变为属性</p>
+<pre><code>class This_is_a_class(object):
+
+    def __init__(self):
+        self._property = "I am a property!"
+    ...
+    @property
+    def obj_property(self):
+        print "get property"
+        return slef._property
+
+    @obj_property.setter
+    def property(self, value):
+        print "set property"
+        self._property = self.value
+    ...
+</code></pre>
+<p>运行</p>
+<pre><code>&gt;&gt; obj = This_is_a_class()
+&gt;&gt; obj.obj_property
+get property
+I am a property!
+&gt;&gt; obj.obj_property("Yes, I am a property!")
+set property
+Yes, I am a property!
+</code></pre>
+<p>可见 @property 装饰器可以将类方法变成对象属性调用，具有属性的 get、set、delete方法<br/></p>
+<h2>更加深入</h2>
+<p>有不少大神写了很多这方面的博客，这里推荐两篇<br/>
+<a href="http://www.wklken.me/posts/2013/12/22/difference-between-staticmethod-and-classmethod-in-python.html">[翻译]Python中staticmethod和classmethod的差异</a> <br/>
+<a href="http://python.jobbole.com/81967/">Python 中的 property 属性</a><br/></p>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        <div class="col-lg-6">
+            <h4>why reload?</h4>
+            <p>
+            <!-- Button trigger modal -->
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#6">
+                Read Post
+            </button>
+            </p>
+            <!-- Modal -->
+            <div class="modal fade bs-example-modal-lg" id="6" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                <div class="modal-dialog modal-lg" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                            <h4 class="modal-title" id="myModalLabel">why reload?</h4>
+                        </div>
+                        <div class="modal-body">
+                            <h2>设定编码的惯例</h2>
+<p>当设定python文件编码时</p>
+<pre><code>import sys
+
+reload(sys)
+sys.setdefaultencoding('utf-8')
+</code></pre>
+<p>三行搞定，妈妈再也不用担心汉字乱码了！😄</p>
+<h2>然而：问题来了</h2>
+<p>几个月后的一天，一名女程序员问我：为什么要 reload(sys) ? 😔</p>
+<h2>SO: Why reload(sys)</h2>
+<h3>1. sys</h3>
+<pre><code>sys 是一个python模块，包含系统对应的功能，比如通过argv获取运行时命令行参数
+</code></pre>
+<p>具体见http://www.cnblogs.com/diege/archive/2012/10/03/2710776.html <br/></p>
+<h3>2. setdefaultencoding 函数</h3>
+<pre><code>setdefaultencoding 是sys模块提供的一个函数，用来&lt;strong&gt;修改默认编码&lt;/strong&gt;&lt;br/&gt;
+</code></pre>
+<h3>3. python 加载模块的过程</h3>
+<pre><code>运行解释器 -&gt; 加载库文件(ex: site.py) -&gt; 加载模块(ex: sys)
+</code></pre>
+<h3>4. python reload 函数</h3>
+<pre><code>reload 是python内置函数，用于在当前运行时重新加载模块，不会改变先前文件中的模块状态
+</code></pre>
+<h3>5. reload(sys)</h3>
+<p>如果我们尝试运行</p>
+<pre><code>&gt;&gt; import sys
+&gt;&gt; sys.setdefaultencoding('utf-8')
+AttributeError: 'module' object has no attribute 'setdefaultencoding'
+</code></pre>
+<p>这又是怎么回事呢？<br/>
+当我们导入加载 sys 模块时首先会加载 site.py(/usr/lib/python2.7), 看一下 site.py 的源码：
+<img alt="源码" src="http://7xj431.com1.z0.glb.clouddn.com/屏幕快照%202015-09-08%20下午11.17.14.png" /><br/></p>
+<p>原来setdefaultencoding函数被site.py删掉啦！至于为什么要删，注释里写了：使用户无法在初始化后改变编码<br/>
+而 reload(sys) 则避免了site.py的调用，所以可以使用 setdefaultencoding 函数改变编码<br/></p>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        <div class="col-lg-6">
+            <h4>数据结构－抽象：节点与边</h4>
+            <p>
+            <!-- Button trigger modal -->
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#7">
+                Read Post
+            </button>
+            </p>
+            <!-- Modal -->
+            <div class="modal fade bs-example-modal-lg" id="7" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                <div class="modal-dialog modal-lg" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                            <h4 class="modal-title" id="myModalLabel">数据结构－抽象：节点与边</h4>
+                        </div>
+                        <div class="modal-body">
+                            <h5>这篇笔记主要介绍数据结构的思维方式</h5>
+<h2>抽象</h2>
+<p>对于一个事物，我们真正关心的主要部分往往就是那几个特征点，我们把那些特征
+点提取出来进行组织，这就是一个抽象的过程。<br/></p>
+<h2>节点与边</h2>
+<p>节点与边是数据结构中最基础也是最重要的抽象模型<br/>
+节点是数据元素的抽象，而边就是数据与数据之间关系的抽象，有了节点与边，我们就
+可以构成各种图，利用离散数学的知识设计算法。<br/></p>
+<h2>节点与边在常见数据结构中的应用</h2>
+<h3>1. 线性表</h3>
+<p>线性表是对数据对象最基础的抽象，即使用表表示数据元素及其关系。使用
+节点与边可以将线性表转化为图。<br/>
+示例: 田径赛赛程分配问题</p>
+<pre><code>学校要举办运动会😄，有5个项目，3个同学报名参加，每个同学最多报3个
+项目,报名表如下:
+--------------------------------
+| 姓名   |  项目1 | 项目2 | 项目3  
+|-------------------------------
+|乔布斯  | 敲代码  |写文档 |
+--------------------------------
+|扎克伯格| 敲代码  | 黑系统| 创业  
+|-------------------------------
+|neo1218| 敲代码  |  开源 |
+|-------------------------------
+|Armin  | 写文档  |  开源 |
+--------------------------------
+现在如何分配赛程，使得运动会时间最短且赛程不冲突?
+</code></pre>
+<p>解答<br/>
+<img alt="图示" src="http://7xj431.com1.z0.glb.clouddn.com/屏幕快照%202015-09-07%20下午5.28.48.png" /></p>
+<h3>2. 树</h3>
+<p>示例：人机对弈问题<br/>
+抽象：每一盘棋局可以看成多维矩阵，而每一种可能性就是树的分支<br/></p>
+<h3>3. 图</h3>
+<p>抽象: 用节点表示数据，用边表示数据之间的关系。</p>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        <div class="col-lg-6">
+            <h4>python尾递归优化</h4>
+            <p>
+            <!-- Button trigger modal -->
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#8">
+                Read Post
+            </button>
+            </p>
+            <!-- Modal -->
+            <div class="modal fade bs-example-modal-lg" id="8" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                <div class="modal-dialog modal-lg" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                            <h4 class="modal-title" id="myModalLabel">python尾递归优化</h4>
+                        </div>
+                        <div class="modal-body">
+                            <h2>一般递归与尾递归</h2>
+<h4>一般递归:</h4>
+<pre><code>def normal_recursion(n):
+    if n == 1:
+        return 1
+    else:
+        return n + normal_recursion(n-1)
+</code></pre>
+<p>执行：</p>
+<pre><code>normal_recursion(5)
+5 + normal_recursion(4)
+5 + 4 + normal_recursion(3)
+5 + 4 + 3 + normal_recursion(2)
+5 + 4 + 3 + 2 + normal_recursion(1)
+5 + 4 + 3 + 2 + 1
+15
+</code></pre>
+<p><strong>一般递归</strong>的效率是比较低的，因为在<code>return n + normal_recursion(n-1)</code>时需要
+调用栈保存中间变量n的值，递归进行的越深入，需要调用的栈就越多，效率也就越低。<br/></p>
+<h4>尾递归</h4>
+<p>如果可以将中间变量作为参数直接传递给递归调用函数，那么可以大大提高递归效率，这就是尾递归
+的实现</p>
+<pre><code>def tail_recursion(n, total=0):
+    if n == 0:
+        return total
+    else:
+        return tail_recursion(n-1, total+n)
+</code></pre>
+<p>执行：</p>
+<pre><code>tail_recursion(5)
+tail_recursion(4, 5)
+tail_recursion(3, 9)
+tail_recursion(2, 12)
+tail_recursion(1, 14)
+tail_recursion(0, 15)
+15
+</code></pre>
+<h2>存在的问题</h2>
+<p>python 本身对尾递归的支持不太好，当递归深度超过1000时会报错</p>
+<pre><code>RuntimeError: maximum recursion depth exceeded
+</code></pre>
+<h2>一个牛人想出的解决办法：</h2>
+<h4>实现一个 tail_call_optimized 装饰器</h4>
+<pre><code>#!/usr/bin/env python2.4
+# This program shows off a python decorator(
+# which implements tail call optimization. It
+# does this by throwing an exception if it is
+# it's own grandparent, and catching such
+# exceptions to recall the stack.
+# 抛出异常，捕获异常，重新调用栈...牛
+
+import sys
+
+class TailRecurseException:
+    """尾递归异常类"""
+    def __init__(self, args, kwargs):
+        self.args = args
+        self.kwargs = kwargs
+
+def tail_call_optimized(g):
+    """
+    This function decorates a function with tail call
+    optimization. It does this by throwing an exception
+    if it is it's own grandparent, and catching such
+    exceptions to fake the tail call optimization.
+
+    This function fails if the decorated
+    function recurses in a non-tail context.
+    """
+    def func(*args, **kwargs):
+        f = sys._getframe()
+        if f.f_back and f.f_back.f_back \
+            and f.f_back.f_back.f_code == f.f_code:
+            # 抛出异常
+            raise TailRecurseException(args, kwargs)
+        else:
+            while 1:
+                try:
+                    return g(*args, **kwargs)
+                except TailRecurseException, e:
+                    # 捕获异常，重新调用栈
+                    args = e.args
+                    kwargs = e.kwargs
+    func.__doc__ = g.__doc__
+    return func
+
+@tail_call_optimized
+def factorial(n, acc=1):
+    "calculate a factorial"
+    if n == 0:
+        return acc
+    return factorial(n-1, n*acc)
+
+print factorial(10000)
+# prints a big, big number,
+# but doesn't hit the recursion limit.
+
+@tail_call_optimized
+def fib(i, current = 0, next = 1):
+    if i == 0:
+        return current
+    else:
+        return fib(i - 1, next, current + next)
+
+print fib(10000)
+# also prints a big number,
+# but doesn't hit the recursion limit.
+</code></pre>
+<p>作者的基本思想就是当尾递归达到最大深度时自己抛出一个异常(TailRecurseException), 然后
+捕获这个异常，然后重新调用栈，而不是让异常终止尾递归的运行。<br/></p>
+<p>这里解释一下 sys._getframe() 函数:<br/></p>
+<pre><code>sys.getframe([depth]):
+Return a frame object from the call stack. If optional integer depth is given, return the frame object that many calls below the top of the stack. If that is deeper than the call stack, ValueError is raised. The default for depth is zero, returning the frame at the top of the call stack.
+
+即返回depth深度调用的栈帧对象.
+
+import sys
+
+def get_cur_info():
+    print sys._getframe().f_code.co_filename  # 当前文件名
+    print sys._getframe().f_code.co_name  # 当前函数名
+    print sys._getframe().f_lineno # 当前行号
+    print sys._getframe().f_back # 调用者的帧
+</code></pre>
+<h2>参考</h2>
+<p>http://www.cnblogs.com/hello--the-world/archive/2012/07/19/2599003.html<br/>
+http://www.chinaz.com/program/2013/0917/318157_2.shtml</p>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        <div class="col-lg-6">
+            <h4>Flask 文档笔记(1) flaskr</h4>
+            <p>
+            <!-- Button trigger modal -->
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#9">
+                Read Post
+            </button>
+            </p>
+            <!-- Modal -->
+            <div class="modal fade bs-example-modal-lg" id="9" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                <div class="modal-dialog modal-lg" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                            <h4 class="modal-title" id="myModalLabel">Flask 文档笔记(1) flaskr</h4>
+                        </div>
+                        <div class="modal-body">
+                            <p><strong>flaskr</strong><br/>
+flaskr 是flask文档中的一个实例，是一个微型blog。我觉得flaskr很是特别，因为它几乎都是原生的flask操作，
+没有用到太多的扩展。通过它，我们可以了解一个纯正的flask。<br/></p>
+<p><strong>1.文件目录的构造</strong><br/>
+flaskr是一个比较简单的flask应用，所以它的文件结构就是项目文件夹下app文件＋templates/＋static/<br/></p>
+<p><strong>2.配置加载</strong><br/>
+flaskr的配置不多，所以将配置和app实例放在了一个文件中(flask配置名大写):
+/flaskr/flaskr.py</p>
+<pre><code>from flask import Flask
+
+DATABASE = '/tmp/flaskr.db'
+DEBUG = True
+SECRET_KEY = 'development key'
+USERNAME = 'admin'
+PASSWORD = 'default'
+
+app = Flask(__name__)
+app.config.from_object(__name__)
+</code></pre>
+<p>这里app实例调用了from_object()方法加载配置<br/>
+flask加载配置有三种方式: from_object(), from_pyfile(), from_envvar()。from_object()会自动搜寻并加载字符串配置以及名称
+为大写的配置变量;此外,也可以把配置类或者配置字典作为from_object()的参数。但是如果想直接加载配置文件，则
+需使用 from_pyfile()。对于一些特定配置比如管理员密码、密钥，这些是不希望别人看到的，这些配置可以设置为环境变量，
+使用from_envvar()加载。<br/></p>
+<p><strong>3.数据库</strong><br/>
+对于sql数据库，我一般都采用flask-sqlalchemy扩展处理，这个扩展使开发者无需编写底层的sql语句而是采用类的形式处理数据
+库：每一个表都是一个类，而表中的每一个实际对象都是类实例。数据库的创建、迁移以及teardown使用flask-migrate扩展即可
+实现。但是flaskr则没有使用扩展，而是完全依据原生的flask与sql。<br/></p>
+<p>3.1: 创建数据库表:<br/>
+flaskr/schema.sql</p>
+<pre><code>drop table if exists entries;
+create table entries (
+    id integer primary key autoincrement,
+    title text not null,
+    text text not null,
+);
+</code></pre>
+<p>just sql语句:)<br/></p>
+<p>3.2:创建数据库<br/>
+最简单的方法就是使用管道和sqlite3，将之前创建的表导入到数据库中:<br/>
+<code>sqlite3 /tmp/flaskr.db &lt; schema.sql</code><br/>
+你也可以这样做：</p>
+<pre><code>from contextlib import closing
+
+
+def connect_db():
+   return sqlite3.connect(app.config['DATABASE'])
+
+
+def init_db():
+    with closing(connect_db()) as db:  # closing 函数可以使数据库再整个with block中保持连接
+        with app.open_resource('schema.sql', mode='r') as f:
+            db.cursor.excutescript(f.read())  # 执行整个脚本
+        db.commit()  # 向数据库提交
+</code></pre>
+<p>然后进入python shell:</p>
+<pre><code>&gt;&gt;from flaskr import init_db()
+&gt;&gt;init_db()
+</code></pre>
+<p>数据库就创建完成了。</p>
+<p>3.3:请求和关闭数据库连接<br/>
+使用三个重要的装饰器：before_request[被注册函数在每次请求之前执行], after_request[被注册函数在每次请求之后执行,
+如遇异常则终止执行], teardown_request[被注册函数在所有请求后(ctx pop 以后)执行，且遇异常不会终止，而且会接受error
+的object!]<br/></p>
+<pre><code>from flask import g
+
+
+@app.before_request
+def before_request():
+    """用来在请求之前连接数据库"""
+    g.db = connect_db()
+
+
+@app.teardown_request()
+def teardown_request():
+    """用来在请求之后关闭数据库"""
+    if flask.g.get('db', None) is not None:
+        db.close()
+</code></pre>
+<p>3.4:视图函数<br/></p>
+<pre><code>from flask import render_template, session, absort, flash, redirect, url_for, request
+
+
+@app.route('/')
+def show_entries():
+    cur = g.db.excute('select title, text from entries order by id desc')
+    entries = [dict(title=row[0], text=row[1]) for row in cur.fechall()]
+    return render_template('show_entries.html', entries=entries)
+
+
+@app.route('/add', methods=["POST"])
+def add_entry():
+    if not session.get('logged_in'):
+        absort(401)
+    g.db.excute('insert into entries (title,text) in values (?,?) ')
+    g.db.commit()
+    flash('New entries was successfully posted!')
+    return redirect(url_for('show_entries'))  # 重定向到show_entries，由show_entries调用GET方法，表单也在
+                                              # show_entries中
+
+
+@app.route('/login', methods=["GET", "POST"])
+def login():
+    error = None
+    if request.method == 'POST':
+        if request.form['username'] != app.config["USERNAME"]:
+            error = 'Invalid username'
+        elif request.form['password'] != app.config['PASSWORD']:
+            error = 'Invalid password'
+        else:
+            session['logged_in'] = True
+            flash('You were logged in')
+            return redirect(url_for('show_entries'))
+    return render_template('login.html', error=error)
+
+
+@app.route('/logout', methods=['GET'])
+def logout():
+    session.pop('logged_in', None)
+    flash('you were logged out!')
+    return redirect(url_for('show_entries'))
+</code></pre>
+<p><strong>3.4:表单</strong><br/>
+一般对表单的处理都是使用 flask-wtf 扩展，然后在模版中渲染表单。但是flaskr则是直接在html中构造表单，用action属性
+与视图函数连接。</p>
+<p><strong>3.5：模版</strong><br/>
+至于模板都是jinja啦:)</p>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        <div class="col-lg-6">
+            <h4>python 学习笔记(day 2)</h4>
+            <p>
+            <!-- Button trigger modal -->
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#10">
+                Read Post
+            </button>
+            </p>
+            <!-- Modal -->
+            <div class="modal fade bs-example-modal-lg" id="10" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                <div class="modal-dialog modal-lg" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                            <h4 class="modal-title" id="myModalLabel">python 学习笔记(day 2)</h4>
+                        </div>
+                        <div class="modal-body">
+                            <p>今天的主题是python的内存管理<br/>
+<img alt="内存" src="http://7xj431.com1.z0.glb.clouddn.com/image.jpg" /><br/>
+python的特性: 动态语言,面向对象，python的内存管理也很有特点,用一句话概括
+<strong>基于对象和引用</strong><br/>
+<strong>1.对象的内存使用</strong><br/>
+<ciode>a = 1</code><br/>
+这是一个最简单的赋值语句,但是可不要小看它,它包含了python绝妙的设计哲学,
+在python中万物皆为对象,1也不例外,通过赋值语句,我们创建了一个指向1 这个
+对象的引用。python通过引用控制对象,引用与对象的分离使得引用对于对象的入侵性
+减少。<br/>
+为了更好的探明对象在内存中的存储,我们借助<strong>id()</strong>函数<br/></p>
+<pre><code>&gt;&gt;a = 1
+&gt;&gt;id(a)
+7431496L
+</code></pre>
+<p>可见,我们创建一个对象时,系统就自动为这个对象分配了内存空间<br/>
+在python中，python会缓存整数、短字符串,这些缓存的对象在重复创建时不会建立新
+的引用<br/></p>
+<pre><code>&gt;&gt;b = 1
+&gt;&gt;id(b)
+7431496L
+</code></pre>
+<p>可见这里的b和a指向的是同一个对象<br/>
+我们还可以使用is关键字判断两个引用是否是同一个引用<br/></p>
+<pre><code>&gt;&gt;a is b
+True
+</code></pre>
+<p><strong>在python中,每个对象都存有指向这个对象的引用总数:引用计数</strong><br/>
+我们可以使用sys包中的<strong>getrefcount()</strong>函数查看某个对象的引用计数(注意调用函数时也是一次引用)</p>
+<pre><code>&gt;&gt;from sys import getrefcount
+&gt;&gt;getrefcount(1)
+3
+&gt;&gt;# 作为函数参数时被引用了一次
+</code></pre>
+<p><strong>2.对象引用对象</strong><br/>
+所谓对象引用对象即python的容器对象引用基本对象,但是这种引用并不是真正的包含
+元素对象本身,而是指向各个元素对象的引用(类似C中的指针)<br/>
+我们可以自定义一个对象,并引用其他对象</p>
+<pre><code>&gt;&gt;class from_obj(object):
+&gt;&gt;...  def __init__(self,to_obj):
+&gt;&gt;...    self.to_obj = to_obj
+&gt;&gt;a = from_obj(b)
+&gt;&gt;id(a.to_obj)
+&gt;&gt;35023112
+&gt;&gt;id(b)
+&gt;&gt;35023112
+</code></pre>
+<p>这里的a的确引用了b<br/>
+再看赋值:<code>a = 1</code><br/>
+对象引用对象是python最基本的构成方式,赋值语句也是对象引用对象的体现
+这里的a不仅仅是引用,他还是一个字典,用以存放赋值语句的键值对!<br/>
+其实这涉及到python namespace的问题,我们下一讲重点复习(预习...)<br/>
+容器对象的引用可以形成很复杂的拓扑结构,我们可以用objgraph包绘制这种关系<br/></p>
+<pre><code>x = [1,2,3]
+y = [x,dict(key1=x)
+z = [y,(x,y)]
+
+import objgraph
+objgraph.show_refs([z],filename='refs.png')
+</code></pre>
+<p><img alt="图" src="http://7xj431.com1.z0.glb.clouddn.com/361A.tmp.png" /><br/>
+两个对象可以互相引用构成引用环<br/>
+<code>a = []</code><br/>
+<code>b = [a]</code><br/>
+<code>a.append(b)</code><br/>
+<img alt="双引用" src="http://7xj431.com1.z0.glb.clouddn.com/1F2B.tmp.png" /><br/>
+单个对象自己引用自己时也可以构成引用环<br/>
+<code>a = []</code><br/>
+<code>a.append(a)</code><br/>
+<img alt="单引用" src="http://7xj431.com1.z0.glb.clouddn.com/200C.tmp.png" /><br/></p>
+<p><strong>3.引用减少</strong><br/>
+当我们不在需要一个对象时,他的引用计数是如何减少的呢？<br/>
+1.del删除对象<br/>
+我们可以通过del删除某个对象从而减少对这个对象的引用<br/></p>
+<pre><code>from sys import getrefcount
+a = 1
+b = a
+print getrefcount(b)
+del a
+print getrefcount(b)
+
+#122
+#121
+</code></pre>
+<p>del 也可以用删除容器中的对象<br/></p>
+<pre><code>&gt;&gt;lit = [1,2,3,4]
+&gt;&gt;del lit[2]
+&gt;&gt;lit
+[1,2,4]
+</code></pre>
+<p>2.引用对象改变从而减少引用计数<br/></p>
+<pre><code>&gt;&gt;from sys import getrefcount
+&gt;&gt;a = [1,2,3]
+&gt;&gt;b = a
+&gt;&gt;b
+[1,2,3]
+&gt;&gt;getrefcount(b)
+4
+&gt;&gt;a = 1
+&gt;&gt;b
+[1,2,3]
+&gt;&gt;getrefcount(b)
+3
+</code></pre>
+<p><strong>4.垃圾回收</strong><br/>
+python 的垃圾回收是自动的,当对象的引用计数为0时,会自动开启垃圾回收,
+当对象的数目达到某个阈值时,python也会自动清除没有用的对象。python的垃圾
+回收并不是完全对coder封闭的,我们可以使用gc模块的get_threshold()函数查看
+这个阈值<br/></p>
+<pre><code>import gc
+print(gc.get_threshold())
+# （700，10，10）
+</code></pre>
+<p>这里的700就是垃圾回收的阈值,我们可以通过set_threshold()函数设置阈值<br/>
+我们还可以手动启动垃圾回收: gc.collect()<br/></p>
+<p><strong>5.分代回收</strong><br/>
+分代回收就很有意思啦,python中的对象也是有三六九等的:)寿命越长的对象
+python就会越信任他,也就不会清除他。python中的对象分为三等：0，1，2.0是
+新建对象,1是第一轮扫描存活下的对象，2则是第二轮扫描存活下来的对象。还记得之前的阈值
+吗？（700，10，10）就表示每10次扫描0代对象就会扫描一次1代对象,每10次扫描1代对象
+就会扫描一次2代对象,哈哈:)<br/></p>
+<p><strong>6.孤立的引用环</strong><br/>
+还记的之前的引用环吗？他会对垃圾回收机制带来很大的麻烦！</p>
+<pre><code>a = []
+b = [a]
+a = b.append(b)
+
+del a
+del b
+</code></pre>
+<p>由于引用环的存在,a,b的引用计数不会降为0,所以python就不会回收这两个变量<br/>
+当然python也有他的解决办法,他会遍历所有的变量并将该变量引用的变量的引用计数减一,最后将引用计数为0的
+变量回收<br/>
+ok,就是这些啦,虽然有点小麻烦,但在绝大多数情况下,程序员是不需要亲自操作内存的
+，这比C语言好多啦:)</p>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        <div class="col-lg-6">
+            <h4>python 学习笔记(day 1)</h4>
+            <p>
+            <!-- Button trigger modal -->
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#11">
+                Read Post
+            </button>
+            </p>
+            <!-- Modal -->
+            <div class="modal fade bs-example-modal-lg" id="11" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                <div class="modal-dialog modal-lg" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                            <h4 class="modal-title" id="myModalLabel">python 学习笔记(day 1)</h4>
+                        </div>
+                        <div class="modal-body">
+                            <p><strong>前言:</strong><br/>
+接触python快半年了,回过头把基础再总结一下应该会更好.<br/>
+<strong>1.python style</strong><br/>
+请见 <a href="http://neo1218.github.io/2015/05/25/post24-md/">import this</a><br/>
+python采用缩进的方式组织代码,这可以让代码更加简单、优雅。但是有些时候，缩进本身就是一个坑！<br/>
+<strong>2.python安装(windows)</strong><br/>
+linux 和 mac 已经安装好了python(所以争取暑假换mac)<br/>
+<strong>3.python解释器</strong><br/>
+主要还是Cpython,先占位,等以后弄懂了原理好好分析一下<br/>
+<a href="https://github.com/python/cpython">源代码</a><br/>
+<strong>4.第一个坑</strong><br/></p>
+<pre><code>#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+</code></pre>
+<p>我接触python的第一个坑是字符编码,而且这个坑伴着我度过了新年,直到我换了windows的用户名(所以争取暑假换mac)<br/>
+ok,关于字符编码:首先来张自己总结的图<br/>
+<img alt="字符编码" src="http://7xj431.com1.z0.glb.clouddn.com/pic.png" />
+(不好意思:ASCII码可以视为utf-8编码的一部分,打错了.)<br/>
+了解了字符编码,现在来看看python对字符编码的支持<br/>
+1.python 与 ASCII<br/>
+python最早支持的编码方式就是ASCII(因为那时只有ASCII。。)<br/></p>
+<pre><code>&gt;&gt;ord('A')
+65
+&gt;&gt;chr(65)
+'A'
+</code></pre>
+<p>2.python 与 unicode<br/>
+python 比 unicode要大,python中采用 u"..."表示unicode字符串<br/></p>
+<pre><code>&gt;&gt;u"neo1218"
+u'neo1218'
+</code></pre>
+<p>3.python中字符编码相互转换问题<br/>
+ASCII码可以视为utf-8的一部分,所以仅需讨论utf-8 与 unicode的转换<br/></p>
+<pre><code>&gt;&gt;# 把unicode转换为utf-8编码
+&gt;&gt;u'neo1218'.encode('utf-8')
+'neo1218'
+&gt;&gt;# 把utf-8转化为unicode编码
+&gt;&gt;'neo1218'.decode('utf-8')
+u'neo1218'
+</code></pre>
+<p>改变<br/>
+utf-8 与 unicode 的转化似乎看上去没有什么改变,但是：<strong>我举的例子都是英文呀！！</strong></p>
+<pre><code>&gt;&gt;len("朱承浩")
+9
+&gt;&gt;len(u"朱承浩")
+3
+</code></pre>
+<p>也就是说一个<strong>unicode中文字符</strong>转化后会变成3个utf-8字符<br/>
+<strong>4.坑在何方?<br/></strong>
+所以要用utf-8 无 bom格式写代码,就是这样。<br/>
+开头加上这句注释<code># -*<em>- coding: utf-8 -</em>-</code><br/>
+如果调用html文件则在调用前加上:</p>
+<pre><code>#-------------------编码设置---------------------------
+import sys
+reload(sys)
+sys.setdefaultencoding('utf-8')
+#-----------------------------------------------------
+</code></pre>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        <div class="col-lg-6">
+            <h4>Github gist 的使用</h4>
+            <p>
+            <!-- Button trigger modal -->
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#12">
+                Read Post
+            </button>
+            </p>
+            <!-- Modal -->
+            <div class="modal fade bs-example-modal-lg" id="12" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                <div class="modal-dialog modal-lg" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                            <h4 class="modal-title" id="myModalLabel">Github gist 的使用</h4>
+                        </div>
+                        <div class="modal-body">
+                            <p><strong>github</strong> 一个代码托管网站,一个follow大神的网站!<br/>
+哈哈，大家在使用github的时候有没有瞥见导航栏的Gist呢？<br>
+<img alt="就是这个" src="http://7xj431.com1.z0.glb.clouddn.com/github.png" />
+so:什么是Gist?<br/>
+gist.github.com 是一个有趣的服务，最简单的功能就是分享代码片段，但是gist提供的功能不仅限于此。</p>
+<pre><code>gist提供了包括markdown语法在内的大多数“写作风格”
+gist具有版本管理功能
+gist还可以无限制的创建私有的代码片段
+gist随同github提供了api开发接口，可以在本地创建gist
+</code></pre>
+<p>说的有点玄乎,我就说说我拿Gist在做什么:)<br/>
+<strong>1.写作:</strong><br/>
+Gist本身就是一个很好的文本编辑器,你可以在gist上写一些东西,甚至是博客！我一般用gist记录每天晚上要做什么。当然,如果你不想让别人看到你写的东西,你可以创建一个私有的gist(不要钱哦)。<br/>
+<strong>2.代码分享</strong><br/>
+Gist可以说是代码分享的首选!自动语法高亮,你可以让你的代码被所有人看到,他们可以给你评论。如果你只想把代码分享给特定的人,那么还是创建私有gist,然后把url发给那个人就行啦。<br/>
+<strong>3.代码嵌入</strong><br/>
+如果你在写博客,碰巧又不支持代码高亮,那么就用gist吧,把你的gist的url放在博客里就行了。<br/>
+<hr>
+<img alt="就是这个" src="http://7xj431.com1.z0.glb.clouddn.com/github2.png" />
+<hr>
+<img alt="" src="http://7xj431.com1.z0.glb.clouddn.com/github3.png" /></p>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        <div class="col-lg-6">
+            <h4>import this</h4>
+            <p>
+            <!-- Button trigger modal -->
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#13">
+                Read Post
+            </button>
+            </p>
+            <!-- Modal -->
+            <div class="modal fade bs-example-modal-lg" id="13" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                <div class="modal-dialog modal-lg" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                            <h4 class="modal-title" id="myModalLabel">import this</h4>
+                        </div>
+                        <div class="modal-body">
+                            <pre><code>The Zen of Python, by Tim Peters
+
+Beautiful is better than ugly.
+Explicit is better than implicit.
+Simple is better than complex.
+Complex is better than complicated.
+Flat is better than nested.
+Sparse is better than dense.
+Readability counts.
+Special cases aren't special enough to break the rules.
+Although practicality beats purity.
+Errors should never pass silently.
+Unless explicitly silenced.
+In the face of ambiguity, refuse the temptation to guess.
+There should be one-- and preferably only one --obvious way to do it.
+Although that way may not be obvious at first unless you're Dutch.
+Now is better than never.
+Although never is often better than *right* now.
+If the implementation is hard to explain, it's a bad idea.
+If the implementation is easy to explain, it may be a good idea.
+Namespaces are one honking great idea -- let's do more of those!
+
+
+python之禅 ， neo1218译
+
+美丽胜于丑陋。
+直率胜于含糊。
+简单胜于复杂。
+复杂胜于难以理解的代码。
+段块胜于嵌套。
+稀少胜于稠密。
+可读性才最重要。
+异常代码还不足以打破规则的天牢。
+为了实用需要牺牲。
+不能让错误静静的离开。
+除非我愿如此。
+面对歧义的面具,拒绝猜测的诱惑。
+你要相信,完美的道路只有一条，就是最明显的那个。
+如果你不是造物主,你可能还在寻找。
+现在总比没有好。
+没有总比立刻好。
+难以解释的实现是一个坏想法。
+易于理解的实现或许才是好办法。
+命名空间很棒，让我们做的更多吧!
+</code></pre>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        <div class="col-lg-6">
+            <h4>python 正则表达式</h4>
+            <p>
+            <!-- Button trigger modal -->
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#14">
+                Read Post
+            </button>
+            </p>
+            <!-- Modal -->
+            <div class="modal fade bs-example-modal-lg" id="14" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                <div class="modal-dialog modal-lg" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                            <h4 class="modal-title" id="myModalLabel">python 正则表达式</h4>
+                        </div>
+                        <div class="modal-body">
+                            <h2>1.正则表达式</h2>
+<p>正则表达式是字符串处理的一种编程语言,他可以帮助我们快速精准的匹配我们需要的字符串
+2.正则表达式语法</p>
+<hr />
+<p>任何编程语言都有自己独特的语法,正则表达也不例外。正则表达式的语法是基于元字符的组合
+3.元字符</p>
+<hr />
+<p>正则表达式的强大体现在元字符的匹配处理,以下是常见的元字符<br/>
+1. '\' 同其他编程语言(包括python!!!)一样,'\'是转义符,'\'后面加上不同字符表示不同意义,但是注意在python中的使用,r"string"可以解除\的作用<br/></p>
+<pre><code>\d 匹配任何10进制的数字,相当于类[0-9]&lt;br/&gt;
+\D 匹配任何非数字字符,相当于类[^0-9]&lt;br/&gt;
+\s 匹配任何空白字符,相当于类[\t\n\r\f\v]&lt;br/&gt;
+\S 相当于类[^\t\n\r\f\v]&lt;br/&gt;
+\w 匹配任何字母数字字符,相当于类[a-zA-Z0-9]&lt;br/&gt;
+\W 非\w类
+</code></pre>
+<p>'\'还有取消所有元字符的作用<br/>
+2.'*'<br/>
+指定前一个字符可以被匹配0次或更多次,匹配引擎会试着重复尽可能多的次数(不超过正数界定的范围,20亿)<br/></p>
+<pre><code>正则表达式: ab*
+匹配字符串: abbbbbbbbbbbbbbbbbbbbbbb
+</code></pre>
+<p>3.'+'<br/>
+匹配一次或更多次<br/></p>
+<pre><code>正则表达式: ab+ 
+匹配字符串: abbbbbbbbbbbbbbbbbbbbbbb
+</code></pre>
+<p>注意'<em>','+'的区别: "</em>"模式下被匹配的字符串可以根本不出现<br/>
+4.'?'<br/>
+匹配一次或0次,可以认为是标志某物是可选的<br/>
+4.python中的re模块</p>
+<hr />
+<p>python re模块提供了一个正则表达式引擎接口,可以将REstring编译成对象并用它们来进行匹配<br/>
+编译正则表达式</p>
+<pre><code>&gt;&gt;import re
+&gt;&gt;p = re.compile("ab?")
+&gt;&gt;print p
+ &lt;_sre.SRE_Pattern object at 0x7f7d30cc8c00&gt;
+</code></pre>
+<p>python万物都是对象<br/>
+对象可直接调用方法<code>p.findall("abb")</code><br/>
+re.compile()也接受可选的标志参数,用来实现不同的特殊功能和语法变更<br/>
+编译后的正则对象可以调用以下方法<br/></p>
+<pre><code>match() 在字符串开始位置匹配,并以对象的形式返回
+search() 在字符串的任意位置开始匹配,并以对象的形式返回
+findall() 在字符串的任意位置匹配,并以列表的形式返回
+finditer() 在字符串的任意位置匹配,并以迭代器的形式返回
+</code></pre>
+<p>match()和search()返回的对象可以调用以下方法<br/></p>
+<pre><code>group(num) 返回被RE匹配的字符串,支持num索引
+start() 返回匹配开始的位置
+end() 返回匹配结束的位置
+span() 返回一个元组包含匹配(开始,结束)的位置
+</code></pre>
+<h2>5.正则表达式在python中的应用</h2>
+<p><a href="http://python.jobbole.com/81332/" target="_blank">python 爬虫</a:></p>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        <div class="col-lg-6">
+            <h4>Python Vim</h4>
+            <p>
+            <!-- Button trigger modal -->
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#15">
+                Read Post
+            </button>
+            </p>
+            <!-- Modal -->
+            <div class="modal fade bs-example-modal-lg" id="15" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                <div class="modal-dialog modal-lg" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                            <h4 class="modal-title" id="myModalLabel">Python Vim</h4>
+                        </div>
+                        <div class="modal-body">
+                            <p>如果你希望你的vim变成图示那样,请戳:<a href="https://github.com/neo1218/k-vim">K-VIM</a><br/>
+<img alt="demo" src="http://7xj431.com1.z0.glb.clouddn.com/molokai.png" />
+<img alt="demo" src="http://7xj431.com1.z0.glb.clouddn.com/solarized.png" /></p>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        <div class="col-lg-6">
+            <h4>flask后台集成ckEditor编辑器</h4>
+            <p>
+            <!-- Button trigger modal -->
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#16">
+                Read Post
+            </button>
+            </p>
+            <!-- Modal -->
+            <div class="modal fade bs-example-modal-lg" id="16" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                <div class="modal-dialog modal-lg" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                            <h4 class="modal-title" id="myModalLabel">flask后台集成ckEditor编辑器</h4>
+                        </div>
+                        <div class="modal-body">
+                            <h3>传统的集成方式需要手动下载ckeditor，复制粘贴大量代码，十分麻烦，于是自己写了一个包，简化集成过程。</h3>
+<pre><code>包: flask-ckeditor
+github: https://github.com/neo1218/flask-ckeditor
+文档: https://github.com/neo1218/flask-ckeditor/blob/master/README.md
+</code></pre>
+<p>希望可以帮助大家方便的集成 ckeditor 😄</p>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        <div class="col-lg-6">
+            <h4>Windows下搭建github博客</h4>
+            <p>
+            <!-- Button trigger modal -->
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#17">
+                Read Post
+            </button>
+            </p>
+            <!-- Modal -->
+            <div class="modal fade bs-example-modal-lg" id="17" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                <div class="modal-dialog modal-lg" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                            <h4 class="modal-title" id="myModalLabel">Windows下搭建github博客</h4>
+                        </div>
+                        <div class="modal-body">
+                            <p>在本篇博客的开头，我要先说明几点：<br/>
+1.注意标题，本文介绍的是在windows下搭建github博客，如果是mac请移步<a href="http://jinyixinseraph.github.io/2015/04/03/OS-X%E4%B8%8B%E6%90%AD%E5%BB%BAHexo/" target="_blank">OS X下搭建Hexo</a><br/>
+2.如果你还不清楚github的话请参考<a href="https://zh.wikipedia.org/wiki/GitHub" target="_blank">github</a><br/>
+3.在进入教程之前你要了解<a href="https://zh.wikipedia.org/wiki/Node.js" target="_blank">node.js</a>  知道概念就行<br/>
+4.知道<a href="http://segmentfault.com/a/1190000000370778" target="_blank">hexo</a>是什么<br/>
+如果你已经了解了以上概念，那么，我们开始吧！！！<br/></p>
+<h2>步骤1.在github上创建博客仓库</h2>
+<p>博客仓库和其他仓库没有任何区别，只是仓库的命名是固定的—<code>用户名.github.io</code>,github会自动识别此用户名,你可以进入仓库点击侧栏的Settings，会发现这样一行文字"Your site is published at http://用户名.github.io. "，恭喜你，你已经完成了第一步！<br/>
+步骤2.安装node.js</p>
+<hr />
+<p>去node.js的<a href="https://nodejs.org/" target="_blank">官网</a>下载对应版本的node.js<br/>
+下载、安装好了以后，在cmd中进入安装目录，输入node -V，如果返回路径结果，则安装成功！<br/>
+步骤3.安装hexo</p>
+<hr />
+<p>node.js安装成功后，安装hexo就是一件很容易的事啦，只要使用npm命令<br/>
+<code>npm install -g hexo</code><br/>
+步骤4.建立hexo文件夹
+--
+在你喜欢的盘符下建立hexo文件夹，然后用你的git终端进入此文件夹<br/>
+1.初始化hexo文件夹<br/>
+<code>hexo init</code><br/>
+2.安装依赖包<br/>
+<code>npm install</code><code><br/>
+步骤5.部署至github</p>
+<hr />
+<p>其实这也是我们建立github博客的主要原因—免费、无限流量。。<br/>
+如果你成功搭建了你的博客,请千万把博客利用好，空间是有限的，免费不能浪费！<br/>
+1.在你的git终端输入<code>npm install hexo-deployer-git --save</code><br/>
+2.在你的hexo文件夹中修改_config.yml</p>
+<pre><code>deploy:
+type: git
+repository: https://github.com/用户名/用户名.github.io.git
+branch: master
+</code></pre>
+<p>注意":"后的空格！<br/>
+3.从git终端进入hexo文件夹，输入<br/>
+<code>hexo g</code><br/>
+<code>hexo d</code><br/>
+至此，你的博客就搭建好了！
+如何写博客</p>
+<hr />
+<p>写博客的步骤是固定的<br/>
+每当你准备写博客的时候，只要从git终端进入hexo文件夹，输入<br/>
+<code>hexo new "标题"</code><br/>
+然后你会发现你的hexo/source/_post/下便出现了你新建的文章.<br/>
+接下来就是书写博客了，hexo博客支持的是<a href="https://github.com/riku/Markdown-Syntax-CN" target="_blank">markdown语法</a>，建议安装一个支持markdown语法预览的编辑器，我用的是MarkdownPad.<br/>
+ok,你所希望分享的都写完啦！接下来就是提交啦！可是你还是有点不放心，没事，输入<br/>
+<code>hexo g</code><br/>
+<code>hexo s</code><br/>
+你就可以在localhost:4000/上看到啦，只有你能看到哦！<br/>
+于是，激动的你就要提交你的第一篇博客啦！<br/>
+<code>hexo g</code><br/>
+<code>hexo d</code><br/>
+over.......</p>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        <div class="col-lg-6">
+            <h4>My Birth_Day</h4>
+            <p>
+            <!-- Button trigger modal -->
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#18">
+                Read Post
+            </button>
+            </p>
+            <!-- Modal -->
+            <div class="modal fade bs-example-modal-lg" id="18" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                <div class="modal-dialog modal-lg" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                            <h4 class="modal-title" id="myModalLabel">My Birth_Day</h4>
+                        </div>
+                        <div class="modal-body">
+                            <p>今天是我的生日，也是我第一次在生日的时候写博客。其实仅仅一年前，我的大脑中还没有写博客的概念，更别提什么web、代码了。可是现在，互联网几乎是我每天的生活，代码更像是家常便饭。这一切似乎就在一瞬间走进我的生活，改变着我。<br/>
+在计算机科学这个领域我绝对是一个初学者：目前只能写点C语言。web 开发这一块也不是高手。但是回望我接触计算机这将近一年的时间，我真正的感觉计算机、互联网给我带来了快乐！<br/>
+每一次浏览到一个好的网站，看到酷炫的js效果(虽然那时还不知道)，我都有种欣喜的感觉，尤其是自己无意中浏览到的网站，更是惊讶！我对我要看的电影也有点苛刻——出现计算机(最好是苹果那个年代的) or 出现代码 or 和计算机有关的。大一到现在看过几部不错的片子:《硅谷传奇》、《社交网络》、《互联网之子》、《TPB AFK》、《操作系统革命》。我觉得电影不只是给我们打发无聊的时间的，电影是现实生活的写照(纪录片就是现实生活)，电影能给我们带来启示，甚至能发现自己的兴趣所在。有一天，当你觉得自己不想写代码的时候，找出你喜欢的电影，看着主人公洋洋洒洒的敲着代码的时候，你有什么理由不打开vim呢？但是，在任何时候要学会保持自己的思想！不要过分的崇拜一些人而丧失了自己。<br/>
+<code>---------------------------------------吃完饭、回来啦---------------------------------</code>
+互联网很神奇，但是，不要忘记你身边的人。转眼间，大一就要过去了，中午吃饭的时候，我突然想起去年的今天，那时我还和爸爸、妈妈、姐姐在一起吃饭，脑子里都是高考。可是现在呢？从小生活在一起的人突然就仿佛消失了一样，曾今的朋友，如今只能在qq上看到他们在做什么，还有一些人就再也没见过了。就算是电话，总觉得不知道说什么了。就如同老男孩唱的——那些我曾经爱过的人，现在是什么模样？但是，一切都是守恒的，我失去了这些可爱的朋友，我会收获新的友谊，虽然这些友谊在不久的将来会再失去，可能现在就会失去。。<br/>
+总之，人生已经走过19个年头了，这19年里发生的再多事情也只是回忆了。或许，我还是希望专注于自己喜爱的事情，但是如果你仅仅做自己喜欢的，你又如何能发现那些你喜欢但还未曾认识到的东西呢？所以，学会适应，学会努力让自己喜欢上一件事吧。<br/></p>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        <div class="col-lg-6">
+            <h4>知道别人是怎么想的</h4>
+            <p>
+            <!-- Button trigger modal -->
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#19">
+                Read Post
+            </button>
+            </p>
+            <!-- Modal -->
+            <div class="modal fade bs-example-modal-lg" id="19" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                <div class="modal-dialog modal-lg" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                            <h4 class="modal-title" id="myModalLabel">知道别人是怎么想的</h4>
+                        </div>
+                        <div class="modal-body">
+                            <p>这篇博文不同于之前的每一篇博文，这是一个文章的集合处，我会把我看到的好的文章的链接放在上面，就如标题所说的——知道别人是怎么想的！</p>
+
+<p><br/>
+1&gt;&gt;<a href="http://www.ruanyifeng.com/blog/2013/02/tpb.html" target="_blank">纪录片《TPB AFK》与现行版权制度</a><br/>
+附上纪录片<a href="http://v.ku6.com/show/Pjyd34ylcoXBDAAcKp79Hw...html?ptag=vsogou">《TPB AFK》</a><br/>
+2015_0411
+<code>-------------------------------------------------------------------------------------------------------------------------------------------</code>
+2&gt;&gt;<a href="http://www.ruanyifeng.com/blog/2013/04/processes_and_threads.html" target="_blank">进程与线程的一个简单解释</a><br/>
+2015_0411
+<code>-------------------------------------------------------------------------------------------------------------------------------------------</code>
+3&gt;&gt;<a href="http://www.pythonchallenge.com/" target="_blank">python编程游戏</a><br/>
+2015_0411<br/>
+<code>-------------------------------------------------------------------------------------------------------------------------------------------</code>
+4&gt;&gt;<a href="http://linux.vbird.org/linux_basic/" target="_blank">鸟哥的linux私房菜</a><br/>
+linux入门必看！！<br/>
+20150418<br/>
+<code>-------------------------------------------------------------------------------------------------------------------------------------------</code>
+5&gt;&gt;<a href="http://geektyper.com/" target="_blank">geektyper</a><br/>
+一个让你秒变黑客的网站！<br/>
+20150418<br/>
+<code>-------------------------------------------------------------------------------------------------------------------------------------------</code>
+6&gt;&gt;<a href="http://www.vaikan.com/how-to-develop-web-applications/" target="_blank">如何开发web应用程序</a><br/>
+20150418<br/></p>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        <div class="col-lg-6">
+            <h4>uwsgi配置(1)——进程与线程</h4>
+            <p>
+            <!-- Button trigger modal -->
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#20">
+                Read Post
+            </button>
+            </p>
+            <!-- Modal -->
+            <div class="modal fade bs-example-modal-lg" id="20" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                <div class="modal-dialog modal-lg" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                            <h4 class="modal-title" id="myModalLabel">uwsgi配置(1)——进程与线程</h4>
+                        </div>
+                        <div class="modal-body">
+                            <p>最近在看《flask web 开发》的时候遇到了一个小bug，邮件发送不了，只有手动(ctrl+c)停止主程序后，邮件才可以发送。可见，一般的uwsgi配置启动命令已经满足不了我们越来越复杂的程序了，我记得在我的第一篇博客<a href="http://neo1218.github.io/2015/03/20/post1/" target="_blank">CentOS+uWSGI+Nginx 部署flask全记录 </a>中说到先把<strong>程序跑起来</strong>再说，但是现在不仅仅是跑起来，而且还要<strong>跑的好</strong>。所以我打算开辟一个新战场——uwsgi web服务器配置。<br/>
+ok，回到博客的主题——进程与线程，其实上文中的邮箱bug就是一个进程问题，发送邮件的进程和网站主程序的进程冲突了，导致运行网站主程序的时候邮件无法发送。那么该如何解决呢？我们只要修改uwsgi服务器的启动命令(在命令里增加配置)：<br/>
+<code>uwsgi --socket 121.43.230.104:5000 --protocol=http -w wsgi:app -H /root/www/flaskr/venv <strong>--master --processes 4 --threads 2</strong></code>
+注意加粗的部分，在这里，我们给uwsgi服务器增加了4个进程，每个进程设置了2个线程，再次运行程序的时候，你会发现邮件飞快的送入你的邮箱(虽然在垃圾邮件中..)，网站主程序也运行正常。bug解决了，似乎一切ok。但是总感觉有些不对劲，对了——进程、线程是什么呀！<br/>
+其实通俗的说，你可以把<strong>一个个进程</strong>视为<strong>一个个车间</strong>，每一个进程中的<strong>线程</strong>就像车间里的<strong>工人</strong>，这些车间共同组成了我们的程序工厂，运行着我们的程序。<br/>
+<small>如果你想深入的了解进程与线程，请参见我的<strong>博客 推荐</strong>里的链接2。</small></p>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        <div class="col-lg-6">
+            <h4>flask学习笔记(7)——API 下</h4>
+            <p>
+            <!-- Button trigger modal -->
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#21">
+                Read Post
+            </button>
+            </p>
+            <!-- Modal -->
+            <div class="modal fade bs-example-modal-lg" id="21" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                <div class="modal-dialog modal-lg" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                            <h4 class="modal-title" id="myModalLabel">flask学习笔记(7)——API 下</h4>
+                        </div>
+                        <div class="modal-body">
+                            <p>在上一篇博文中，我们成功的处理了客户端的认证系统，在这一篇博客中我们将解释如何把资源json序列化，以及如何处理资源的url问题。<br/>
+<strong>资源和JSON的序列化转换</strong></br>
+在第一篇已经介绍过，JSON（Javascript Object Notation）是http协议的传输和响应格式，所以我们需要把数据库中的资源以JSON的格式规范化。<br/>
+把文章转化为json格式的序列化字典(app/models.py)</p>
+<pre><code>class Post(db.Model):
+    #...
+    def to_json(self):
+        json_post = {
+            'url': url_for('api.get_post', id=self.id, _external=True),
+            'body': self.body,
+            'body_html': self.body_html,
+            'timestamp': self.timestamp,
+            'author': url_for('api.get_user', id=self.author_id,
+                          _external=True),
+            'comments': url_for('api.get_post_comments', id=self.id,
+                            _external=True),
+            'comment_count': self.comments.count()
+        }
+        return json_post
+</code></pre>
+<p>可以看到，资源的绝大多数属性和数据库模型是一致的，但是我们也可以自己添加虚拟的属性比如comments_count<br/>
+我们给每一个返回url的属性都添加了_externel=True,从而返回url的绝对路径，这样的好处是用户可以从明确的顶级url中自己挖掘出其他资源的url。<br/>
+把用户转化为json格式的序列化字典（app/models.py）</p>
+<pre><code>class User(UserMixin,db.Model):
+    #...
+    def to_json(self):
+        json_user = {
+            'url': url_for('api.get_post', id=self.id, _external=True),
+            'username': self.username,
+            'member_since': self.member_since,
+            'last_seen': self.last_seen,
+            'posts': url_for('api.get_user_posts', id=self.id, _external=True),
+            'followed_posts': url_for('api.get_user_followed_posts',
+                                  id=self.id, _external=True),
+            'post_count': self.posts.count()
+        }
+        return json_user
+</code></pre>
+<p>然而客户端提供的数据可能是空的、错误的，所以客户端创建文章的时候我们要对客户端提交的文章进行验证。<br/>
+从JSON格式数据创建一篇文章（app/models.py）</p>
+<pre><code>from app.exceptions import ValidationError
+
+Class Post(db.Model):
+    #...
+    @staticmethod
+    def from_json(json_comment):
+        body = json_comment.get('body')
+        if body is None or body == '':
+            raise ValidationError('comment does not have a body')
+        return Comment(body=body)
+</code></pre>
+<p>当用户提供的文章出现问题的时候会抛出ValidationError异常，接下来我们要来处理这个异常。<br/>
+API中ValidationError异常的处理程序(app/api-1-0/errors.py)</p>
+<pre><code>@api.errorhandler(ValidationError)
+def validation_error(e):
+    return bad_request(e.args[0])
+</code></pre>
+<p>我们还要在视图函数中定义用户提交文章的路由(flasky/app/api-1-0/posts.py)</p>
+<pre><code>@api.route('/posts/', methods=['POST'])
+@permission_required(Permission.WRITE_ARTICLES)
+def new_post():
+    post = Post.from_json(request.json)
+    post.author = g.current_user
+    db.session.add(post)
+    db.session.commit()
+    return jsonify(post.to_json()), 201, \
+        {'Location': url_for('api.get_post', id=post.id, _external=True)}
+</code></pre>
+<p>可以看到有了前面的铺垫，视图函数的代码已经很简洁了。</p>
+<p>到目前为止，我们的资源已经很好的序列化了，用户认证也很完善了，接下来我们将实现api真正的功能——与客户端交互。客户端将请求http方法，而我们将返回相应的路由。让我们再来回顾一下http方法ba:<br/></p>
+<pre><code>1.GET: 单个资源的url 获取目标资源  
+2.GET: 资源集合的url 获取目标资源的集合（如果实现了分页则返回该页的资源集合）
+3.PUT: 单个资源的url 修改一个现有资源，如果客户端能够指派一个新的url则可以创建一个新的资源
+4.POST:资源集合的url 创建一个新的资源，并加入资源集合，由服务器为资源指派一个新的url
+5.DELETE: 单个资源的url 删除该资源
+6.DELETE: 资源集合的url 删除该资源集合中的所有资源
+</code></pre>
+<p>文章资源GET请求处理程序（app/api-1-0/posts.py）</p>
+<pre><code>@api.route('/posts/')
+@auth.login_required
+def get_post():
+    '''
+    返回文章资源的集合
+    '''
+    posts = Post.query.all()
+    return jsonify({'posts':[post.to_json() for post in posts]})
+
+@api.route('/posts/&lt;int:id&gt;')
+@auth.login_required
+def get_post(id):
+    '''
+    返回特定id的文章
+    ''' 
+    post = Post.query.get_or_404(id)
+    return jsonify(post.to_json())
+</code></pre>
+<p>如果特定id的文章不存在，会返回404错误。你也可以自己定义404错误界面。<br/></p>
+<p>文章资源的POST请求处理程序（app/api-1-0/posts.py）</p>
+<pre><code>@api.route('/posts/', methods=['POST'])
+@permission_required(Permission.WRITE_ARTICLES)
+def new_post():
+    post = Post.from_json(request.json)
+    post.author = g.current_user
+    db.session.add(post)
+    db.session.commit()
+    return jsonify(post.to_json()), 201, \
+        {'Location': url_for('api.get_post', id=post.id, _external=True)}
+</code></pre>
+<p>permission_required()装饰器（app/api-1-0/decorators.py）</p>
+<pre><code>def permission_required(permission):
+    def decorator(f):
+        @wraps(f)
+        def decorated_function(*args, **kwargs):
+            if not g.current_user.can(permission):
+                return forbidden('Insufficient permissions')
+            return f(*args, **kwargs)
+        return decorated_function
+    return decorator
+</code></pre>
+<p>我们还需要PUT方法对文章进行更新<br/>
+文章资源的PUT请求处理程序（app/api-1-0/posts.py）</p>
+<pre><code>@api.route('/posts/&lt;int:id&gt;', methods=['PUT'])
+@permission_required(Permission.WRITE_ARTICLES)
+def edit_post(id):
+    post = Post.query.get_or_404(id)
+    if g.current_user != post.author and \
+            not g.current_user.can(Permission.ADMINISTER):
+        return forbidden('Insufficient permissions')
+    post.body = request.json.get('body', post.body)
+    db.session.add(post)
+    return jsonify(post.to_json())
+</code></pre>
+<p>这里的验证比较复杂，不过程序还比较好懂。<br/></p>
+<p>到这里，我们的API学习就要接近尾声了，我们实现了API客户端的认证、资源的JSON序列化、以及如何利用http方法与客户端交互，当然还有对错误格式的处理。不过大家对API可能还是觉得有些抽象，API呈现给客户端的究竟是什么样的呢？<br/>
+不用着急，利用火狐的RESTCilent插件，我们就可以一窥API的真容了！<br/>
+以我们的API为例：查询http://hostname:5000/api/v1.0/posts/，GET请求，就可以看到API的json序列啦！<br/>
+<img alt="再见" src="C:\hexo\source\img\post10.jpg" /></p>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        <div class="col-lg-6">
+            <h4>flask学习笔记(6)——API 中</h4>
+            <p>
+            <!-- Button trigger modal -->
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#22">
+                Read Post
+            </button>
+            </p>
+            <!-- Modal -->
+            <div class="modal fade bs-example-modal-lg" id="22" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                <div class="modal-dialog modal-lg" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                            <h4 class="modal-title" id="myModalLabel">flask学习笔记(6)——API 中</h4>
+                        </div>
+                        <div class="modal-body">
+                            <p>在上一篇博文中我们已经安装了flask-httpauth，接下来我们可以利用它进行用户认证了；<br/>
+在我们初始化flask-httpauth扩展之前，我们要先创建一个HTTPBasicAuth类对象。<br/>
+初始化Flask-HTTPAuth(app/api-1-0/authentication.py)</p>
+<pre><code>from flask.ext.httpauth import HTTPBasicAuth
+auth = HTTPBasicAuth()
+
+@auth.verify_password
+def verify_password(email_or_token, password):
+    if email_or_token == '':
+        g.current_user = AnonymousUser()
+        return True
+    if password == '':
+        g.current_user = User.verify_auth_token(email_or_token)
+        g.token_used = True
+        return g.current_user is not None
+    user = User.query.filter_by(email=email_or_token).first()
+    if not user:
+        return False
+    g.current_user = user
+    g.token_used = False
+    return user.verify_password(password)
+</code></pre>
+<p>还记得上一篇博文中提到的401错误吗？当用户认证密令不正确时，服务器向客户端返回401错误，为了让服务器端返回的错误格式统一，我们可以自定义这个错误响应。<br/>
+flask-httpauth错误处理程序(app/api-1-0/authentication.py)</p>
+<pre><code>@api.before_request
+@auth.login_required
+def before_request():
+    if not g.current_user.is_anonymous and \
+        not g.current_user.confirmed:
+    return forbidden('Unconfirmed account')
+</code></pre>
+<p>在这里使用了before_request装饰器，如此我们便可以调用一次login_required装饰器并将其应用到整个api蓝本中。</p>
+<p><strong>基于令牌的认证</strong><br/>
+由于rest风格的api具有无状态性，所以客户端在每次请求时都要发送http认证密令，但密令中包含着一些敏感信息，为了保护客户端的信息（这也是认证的初衷），我们采用更安全的、基于令牌的认证模式——用户向特定的url发送密令即可生成令牌，在令牌的寿命期限内只需令牌就可以完成认证。<br/>
+为了生成和验证令牌，我们需要在数据库模型中新增两个方法，这两个方法用到了itsdangerous包<br/>
+支持基于令牌的认证(app/models.py)</p>
+<pre><code>class User(UserMixin, db.Model):
+#...
+def generate_auth_token(self, expiration):
+    '''
+    1.使用编码后用户的id生成签名令牌；2.指定以秒为单位的令牌寿命。
+    '''
+    s = Serializer(current_app.config['SECRET_KEY'],
+                   expires_in=expiration)
+    return s.dumps({'id': self.id}).decode('ascii')
+
+@staticmethod
+def verify_auth_token(token):
+    '''
+    验证解码后的令牌，并返回相应的用户id；
+    '''
+    s = Serializer(current_app.config['SECRET_KEY'])
+    try:
+        data = s.loads(token)
+    except:
+        return None
+    return User.query.get(data['id'])
+</code></pre>
+<p>支持令牌的改进验证回掉(app/api-1-0/authentication.py)</p>
+<pre><code>@auth.verify_password
+def verify_password(email_or_token, password):
+    if email_or_token == '':
+        g.current_user = AnonymousUser()
+        return True
+    if password == '':
+        g.current_user = User.verify_auth_token(email_or_token)
+        g.token_used = True
+        return g.current_user is not None
+    user = User.query.filter_by(email=email_or_token).first()
+    if not user:
+        return False
+    g.current_user = user
+    g.token_used = False
+    return user.verify_password(password)
+</code></pre>
+<p>发送令牌至客户端的路由(app/api-1-0/authentication.py)</p>
+<pre><code>@api.route('/token')
+def get_token():
+    if g.current_user.is_anonymous() or g.token_used:
+        return unauthorized('Invalid credentials')
+    return jsonify({'token': g.current_user.generate_auth_token(
+        expiration=3600), 'expiration': 3600})
+</code></pre>
+<p>到此，我们已经能够很好的处理客户端用户认证了。在接下来的博文中，让我们把目光放在如何用json的序列化表示资源吧！</p>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        <div class="col-lg-6">
+            <h4>flask学习笔记（5）——API 上</h4>
+            <p>
+            <!-- Button trigger modal -->
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#23">
+                Read Post
+            </button>
+            </p>
+            <!-- Modal -->
+            <div class="modal fade bs-example-modal-lg" id="23" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                <div class="modal-dialog modal-lg" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                            <h4 class="modal-title" id="myModalLabel">flask学习笔记（5）——API 上</h4>
+                        </div>
+                        <div class="modal-body">
+                            <p>今天把flask web 开发教程上的api看完了，成功得到了教程实例的api，这篇博文主要以这个实例为例，对api进行总结，也是帮助自己理清思路。
+ok开始吧！<br/>
+<strong>1.What is API?</strong><br/>
+--
+首先，什么是api，api全称应用编程接口（application program interface），是连接服务器与除浏览器外的其他客户端（如手机app）的接口。<br/>
+<strong>2.api 有什么用？</strong><br/>
+--
+首先我们要明确，在手机端、app，服务器的角色已经发生了变化，服务器不在是程序的控制者，而转变为资源的提供者——将数据库中的资源提供给手机客户端。而api就是资源流通的大门！<br/>
+<strong>3.restAPI<br/></strong>
+--
+flask支持rest风格的API，这是API的的一种，详见：
+<a href="http://zh.wikipedia.org/wiki/REST" target="_blank">restAPI</a><br/>
+<strong>4.资源就是一切！<br/></strong>
+--
+一个网站，一个服务器最核心也是最需要保证的地方就是数据库，在电影《社交网络》中，马克.扎克伯格说过这样一句话：‘facebook与其他所有网站不一样的地方是它永远也不会崩溃，可是如果有一天数据库毁了，那它就完了！’，虽然电影渲染的有点夸张，但我们不得不承认数据库的重要性，数据库是网站的灵魂，而数据库里的数据则是一个网站赖以生存的血液。。当我们把目光转向移动端
+，这些数据，也就变成了移动端所需的资源！<br/>
+<strong>5.API代码示例：<br/></strong></p>
+<hr />
+<p>我们将为《flask web 开发》中的示例网站建立一个api<br/>
+如果需要代码：<code>git clone https://github.com/neo1218/flasky.git</code><br/>
+<strong>5.1:API蓝图结构</strong><br/>
+如果不清楚什么是蓝图的话，请参见我的另一篇博客:<a href="http://neo1218.github.io/2015/04/02/post6-1/" target="_blank">flask学习笔记（3）——蓝图</a></p>
+<pre><code>|-flasky
+    |-app/
+        |-api_1_0
+            |-__init__.py
+            |-users.py
+            |-posts.py
+            |-comments.py
+            |-authentication.py
+            |-errors.py
+            |-decorators.py
+</code></pre>
+<p>注：api_1_0,是api的版本号，要想明白为什么要设置版本号，首先我们要了解web浏览器和智能手机客户端的区别，web浏览器其实就是一个显示工具（显示html代码），它执行的代码就是服务器端的代码，所以服务器端版本更新后，浏览器能够很好的更新所有的用户。但是，手机的原生应用就不一样了，它只是利用服务器端的数据，app的开发代码都不一样(比如我们学校的桂声app，java开发，后台是python)，也就是说，应用更新是需要得到机主的允许的，如果机主不想更新呢？那么只有继续运行旧的程序啦，所以我们的服务器上要运行多套程序的，版本号的作用就不言而喻了吧！<br/>
+1.API蓝图的构造文件(app/api-1-0/-init-.py)</p>
+<pre><code>from flask import Blueprint
+
+api = Blueprint('api',__name__)
+
+from . import authentication, posts, users, comments, errors
+</code></pre>
+<p>2.注册API蓝图(app/-init.py-)</p>
+<pre><code>def create_app(config_name):
+    #...
+    from .api_1_0 import api as api_1_0_blueprint
+    app.register_blueprint(api_1_0_blueprint,url_prefix='/api/v1.0')
+    #...
+</code></pre>
+<p>3.错误处理<br/>
+在学习错误处理之前我们要了解两个概念：1.rest风格支持的http方法    ，2.http状态码<br/>
+1.rest风格支持以下几种http请求方法：<br/></p>
+<pre><code>1.GET: 单个资源的url 获取目标资源  
+2.GET: 资源集合的url 获取目标资源的集合（如果实现了分页则返回该页的资源集合）
+3.PUT: 单个资源的url 修改一个现有资源，如果客户端能够指派一个新的url则可以创建一个新的资源
+4.POST:资源集合的url 创建一个新的资源，并加入资源集合，由服务器为资源指派一个新的url
+5.DELETE: 单个资源的url 删除该资源
+6.DELETE: 资源集合的url 删除该资源集合中的所有资源
+</code></pre>
+<p>由上表我们可以看到url的重要性，客户端对资源的操控是以url为核心！<br/>
+2.http状态码：</p>
+<pre><code>200：                    OK                      请求成功完成 
+201：                    Greated                 请求成功完成，并创建一个新资源
+400：                    Bad request             请求不可用或不一致                 
+401：                    Unauthorized            请求未包含认证信息
+403：                    Forbidden               请求中发送的认证密令无权访问目标    
+404：                    Notfound                URL对应的资源不存在
+405：                    Method not allowed      指定资源不支持请求所用的方法
+500：                    Internal server error   内部服务器发生意外错误
+</code></pre>
+<p>另附上链接<a href="http://www.w3cschool.cc/w3cnote/404-page-design.html" target="_blank">创意404界面</a><br/>
+<a href="https://thepiratebay.se/404" target="_blank">tpb</a><br/>
+处理405和500状态码会比较麻烦，因为这两个错误是api自己生成的，而且返回的是html响应，所以我们要通过内容协商机制，把响应改为json格式（javascript object notation）<br/>
+使用http内容协商处理错误(app/main/errors.py)</p>
+<pre><code>@main.app_errorhandler(404)
+def page_not_found(e):
+#程序在请求的首部进行响应格式检查
+if request.accept_mimetypes.accept_json and \
+        not request.accept_mimetypes.accept_html:
+    response = jsonify({'error': 'not found'})
+    response.status_code = 404
+    return response
+return render_template('404.html'), 404
+</code></pre>
+<p><strong>使用Flask-HTTPAuth认证用户</strong><br/>
+资源很重要，所以资源也是需要保护的，但更多的是保护用户的信息不对外泄露。<br/>
+如果大家之前认真看过我给的rest介绍（那个链接），那么你肯定会记得rest web 服务有一个很重要的一个特征--无状态，也就是说rest在两次请求之间不能记住客户端的任何信息，也就是服务器是不存储任何关于用户信息的，对于浏览器而言，可以把用户信息存储在cookies中，但对于手机端这种并不支持cookies的客户端就无能为力了！所以在每次请求中，客户端都要包含密令。<br/>
+因为rest服务基于http协议，所以我们采用基于flask的httpauth认证!<br/>
+1.在虚拟环境中安装flask-httpauth：<br/>
+<code>pip install flask-httpauth</code></p>
+<pre><code>现在我们已经安装好了flask-httpauth，在下一篇博客中我们会继续处理认证系统，以及如何以json格式返回资源，和对资源url的处理！
+</code></pre>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        <div class="col-lg-6">
+            <h4>Flask学习笔记(4)——web 表单</h4>
+            <p>
+            <!-- Button trigger modal -->
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#24">
+                Read Post
+            </button>
+            </p>
+            <!-- Modal -->
+            <div class="modal fade bs-example-modal-lg" id="24" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                <div class="modal-dialog modal-lg" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                            <h4 class="modal-title" id="myModalLabel">Flask学习笔记(4)——web 表单</h4>
+                        </div>
+                        <div class="modal-body">
+                            <p><strong>这次博客的主题是 web 表单</strong>
+<p><strong>wiki百科解释</strong>：web 表单是一个网页表单，可以将用户输入的数据发送到服务器进行处理。因为互联网用户使用复选框，单选按钮或文本字段填写表格，所以WebForms的形式类似文件或数据库。例如，WebForms可以用来进入航运或信用卡资料订购产品，或可用于检索数据（例如，搜索引擎上搜索）。
+其实我的理解是——web表单就是我们与浏览器交互的一个平台，我们把想说的悄悄话通过web表单告诉浏览器，浏览器就可以为我们做些事情啦！</p>
+<strong>1.进入虚拟环境,安装扩展</strong></p>
+<p><code><venv>$ pip install flask-wtf</code></p>
+<p><strong>2.创建app文件</strong></p>
+<p><code><venv>$ vim hello.py</code></p>
+<pre><code>from flask import Flask
+app = Flask(__name__)
+
+@app.route('/')
+def hello():
+    return '&lt;h1&gt;Hello 木犀！&lt;/h1&gt;'
+
+if __name__=='__main__':
+    app.run(debug=True,port=8080)
+</code></pre>
+<p><strong>3.配置Flask-WTF(./hello.py)</strong></p>
+<p><code>app.config['SECRET_KEY'] = 'hard to guess string'</code>
+<p>配置密钥的目的是为了防止CSRF攻击，关于CSRF攻击，请戳^^</p>
+<a href="http://zh.wikipedia.org/wiki/%E8%B7%A8%E7%AB%99%E8%AF%B7%E6%B1%82%E4%BC%AA%E9%80%A0">CSRF</a></p>
+<p><strong>4.创建表单类(./hello.py)</strong></p>
+<pre><code>from flask.ext.wtf import Form
+from wtforms import StringField,SubmitField
+from wtforms.validators import Required
+
+class NameForm(Form):
+    name = StringField('你的姓名是？'，validators=[Required()])
+    submit = SubmitField("提交！")
+</code></pre>
+<p> python是一种面向对象的编程语言，类的概念尤其重要，在这里我们创建了一个NameForm类--这是Form类的子类，继承表单的基本属性和行为。同时，我们给了他特殊的功能--用于提交你的名字！cool！
+    StringField、和SubmitField 是两个类，分别用于处理字符串和提交。其实他们的背后是html代码的实现！
+    至于Required()则是验证器--防止提交空的表单。</p>
+
+<p><strong>5.渲染模板</strong></p>
+<h1>-------------------------------------</h1>
+<p>不好意思，代码问题解决中ing...</p>
+<h1>-------------------------------------</h1>
+<p>然后启动服务器，你就可以告诉浏览器你的名字啦！</p>
+<h2>总结</h2>
+<p>创建一个web表单可以概括为以下几个步骤：
+1.安装flask-wtf扩展
+2.配置flask-wtf
+3.创建表单类,确定表单的功能
+4.渲染模板</p>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        <div class="col-lg-6">
+            <h4>flask学习笔记(3)——蓝图</h4>
+            <p>
+            <!-- Button trigger modal -->
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#25">
+                Read Post
+            </button>
+            </p>
+            <!-- Modal -->
+            <div class="modal fade bs-example-modal-lg" id="25" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                <div class="modal-dialog modal-lg" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                            <h4 class="modal-title" id="myModalLabel">flask学习笔记(3)——蓝图</h4>
+                        </div>
+                        <div class="modal-body">
+                            <p>今天花了一下午，把博客的源码看了一遍，对蓝图有了大致的了解。在这篇博客中我想对蓝图的应用做一个总结，可能会有疏忽，但就是想理清楚自己的思路。<br/>
+<strong>1.为什么要用蓝图</strong><br/>
+为什么要用蓝图？因为网站的运行环境复杂，已知至少有三种环境：开发环境、测试环境、生产环境。每个环境的的数据库、配置文件都不一样，可见一个全局的app实例显然无法满足我们的需求了。于是我们就想，能不能在局部作用域中创建不同的实例，在不同的环境中调用呢？当然可以，这其实就是工厂函数的概念，工厂函数就是在该函数作用域中创建app的函数。但是，但是！问题来了，如果在函数内部创建app，那么url岂不是要在执行函数被调用后才会被注册，可是没有url如何访问执行函数呢？这不就是一个先有鸡还是先有蛋的问题吗？于是蓝图就被推上了历史的舞台^^。<br/>
+<strong>2.什么是蓝图</strong><br/>
+说了这么多，那到底什么是蓝图呢？蓝图其实是一个网站程序,是定义url的一种方式。网站实例注册蓝图后，我们就可以访问蓝图定义的url，而不用深入执行函数去找app了。<br/>
+<strong>3.代码实现</strong><br/>
+附上一个小例子：<br/>
+1.~/flasky/app/-init-.py<br/></p>
+<pre><code>from flask import Flask
+from config import config
+
+def create_app(config_name):
+    '''
+    工厂函数
+    '''
+    app = Flask(__name__)
+    app.config.from_object(config[config_name])                                    
+    config[config_name].init_app(app) 
+    #注册蓝图
+    from .main import main as main_blueprint                                        
+    app.register_blueprint(main_blueprint)
+
+    return app
+</code></pre>
+<p>2.~/flasky/app/main/-init-.py<br/></p>
+<pre><code>#导入蓝图
+from flask import Blueprint
+#实例化蓝图（参数1：蓝图的名字；参数2：蓝图所在的包or模块）
+main = Blueprint('main', __name__)
+
+from . import views
+
+@main.app_context_processor
+def inject_permissions():
+    return dict(Permission=Permission)
+</code></pre>
+<p>3.~/flasky/app/main/views.py</p>
+<pre><code>from flask import render_template
+from . import main
+
+@main.route('/')
+def index():
+    return render_template('index.html')
+</code></pre>
+<p>注意咯，这里路由的注册方式是main.route，此外，蓝图还提供命名空间注册路由，这样index在main.index 和 auth.index 下是不一样的路由哦。</p>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        <div class="col-lg-6">
+            <h4>修好了</h4>
+            <p>
+            <!-- Button trigger modal -->
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#26">
+                Read Post
+            </button>
+            </p>
+            <!-- Modal -->
+            <div class="modal fade bs-example-modal-lg" id="26" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                <div class="modal-dialog modal-lg" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                            <h4 class="modal-title" id="myModalLabel">修好了</h4>
+                        </div>
+                        <div class="modal-body">
+                            <p>修好了，不是博客的原因，应该是文法的原因，插入html代码。。</p>
+
+<p>又可以继续更新博客了，为什么要写博客，因为技术是要分享的。我不懂的问题在网上搜索，通过别人的博客得到解答。但是别人的解答可能不适合我，折腾一番，解决问题，何不用一篇博客作为小结。若干年后，相同情况的别人就会得到问题的圆满解答。</p>
+
+<p>博客的书写，其实也是学习历程的记录，自己学了什么，能不能总结成模板。我下次写类似程序的时候，就可以看看自己的博客，既是回忆、也是再学习。</p>
+
+<p>互联网就是一个乐于分享、传播知识的地方，对资源、信息的利用直接决定了互联网的工作效率。而博客就是分享和知识的集合。</p>
+
+<p>所以，修好了。。</p>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        <div class="col-lg-6">
+            <h4>flask 学习笔记(2)——flask基本程序结构</h4>
+            <p>
+            <!-- Button trigger modal -->
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#27">
+                Read Post
+            </button>
+            </p>
+            <!-- Modal -->
+            <div class="modal fade bs-example-modal-lg" id="27" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                <div class="modal-dialog modal-lg" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                            <h4 class="modal-title" id="myModalLabel">flask 学习笔记(2)——flask基本程序结构</h4>
+                        </div>
+                        <div class="modal-body">
+                            <h1>本次笔记将介绍flask的基本程序结构，并写出第一个web应用</h1>
+<p>--------------我们选择在服务器端直接编程---------------</p>
+<h2>0.基本框架</h2>
+<p><code>mkdir /root/www/flasky</code>新建项目文件夹
+<code>vituralenv venv</code>创建虚拟环境
+<code>source venv/bin/activate</code>进入虚拟环境
+<code>pip install flask</code>安装flask
+<code>vim hello.py</code></p>
+<pre><code>from flask import Flask 
+app = Flask(__name__)
+
+@app.route('/') 
+def index():
+    return 'Come from MuxiStudio!'
+if __name__=="__main__":
+    app.run(debug=True)
+</code></pre>
+<p>程序的首先从flask模块中导入Flask类，利用Flask类实例化app(<strong>name</strong>是Flask类的一个属性)，利用route(路由)装饰器关联url和执行函数(index)，index函数会在相应的url地址返回字符串“Come from MuxiStudio!”。最后程序判别<strong>name</strong>属性，调用run方法，开启调试模式(debug=True),运行app。</p>
+<p>好吧，我想你肯定是一头雾水，不过不要着急，我接下来将逐字逐句的解释上面这段话！</p>
+<h2>1.Flask类实例化app</h2>
+<p>如果你没有接触过面向对象编程，那么这句话可能对你而言就像天书，不过没关系，请戳下面链接
+<a href="http://www.zhihu.com/question/19854505">面向对象思想</a>
+我的理解是--Flask类具有定义好的属性和方法,app被实例化后也就继承了这些方法。</p>
+<h2>2."<strong>name</strong>"属性</h2>
+<p>"<strong>name</strong>"属性就是Flask类的一个很重要的属性啦！在正式介绍他的用处之前我们先理解一下flask的目录组织方式。
+----flask的目录组织结构没有强制要求--</p>
+<pre><code>------|——&gt;app————————————————|——&gt;__init__.py
+------|——&gt;db_repository------|——&gt;static
+flask—&gt;venv------------------|——&gt;templates
+------|——&gt;config.py----------|——&gt;views.py
+------|——&gt;run.py-------------|——&gt;forms.py
+------|——&gt;runp.py------------|——&gt;modles.py
+------|——&gt;readme.md
+</code></pre>
+<p>以上就是一个flask项目的文件组织结构，<strong>app</strong>是app应用程序所在的主目录，<strong>db_repository</strong>是与数据库迁移相关的(以后再说)，<strong>venv</strong>就是我们创建的虚拟环境入口文件夹,<strong>config.py</strong>是配置文件，<strong>run.py</strong>是开发时应用程序的启动文件，<strong>runp.py</strong>是生产环境下的启动文件( 两者的区别在于生产环境千万不能开调试器，这会让使用者看到不该看到的代码！)<strong>readme.md</strong>是一个项目介绍文件，用的也是markdown语法。 
+再看看<strong>app</strong>文件夹，<strong>static</strong>用于存放css、image等静态文件，<strong>templates</strong>用于放置模板文件，<strong>views.py</strong>是视图函数所在的模块，<strong>forms.py</strong>则是表单所在的模块，<strong>modles.py</strong>是数据库表对象所在的模块，而<strong><strong>init</strong></strong>.py....</p>
+<p>对，<strong>init</strong>.py和我们的<strong>name</strong>属性有着密切的关系：首先<strong>init</strong>.py是app创建的地方，但我们知道app的运行是在run.py中调用的呀！这时就需要把app变成包，以便让其他程序导入app文件夹中的模块，而<strong>init</strong>.py就是模块的标志。通过在运行时判别<strong>name</strong>属性就可以知道该程序究竟是作为模块被导入还是直接执行！原来如此！可是这有什么用呢？这就要谈到templates文件夹了，程序在运行时会寻找该文件夹中的模板，如果app是直接执行则templates文件夹应放置在于app所在文件同级的位置，如果app作为模块被导入则应该一起放于包中！</p>
+<h2>3."路由"与装饰器</h2>
+<p>"路由"是flask的一种装饰器，你可能会问什么是装饰器，请戳下面：
+<a href="http://segmentfault.com/blog/xuelang/1190000000632572">python装饰器</a>
+我的理解，装饰器就是让函数具有附加行为的东西，python的装饰器可以通过语法糖@实现</p>
+<p>再说说路由装饰器，我们访问网站输入的网址其实是url--统一资源定位器，通过特定的url就可以得到特定的页面，可是服务器如何知道对于这个页面应该调用哪个执行函数呢？路由装饰器就可以把其下的执行函数与url绑定在一起，解决这个问题！</p>
+<h2>4.返回字符串</h2>
+<p>返回字符串其实不应该直接在函数中进行，应该由模板完成！至于模板下次再说！</p>
+<p>-------------------------------------部署web应用-----------------------------------
+1.设置nginx
+---
+找到nginx的安装目录，打开conf/nginx.conf文件，修改server配置</p>
+<pre><code>server {
+        listen       80;
+        server_name  localhost;
+        location / {            
+            include  uwsgi_params;
+            uwsgi_pass  公网IP:9090;                          //必须和uwsgi中的设置一致
+            uwsgi_param UWSGI_SCRIPT /root/www/flasky.wsgi; //. 就相当于一层目录了 
+            uwsgi_param UWSGI_CHDIR /root/www/flasky;       //项目根目录(例如)
+            index  index.html index.htm;
+            client_max_body_size 35m;
+        }
+}
+</code></pre>
+<h2>2.建立引导文件</h2>
+<p>在 /root/www/flasky 下新建 wsgi.py</p>
+<pre><code>from hello import app
+
+if __name__=="__main__":
+    app.run(host="0.0.0.0",port=8080)
+</code></pre>
+<p>3.开启uwsgi服务器
+在/root/www/flasky/下进入虚拟环境 还记得命令吗？ source venv/bin/activate
+输入：uwsgi —socket 公网IP:8080 —protocol=http -w wsgi:app -H /root/www/flasky/venv</p>
+<p>---------------------------------------补充------------------------------------------
+如果你没有服务器，利用命令行进入虚拟环境,<code>python hello.py</code> 
+在python自带的127.0.0.1上也可以看到。</p>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        <div class="col-lg-6">
+            <h4>flask 学习笔记(1)——flask简介&amp;安装</h4>
+            <p>
+            <!-- Button trigger modal -->
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#28">
+                Read Post
+            </button>
+            </p>
+            <!-- Modal -->
+            <div class="modal fade bs-example-modal-lg" id="28" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                <div class="modal-dialog modal-lg" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                            <h4 class="modal-title" id="myModalLabel">flask 学习笔记(1)——flask简介&amp;安装</h4>
+                        </div>
+                        <div class="modal-body">
+                            <h2>1.flask简介</h2>
+<p>互联网的世界是自由的、是神奇的。而<strong>python flask</strong>则是我们进入网络内核世界的一个工具！
+flask 是基于python的一个轻量级的web开发框架——&gt;让我来解释一下这句话:
+——&gt;基于python：flask采用python语言开发，继承了python面向对象的编程方式(甚至数据库也是^^)
+——&gt;轻量级：flask仅依赖两个东西：1.路由，调试. 2.WSGI(web 服务 网关 接口)(具体见：URL)，子系统有Werkzeug提供，模板有Jinjia2模板引擎提供。当然，轻量不代表功能低。flask绝大多数的核心功能来自于flask扩展，因而你可以选择自己想要实现的功能的扩展，自由、方便！
+——&gt;web开发框架: 这是flask最本质的功能，他能让你在开发web程序时更省力！</p>
+<h2>2.flask安装</h2>
+<p>——&gt;<strong>windows下安装</strong>
+--------------------------------安装python----------------------------------------------
+1&gt;去python官网下载页(https://www.python.org/downloads/)下载python2.7
+2&gt;下载后按步骤安装
+3&gt;在开始菜单栏找到python，或在cmd中任意位置输入python ——&gt;出现python命令行，则安装成功
+4&gt;python自带IDLE，不过推荐notepad++，sublime text，后面写flask程序时会更方便</p>
+<p>--------------------------------设置虚拟环境--------------------------------------------
+我们采用虚拟环境virtualenv安装flask，这可以让不同的flask应用程序互不干扰且共用一套python
+1&gt;安装pip(pip是python包管理工具，后面许多扩展都是通过pip安装是)
+——&gt;<strong>下载 distribute_setup.py</strong>
+——&gt;<strong>双击 distribute_setup.py运行文件</strong>
+——&gt;<strong>添加 ;C:\Python27\Scripts 到 PATH 环境变量</strong>
+——&gt;<strong>进入cmd:</strong><code>easy_install pip</code>
+2&gt;进入cmd 
+<code>pip install virtualenv</code>——&gt;注意，如果你的windows用户名是中文的话，pip可能会报错，不过也不要慌，换一个就行了^^
+3&gt;创建项目文件夹(C:/flasky)
+<code>mkdir flasky</code>
+<code>cd flasky</code>
+——&gt;<strong>虚拟化项目文件夹(创建虚拟环境入口)</strong>
+<code>virtualenv venv</code>
+——&gt;<strong>进入虚拟环境</strong>
+<code>cd venv/Scripts/</code>
+<code>activate</code>
+这时你会发现命令提示符前出现了(venv) ——&gt;已进入虚拟环境^^
+——&gt;<strong>退出虚拟环境</strong>
+<code>Ctrl C</code></p>
+<p>--------------------------------安装flask--------------------------------------------------
+1&gt;进入刚刚创建的虚拟环境
+2&gt;<code>pip install flask</code>
+--------------------------------安装成功！-------------------------------------------------
+——&gt;<strong>linux下的安装详见我的博文(CentOS+uWSGI+Nginx 部署flask全记录)</strong></p>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        <div class="col-lg-6">
+            <h4>服务器部署flask</h4>
+            <p>
+            <!-- Button trigger modal -->
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#29">
+                Read Post
+            </button>
+            </p>
+            <!-- Modal -->
+            <div class="modal fade bs-example-modal-lg" id="29" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                <div class="modal-dialog modal-lg" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                            <h4 class="modal-title" id="myModalLabel">服务器部署flask</h4>
+                        </div>
+                        <div class="modal-body">
+                            <h2>步骤0.准备工作</h2>
+<p>1.既然是部署，首先要买一台服务器（推荐在阿里云上买）。
+2.之后就是选择合适的镜像了，本教程选取的是CentOS原版镜像(不要选集成环境，会发生怪怪的事情!)
+3.安装连接服务器的工具（推荐 putty）
+4.以root身份进入终端
+5.安装所需的内库，进入 / 目录输入 
+<code>yum groupinstall "Development tools"</code>
+<code>yum install zlib-devel bzip2-devel pcre-devel openssl-devel ncurses -devel sqlite-devel readline-devel tk-devel</code></p>
+<h2>步骤1.安装python</h2>
+<p>linux系统一般自带python，在终端任意位置输入 python —V 如果返回版本是2.7系列，恭喜可以跳过步骤一啦|）
+如果版本较低比如和我一样是python 2.4。。那么进入家目录~ 输入：
+1 <code>wget http://python.org/ftp/python/2.7.5/Python-2.7.5.tar.bz2</code>   (获取python安装包)
+2 <code>tar xvf Python-2.7.5.tar.bz2</code>                                  （解压缩python安装包）
+3 <code>cd Python-2.7.5</code>                                               （进入安装目录）
+4 <code>./configure --prefix=/usr/local</code>                                (编译源码，安装到/user/local/)
+5 <code>#make &amp;&amp; make altinstall</code>
+安装好了以后输入 python2.7 就可以进入交互式命令行啦{）
+注意：wget 是在线获取python安装包，所以网速要好哦！否则会返回 RunTimeError !</p>
+<h2>步骤2.安装python包管理</h2>
+<p>python的包管理工具给我们的安装带来了很大的方便！只需要简单的 pip命令！
+进入到 ~ 目录下，输入;
+<code>wget https://pypi.python.org/packages/source/d/distribute/distribute-0.6.49.tar.gz</code>
+<code>tar xf distribute-0.6.49.tar.gz</code>
+<code>cd distribute-0.6.49</code>
+<code>python2.7 setup.py install</code>
+<code>easy_install pip</code>
+在任意位置输入 pip --version 如果返回版本号--恭喜，可以使用pip命令啦|）</p>
+<h2>步骤3.安装uwsgi</h2>
+<p>uwsgi就是我们web应用的服务器啦。他的功能很强大，尤其适合处理动态请求，但是不能处理http请求(这点很重要！)
+进入 ~ 目录，输入：
+<code>pip install uwsgi</code>
+pip命令，立刻搞定！</p>
+<p>测试uwsgi：
+在 ~ 下新建test.py 内容如下：
+<strong>def application(env, start_response):
+            start_response('200 OK', [('Content-Type','text/html')])
+            return "Welcome to MuxiStudio!"</strong>
+在终端运行 </strong>uwsgi --http :8001 --wsgi-file test.py</strong>
+在浏览器内输入：公网IP:8001/，如果返回 Welcome to MuxiStudio! 恭喜你 uwsgi安装成功！！！</p>
+<h2>步骤4.安装flask</h2>
+<p>既然是flask应用自然要安装flask啦！
+我们采用虚拟环境安装flask，所谓虚拟环境即flask并不是安装在全局中，而是安装在我们指定的环境中，
+只有进入这个环境才可以运行flask哦！这样我们就可以用一个实际python环境运行许多flask程序啦！</p>
+<p>进入~目录，输入：
+<code>pip install virtualenv</code>(安装虚拟环境)
+进入项目所在的文件夹，例如：
+<code>cd /root/www/flaskr/</code>
+<code>virtualenv venv</code>(建立虚拟环境venv)
+<code>source venv/bin/activate</code>（进入虚拟环境）
+进入虚拟环境后，你会发现命令符前出现 (venv) 字样，很神奇呀！
+退出虚拟环境只要输入 <code>deactivate</code>
+进入虚拟环境<code>pip install flask</code>,搞定！！</p>
+<h2>步骤5.安装nginx</h2>
+<p>我们用nginx作反向代理，并处理http请求（之前说过uwsgi只能处理动态请求。其实通俗一点说就是前端nginx，后台uwsgi）
+进入 ~ 目录下，输入
+<code>wget http://nginx.org/download/nginx-1.5.6.tar.gz</code>
+<code>tar xf nginx-1.5.6.tar.gz</code>
+<code>cd nginx-1.5.6</code>
+<code>./configure --prefix=/usr/local/nginx-1.5.6 --with-http_stub_status_module --with-http_gzip_static_module</code>
+<code>make &amp;&amp; make install</code></p>
+<p>到此，安装部分就顺利完成啦|），接下来让我们进入到有点小琐碎的配置环节吧！</p>
+<h2>步骤6.配置uwsgi</h2>
+<p>我们采用.ini文件配置uwsgi
+在/etc/目录下新建 uwsgi.ini 文件，添加如下配置：
+<strong>
+[uwsgi]
+socket = 公网IP:9090
+master = true         //主进程
+vhost = true          //多站模式
+no-stie = true        //多站模式时不设置入口模块和文件
+workers = 2           //子进程数
+reload-mercy = 10   <br />
+vacuum = true         //退出、重启时清理文件
+max-requests = 1000 <br />
+limit-as = 512
+buffer-sizi = 30000
+pidfile = /var/run/uwsgi.pid    //pid文件，用于下面的脚本启动、停止该进程
+daemonize = /website/uwsgi.log
+</strong>
+uwsgi灵活的配置可以让flask应用的性能达到最佳，但对于你我一样的初学者往往就不知所云了。不过先不管是否完全理解配置项，
+！！跑起来再说！！</p>
+<h2>步骤7.设置nginx</h2>
+<p>找到nginx的安装目录，打开conf/nginx.conf文件，修改server配置</p>
+<pre><code>server {
+        listen       80;
+        server_name  localhost;
+        location / {            
+            include  uwsgi_params;
+            uwsgi_pass  公网IP:9090;                          //必须和uwsgi中的设置一致
+            uwsgi_param UWSGI_SCRIPT /root/www/flaskr.wsgi; //. 就相当于一层目录了 
+            uwsgi_param UWSGI_CHDIR /root/www/flaskr;       //项目根目录(例如)
+            index  index.html index.htm;
+            client_max_body_size 35m;
+            }
+}
+</code></pre>
+<h2>步骤8.部署flask应用</h2>
+<p>终于---改装的装完了，该配的配完了。可我们的应用还不见踪影。。不要着急，我们将部署一个最简单的flask应用。
+其实原理都是一样的！</p>
+<p>在项目目录下（/root/www/flaskr）新建welcome.py文件，内容如下：</p>
+<pre><code>from flask import Flask
+app=Flask(__name__)
+
+@app.route("/")
+def welcom():
+    return "Welcome to MuxiStudio!"
+
+if __name__=="__main__":
+    app.run(host="0.0.0.0",port=8080)
+</code></pre>
+<p>注意单有应用文件还不行，我们还要建立引导文件，在 /root/www/flaskr 下新建 wsgi.py</p>
+<pre><code>from welcome import app
+
+if __name__=="__main__":
+    app.run(host="0.0.0.0",port=8080)
+</code></pre>
+<p>导入app，设置运行状态--yep！</p>
+<p>接下来就是最激动人心的部署环节了！
+在/root/www/flaskr/下进入虚拟环境 还记得命令吗？ <code>source venv/bin/activate</code>
+输入：<code>uwsgi --socket 公网IP:8080 --protocol=http -w wsgi:app -H /root/www/flaskr/venv</code></p>
+<p>终端会提示你uwsgi正在运行，在浏览器中输入 公网IP：8080/ 
+<strong>"Welcome to MuxiStudio!"</strong></p>
+<h2>步骤9.总结</h2>
+<p>不要怕出错，错了就谷歌一下，如果还不对就初始化重来，只要坚持，问题肯定可以解决！</p>
+<h2>步骤10.庆祝</h2>
+<p>合上电脑，出去走走。</p>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+</div>
 
             <footer class="footer">
-                <p>&copy; Company 2014</p>
+                <p>&copy; @neo1218 2015, this blog's code host on <a href="https://github.com/neo1218/neo1218_blog">github</a></p>
             </footer>
 
         </div> <!-- /container -->
