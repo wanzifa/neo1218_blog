@@ -1,5 +1,4 @@
 title: mockjs生成后端虚拟数据
----
 
 ![mockjs](http://7xj431.com1.z0.glb.clouddn.com/9.08.54.png)
 
