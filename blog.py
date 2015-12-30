@@ -1,4 +1,5 @@
 # coding: utf-8
+
 """
 	neo1218_blog
 	~~~~~~~~~~~~
@@ -32,7 +33,7 @@ pages = FlatPages(app)
 freezer = Freezer(app)
 
 
-@app.route('/index')
+@app.route('/index/')
 def index():
 	"""
 	首页:
@@ -57,16 +58,6 @@ def index():
 def page(path):
     page = pages.get_or_404(path)
     return render_template('page.html', page=page)
-
-
-@app.route('/football/')
-def football():
-	return render_template("football.html")
-
-
-@app.route('/about')
-def about():
-	return render_template("about.html")
 
 
 if __name__ == "__main__":

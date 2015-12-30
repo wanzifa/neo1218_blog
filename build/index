@@ -134,7 +134,7 @@
 <div class="row marketing">
     
         <div class="col-lg-6">
-            <h4>调度场算法(编写中)</h4>
+            <h4>引用和指针的实验</h4>
             <p>
             <!-- Button trigger modal -->
             <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#0">
@@ -143,6 +143,114 @@
             </p>
             <!-- Modal -->
             <div class="modal fade bs-example-modal-lg" id="0" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                <div class="modal-dialog modal-lg" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                            <h4 class="modal-title" id="myModalLabel">引用和指针的实验</h4>
+                        </div>
+                        <div class="modal-body">
+                            <h2>程序1 point.cpp</h2>
+<pre><code># include &lt;iostream&gt;
+using namespace std;
+
+int main()
+{
+    int var = 42;
+    int* p = &amp;var;
+    return 0;
+}
+</code></pre>
+<h2>程序2 refer.cpp</h2>
+<pre><code># include &lt;iostream&gt;
+using namespace std;
+
+int main()
+{
+    int var = 42;
+    int&amp; p = var;
+    return 0;
+}
+</code></pre>
+<h2>编译</h2>
+<pre><code>g++ point.cpp -o point
+g++ refer.cpp -o refer
+</code></pre>
+<h2>反编译</h2>
+<pre><code>gobjdump -S point &gt; test1
+gobjdump -S refer &gt; test2
+</code></pre>
+<h2>比较</h2>
+<pre><code>vimdiff test1 test2
+</code></pre>
+<h2>结果</h2>
+<p><img alt="result" src="http://7xj431.com1.z0.glb.clouddn.com/prpng" /></p>
+<h2>结论</h2>
+<p>引用就是指针(常量指针)</p>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        <div class="col-lg-6">
+            <h4>指针和引用</h4>
+            <p>
+            <!-- Button trigger modal -->
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#1">
+                Read Post
+            </button>
+            </p>
+            <!-- Modal -->
+            <div class="modal fade bs-example-modal-lg" id="1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                <div class="modal-dialog modal-lg" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                            <h4 class="modal-title" id="myModalLabel">指针和引用</h4>
+                        </div>
+                        <div class="modal-body">
+                            <h2>指针是什么</h2>
+<p>指针是一个变量,占用内存,指针的值就是其指向的地址。</p>
+<h2>引用是什么</h2>
+<p>引用就是一个对象的别名。其实这个解释只是语言在应用层面的给使用语言的人的解释,引用实际上就是一个常量指针。具体可以参考<a href="http://www.cnblogs.com/ronny/p/3662556.html">这篇文章</a>,
+以及我做的这个<a href="">小实验</a>。</p>
+<h2>举个例子🌰</h2>
+<p>有如下代码</p>
+<pre><code>int main()
+{
+    int i = 2;
+    int *p = &amp;i;
+    int &amp;r = i;
+    return 0;
+}
+</code></pre>
+<p>3个变量的关系如图: <br/>
+<img alt="例子" src="http://7xj431.com1.z0.glb.clouddn.com/blog_pr" /> <br/></p>
+<h2>使用指针还是引用</h2>
+<h2>参考</h2>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        <div class="col-lg-6">
+            <h4>调度场算法(编写中)</h4>
+            <p>
+            <!-- Button trigger modal -->
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#2">
+                Read Post
+            </button>
+            </p>
+            <!-- Modal -->
+            <div class="modal fade bs-example-modal-lg" id="2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
                 <div class="modal-dialog modal-lg" role="document">
                     <div class="modal-content">
                         <div class="modal-header">
@@ -222,12 +330,12 @@ num  [数字栈]                       [符号栈]              后缀式
             <h4>记爬取CET4报名网站的那一夜</h4>
             <p>
             <!-- Button trigger modal -->
-            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#1">
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#3">
                 Read Post
             </button>
             </p>
             <!-- Modal -->
-            <div class="modal fade bs-example-modal-lg" id="1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+            <div class="modal fade bs-example-modal-lg" id="3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
                 <div class="modal-dialog modal-lg" role="document">
                     <div class="modal-content">
                         <div class="modal-header">
@@ -331,12 +439,12 @@ cet.tinyin.net  FALSE   /   FALSE       ASPSESSlllllDAQBASRAC   LKNFEMDCDOLABMFP
             <h4>Difference between ++*p,*p++,*++p</h4>
             <p>
             <!-- Button trigger modal -->
-            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#2">
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#4">
                 Read Post
             </button>
             </p>
             <!-- Modal -->
-            <div class="modal fade bs-example-modal-lg" id="2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+            <div class="modal fade bs-example-modal-lg" id="4" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
                 <div class="modal-dialog modal-lg" role="document">
                     <div class="modal-content">
                         <div class="modal-header">
@@ -417,12 +525,12 @@ int main(void)
             <h4>how to write a restful API with flask</h4>
             <p>
             <!-- Button trigger modal -->
-            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#3">
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#5">
                 Read Post
             </button>
             </p>
             <!-- Modal -->
-            <div class="modal fade bs-example-modal-lg" id="3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+            <div class="modal fade bs-example-modal-lg" id="5" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
                 <div class="modal-dialog modal-lg" role="document">
                     <div class="modal-content">
                         <div class="modal-header">
@@ -444,12 +552,12 @@ int main(void)
             <h4>数据结构之 线性表</h4>
             <p>
             <!-- Button trigger modal -->
-            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#4">
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#6">
                 Read Post
             </button>
             </p>
             <!-- Modal -->
-            <div class="modal fade bs-example-modal-lg" id="4" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+            <div class="modal fade bs-example-modal-lg" id="6" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
                 <div class="modal-dialog modal-lg" role="document">
                     <div class="modal-content">
                         <div class="modal-header">
@@ -826,12 +934,12 @@ head --&gt; |-[  ][//][  ] -|
             <h4>python三个内置装饰器用法小结</h4>
             <p>
             <!-- Button trigger modal -->
-            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#5">
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#7">
                 Read Post
             </button>
             </p>
             <!-- Modal -->
-            <div class="modal fade bs-example-modal-lg" id="5" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+            <div class="modal fade bs-example-modal-lg" id="7" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
                 <div class="modal-dialog modal-lg" role="document">
                     <div class="modal-content">
                         <div class="modal-header">
@@ -928,12 +1036,12 @@ Yes, I am a property!
             <h4>why reload?</h4>
             <p>
             <!-- Button trigger modal -->
-            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#6">
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#8">
                 Read Post
             </button>
             </p>
             <!-- Modal -->
-            <div class="modal fade bs-example-modal-lg" id="6" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+            <div class="modal fade bs-example-modal-lg" id="8" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
                 <div class="modal-dialog modal-lg" role="document">
                     <div class="modal-content">
                         <div class="modal-header">
@@ -989,12 +1097,12 @@ AttributeError: 'module' object has no attribute 'setdefaultencoding'
             <h4>数据结构－抽象：节点与边</h4>
             <p>
             <!-- Button trigger modal -->
-            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#7">
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#9">
                 Read Post
             </button>
             </p>
             <!-- Modal -->
-            <div class="modal fade bs-example-modal-lg" id="7" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+            <div class="modal fade bs-example-modal-lg" id="9" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
                 <div class="modal-dialog modal-lg" role="document">
                     <div class="modal-content">
                         <div class="modal-header">
@@ -1050,12 +1158,12 @@ AttributeError: 'module' object has no attribute 'setdefaultencoding'
             <h4>python尾递归优化</h4>
             <p>
             <!-- Button trigger modal -->
-            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#8">
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#10">
                 Read Post
             </button>
             </p>
             <!-- Modal -->
-            <div class="modal fade bs-example-modal-lg" id="8" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+            <div class="modal fade bs-example-modal-lg" id="10" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
                 <div class="modal-dialog modal-lg" role="document">
                     <div class="modal-content">
                         <div class="modal-header">
@@ -1203,12 +1311,12 @@ http://www.chinaz.com/program/2013/0917/318157_2.shtml</p>
             <h4>Flask 文档笔记(1) flaskr</h4>
             <p>
             <!-- Button trigger modal -->
-            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#9">
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#11">
                 Read Post
             </button>
             </p>
             <!-- Modal -->
-            <div class="modal fade bs-example-modal-lg" id="9" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+            <div class="modal fade bs-example-modal-lg" id="11" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
                 <div class="modal-dialog modal-lg" role="document">
                     <div class="modal-content">
                         <div class="modal-header">
@@ -1356,12 +1464,12 @@ def logout():
             <h4>python 学习笔记(day 2)</h4>
             <p>
             <!-- Button trigger modal -->
-            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#10">
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#12">
                 Read Post
             </button>
             </p>
             <!-- Modal -->
-            <div class="modal fade bs-example-modal-lg" id="10" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+            <div class="modal fade bs-example-modal-lg" id="12" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
                 <div class="modal-dialog modal-lg" role="document">
                     <div class="modal-content">
                         <div class="modal-header">
@@ -1517,12 +1625,12 @@ ok,就是这些啦,虽然有点小麻烦,但在绝大多数情况下,程序员�
             <h4>python 学习笔记(day 1)</h4>
             <p>
             <!-- Button trigger modal -->
-            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#11">
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#13">
                 Read Post
             </button>
             </p>
             <!-- Modal -->
-            <div class="modal fade bs-example-modal-lg" id="11" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+            <div class="modal fade bs-example-modal-lg" id="13" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
                 <div class="modal-dialog modal-lg" role="document">
                     <div class="modal-content">
                         <div class="modal-header">
@@ -1601,12 +1709,12 @@ sys.setdefaultencoding('utf-8')
             <h4>Github gist 的使用</h4>
             <p>
             <!-- Button trigger modal -->
-            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#12">
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#14">
                 Read Post
             </button>
             </p>
             <!-- Modal -->
-            <div class="modal fade bs-example-modal-lg" id="12" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+            <div class="modal fade bs-example-modal-lg" id="14" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
                 <div class="modal-dialog modal-lg" role="document">
                     <div class="modal-content">
                         <div class="modal-header">
@@ -1648,12 +1756,12 @@ Gist可以说是代码分享的首选!自动语法高亮,你可以让你的代�
             <h4>import this</h4>
             <p>
             <!-- Button trigger modal -->
-            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#13">
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#15">
                 Read Post
             </button>
             </p>
             <!-- Modal -->
-            <div class="modal fade bs-example-modal-lg" id="13" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+            <div class="modal fade bs-example-modal-lg" id="15" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
                 <div class="modal-dialog modal-lg" role="document">
                     <div class="modal-content">
                         <div class="modal-header">
@@ -1719,12 +1827,12 @@ python之禅 ， neo1218译
             <h4>python 正则表达式</h4>
             <p>
             <!-- Button trigger modal -->
-            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#14">
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#16">
                 Read Post
             </button>
             </p>
             <!-- Modal -->
-            <div class="modal fade bs-example-modal-lg" id="14" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+            <div class="modal fade bs-example-modal-lg" id="16" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
                 <div class="modal-dialog modal-lg" role="document">
                     <div class="modal-content">
                         <div class="modal-header">
@@ -1801,12 +1909,12 @@ span() 返回一个元组包含匹配(开始,结束)的位置
             <h4>Python Vim</h4>
             <p>
             <!-- Button trigger modal -->
-            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#15">
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#17">
                 Read Post
             </button>
             </p>
             <!-- Modal -->
-            <div class="modal fade bs-example-modal-lg" id="15" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+            <div class="modal fade bs-example-modal-lg" id="17" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
                 <div class="modal-dialog modal-lg" role="document">
                     <div class="modal-content">
                         <div class="modal-header">
@@ -1830,12 +1938,12 @@ span() 返回一个元组包含匹配(开始,结束)的位置
             <h4>flask后台集成ckEditor编辑器</h4>
             <p>
             <!-- Button trigger modal -->
-            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#16">
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#18">
                 Read Post
             </button>
             </p>
             <!-- Modal -->
-            <div class="modal fade bs-example-modal-lg" id="16" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+            <div class="modal fade bs-example-modal-lg" id="18" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
                 <div class="modal-dialog modal-lg" role="document">
                     <div class="modal-content">
                         <div class="modal-header">
@@ -1862,12 +1970,12 @@ github: https://github.com/neo1218/flask-ckeditor
             <h4>Windows下搭建github博客</h4>
             <p>
             <!-- Button trigger modal -->
-            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#17">
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#19">
                 Read Post
             </button>
             </p>
             <!-- Modal -->
-            <div class="modal fade bs-example-modal-lg" id="17" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+            <div class="modal fade bs-example-modal-lg" id="19" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
                 <div class="modal-dialog modal-lg" role="document">
                     <div class="modal-content">
                         <div class="modal-header">
@@ -1942,12 +2050,12 @@ over.......</p>
             <h4>My Birth_Day</h4>
             <p>
             <!-- Button trigger modal -->
-            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#18">
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#20">
                 Read Post
             </button>
             </p>
             <!-- Modal -->
-            <div class="modal fade bs-example-modal-lg" id="18" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+            <div class="modal fade bs-example-modal-lg" id="20" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
                 <div class="modal-dialog modal-lg" role="document">
                     <div class="modal-content">
                         <div class="modal-header">
@@ -1974,12 +2082,12 @@ over.......</p>
             <h4>知道别人是怎么想的</h4>
             <p>
             <!-- Button trigger modal -->
-            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#19">
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#21">
                 Read Post
             </button>
             </p>
             <!-- Modal -->
-            <div class="modal fade bs-example-modal-lg" id="19" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+            <div class="modal fade bs-example-modal-lg" id="21" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
                 <div class="modal-dialog modal-lg" role="document">
                     <div class="modal-content">
                         <div class="modal-header">
@@ -2023,12 +2131,12 @@ linux入门必看！！<br/>
             <h4>uwsgi配置(1)——进程与线程</h4>
             <p>
             <!-- Button trigger modal -->
-            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#20">
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#22">
                 Read Post
             </button>
             </p>
             <!-- Modal -->
-            <div class="modal fade bs-example-modal-lg" id="20" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+            <div class="modal fade bs-example-modal-lg" id="22" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
                 <div class="modal-dialog modal-lg" role="document">
                     <div class="modal-content">
                         <div class="modal-header">
@@ -2055,12 +2163,12 @@ ok，回到博客的主题——进程与线程，其实上文中的邮箱bug就
             <h4>flask学习笔记(7)——API 下</h4>
             <p>
             <!-- Button trigger modal -->
-            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#21">
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#23">
                 Read Post
             </button>
             </p>
             <!-- Modal -->
-            <div class="modal fade bs-example-modal-lg" id="21" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+            <div class="modal fade bs-example-modal-lg" id="23" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
                 <div class="modal-dialog modal-lg" role="document">
                     <div class="modal-content">
                         <div class="modal-header">
@@ -2218,12 +2326,12 @@ def edit_post(id):
             <h4>flask学习笔记(6)——API 中</h4>
             <p>
             <!-- Button trigger modal -->
-            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#22">
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#24">
                 Read Post
             </button>
             </p>
             <!-- Modal -->
-            <div class="modal fade bs-example-modal-lg" id="22" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+            <div class="modal fade bs-example-modal-lg" id="24" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
                 <div class="modal-dialog modal-lg" role="document">
                     <div class="modal-content">
                         <div class="modal-header">
@@ -2328,12 +2436,12 @@ def get_token():
             <h4>flask学习笔记（5）——API 上</h4>
             <p>
             <!-- Button trigger modal -->
-            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#23">
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#25">
                 Read Post
             </button>
             </p>
             <!-- Modal -->
-            <div class="modal fade bs-example-modal-lg" id="23" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+            <div class="modal fade bs-example-modal-lg" id="25" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
                 <div class="modal-dialog modal-lg" role="document">
                     <div class="modal-content">
                         <div class="modal-header">
@@ -2445,12 +2553,12 @@ return render_template('404.html'), 404
             <h4>Flask学习笔记(4)——web 表单</h4>
             <p>
             <!-- Button trigger modal -->
-            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#24">
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#26">
                 Read Post
             </button>
             </p>
             <!-- Modal -->
-            <div class="modal fade bs-example-modal-lg" id="24" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+            <div class="modal fade bs-example-modal-lg" id="26" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
                 <div class="modal-dialog modal-lg" role="document">
                     <div class="modal-content">
                         <div class="modal-header">
@@ -2516,12 +2624,12 @@ class NameForm(Form):
             <h4>flask学习笔记(3)——蓝图</h4>
             <p>
             <!-- Button trigger modal -->
-            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#25">
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#27">
                 Read Post
             </button>
             </p>
             <!-- Modal -->
-            <div class="modal fade bs-example-modal-lg" id="25" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+            <div class="modal fade bs-example-modal-lg" id="27" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
                 <div class="modal-dialog modal-lg" role="document">
                     <div class="modal-content">
                         <div class="modal-header">
@@ -2587,12 +2695,12 @@ def index():
             <h4>修好了</h4>
             <p>
             <!-- Button trigger modal -->
-            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#26">
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#28">
                 Read Post
             </button>
             </p>
             <!-- Modal -->
-            <div class="modal fade bs-example-modal-lg" id="26" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+            <div class="modal fade bs-example-modal-lg" id="28" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
                 <div class="modal-dialog modal-lg" role="document">
                     <div class="modal-content">
                         <div class="modal-header">
@@ -2622,12 +2730,12 @@ def index():
             <h4>flask 学习笔记(2)——flask基本程序结构</h4>
             <p>
             <!-- Button trigger modal -->
-            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#27">
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#29">
                 Read Post
             </button>
             </p>
             <!-- Modal -->
-            <div class="modal fade bs-example-modal-lg" id="27" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+            <div class="modal fade bs-example-modal-lg" id="29" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
                 <div class="modal-dialog modal-lg" role="document">
                     <div class="modal-content">
                         <div class="modal-header">
@@ -2722,12 +2830,12 @@ if __name__=="__main__":
             <h4>flask 学习笔记(1)——flask简介&amp;安装</h4>
             <p>
             <!-- Button trigger modal -->
-            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#28">
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#30">
                 Read Post
             </button>
             </p>
             <!-- Modal -->
-            <div class="modal fade bs-example-modal-lg" id="28" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+            <div class="modal fade bs-example-modal-lg" id="30" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
                 <div class="modal-dialog modal-lg" role="document">
                     <div class="modal-content">
                         <div class="modal-header">
@@ -2786,12 +2894,12 @@ flask 是基于python的一个轻量级的web开发框架——&gt;让我来解�
             <h4>服务器部署flask</h4>
             <p>
             <!-- Button trigger modal -->
-            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#29">
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#31">
                 Read Post
             </button>
             </p>
             <!-- Modal -->
-            <div class="modal fade bs-example-modal-lg" id="29" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+            <div class="modal fade bs-example-modal-lg" id="31" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
                 <div class="modal-dialog modal-lg" role="document">
                     <div class="modal-content">
                         <div class="modal-header">
