@@ -8,7 +8,8 @@
 	-ms-text-size-adjust:100%
 }
 body {
-	margin:0
+	margin:0;
+    background-image: url('../img/substack.jpg');
 }
 article,aside,details,figcaption,figure,footer,header,hgroup,main,menu,nav,section,summary {
 	display:block
