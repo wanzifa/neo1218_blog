@@ -4,6 +4,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <!-- 自适应 -->
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
         <meta name="description" content="">
@@ -14,6 +15,7 @@
 
         <!-- Bootstrap core CSS -->
         <link href="//cdn.bootcss.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
+        <link href="../static/css/index.css" rel="stylesheet">
 
         <!-- Custom styles for this template -->
         <link href="../static/css/jumbotron-narrow.css" rel="stylesheet">
@@ -134,7 +136,7 @@
 <div class="row marketing">
     
         <div class="col-lg-6">
-            <h4>引用和指针的实验</h4>
+            <h4>2015年终总结</h4>
             <p>
             <!-- Button trigger modal -->
             <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#0">
@@ -147,42 +149,110 @@
                     <div class="modal-content">
                         <div class="modal-header">
                             <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                            <h4 class="modal-title" id="myModalLabel">2015年终总结</h4>
+                        </div>
+                        <div class="modal-body">
+                            <h2>2015年12月31号了, 是时候写点什么了</h2>
+<p>首先, 我预感我的2016年不会太好过。。。<br/>
+<img alt="2016" src="http://7xj431.com1.z0.glb.clouddn.com/2016" />
+好吧, 正好把那几个字挡住了,或许是天意吧。<br/></p>
+<h2>关于2015</h2>
+<p>这一年从1月23日注册github, 正式开始web开发的学习,
+到现在，可以说github是我这一年泡的最多的地方，下半年几乎天天更。原因何在?
+因为我在github上体会到了开源的精神,代码的力量(说的有点夸张😄 ),
+不过参加开源项目的时候大家都很友好, 都很有一种精神, 每个人都乐于交流,
+甚至是迫切的希望帮助别人, 这一点让我觉得很神奇。<br/></p>
+<h2>2015做的事情</h2>
+<ol>
+<li>
+<p><a href="https://github.com/progit/progit2-zh">《progit2中文版》</a>: 参与progit2中文版翻译, 现在中文版已经可以在<a href="https://git-scm.com/book/zh/v2">git官网</a>上获取啦~</p>
+</li>
+<li>
+<p><a href="https://github.com/Muxi-Studio/muxi_site">木犀官网</a>: 虽然没有做完(还有一些小地方)，里面有 图书,博客,分享子站~</p>
+</li>
+<li><a href="https://github.com/neo1218/mana">mana</a>: 自己造的小轮子, 😄  获得华科大神的认可很激动,最近重构后现在可以兼容windows系统(mac 大法好)啦</li>
+<li><a href="https://github.com/neo1218/MuxiVim">MuxiVim</a>: 我现在就在用 MuxiVim 写博客😄 , vim 大法好!! 木犀的小伙伴们基本上都装了muxivim <br/>
+<img alt="muxivim" src="http://7xj431.com1.z0.glb.clouddn.com/muxivim2" /> <br/></li>
+<li><a href="https://github.com/neo1218/DouBe">DouBe</a>: 其实做的不咋地, 但是是hackday做的, 那次hackday真的是太美的回忆!!!!
+<img alt="hackday" src="http://7xj431.com1.z0.glb.clouddn.com/83" /> <br/></li>
+<li><a href="https://github.com/Muxi-Studio/xueer_be">xueer</a>: 下半年的重头戏!!! 移动版已完成✌️ <br/>
+<img alt="xueer1" src="http://7xj431.com1.z0.glb.clouddn.com/1451566588972.png" />
+<img alt="xueer2" src="http://7xj431.com1.z0.glb.clouddn.com/1451566550392.png" /></li>
+</ol>
+<h2>还有木犀</h2>
+<p>2015离不开的一个词就是[木犀],
+几乎我的生活、学习一半的时间都在木犀(还有一半在睡觉)。希望我可以为后面的小伙伴争取一个好的环境!!!目前看还可以, 至少我们团队在朝正确的方向发展!!!!</p>
+<h2>展望2016</h2>
+<p>2016会很悲催, 因为2015。。。过一天是一天, 但是还是要把木犀这边搞好!!!</p>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        <div class="col-lg-6">
+            <h4>引用和指针的实验</h4>
+            <p>
+            <!-- Button trigger modal -->
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#1">
+                Read Post
+            </button>
+            </p>
+            <!-- Modal -->
+            <div class="modal fade bs-example-modal-lg" id="1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                <div class="modal-dialog modal-lg" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
                             <h4 class="modal-title" id="myModalLabel">引用和指针的实验</h4>
                         </div>
                         <div class="modal-body">
                             <h2>程序1 point.cpp</h2>
-<pre><code># include &lt;iostream&gt;
-using namespace std;
+<div class="codehilite"><pre><span class="cp"># include &lt;iostream&gt;</span>
+<span class="k">using</span> <span class="k">namespace</span> <span class="n">std</span><span class="p">;</span>
 
-int main()
-{
-    int var = 42;
-    int* p = &amp;var;
-    return 0;
-}
-</code></pre>
+<span class="kt">int</span> <span class="nf">main</span><span class="p">()</span>
+<span class="p">{</span>
+    <span class="kt">int</span> <span class="n">var</span> <span class="o">=</span> <span class="mi">42</span><span class="p">;</span>
+    <span class="kt">int</span><span class="o">*</span> <span class="n">p</span> <span class="o">=</span> <span class="o">&amp;</span><span class="n">var</span><span class="p">;</span>
+    <span class="k">return</span> <span class="mi">0</span><span class="p">;</span>
+<span class="p">}</span>
+</pre></div>
+
+
 <h2>程序2 refer.cpp</h2>
-<pre><code># include &lt;iostream&gt;
-using namespace std;
+<div class="codehilite"><pre><span class="cp"># include &lt;iostream&gt;</span>
+<span class="k">using</span> <span class="k">namespace</span> <span class="n">std</span><span class="p">;</span>
 
-int main()
-{
-    int var = 42;
-    int&amp; p = var;
-    return 0;
-}
-</code></pre>
+<span class="kt">int</span> <span class="nf">main</span><span class="p">()</span>
+<span class="p">{</span>
+    <span class="kt">int</span> <span class="n">var</span> <span class="o">=</span> <span class="mi">42</span><span class="p">;</span>
+    <span class="kt">int</span><span class="o">&amp;</span> <span class="n">p</span> <span class="o">=</span> <span class="n">var</span><span class="p">;</span>
+    <span class="k">return</span> <span class="mi">0</span><span class="p">;</span>
+<span class="p">}</span>
+</pre></div>
+
+
 <h2>编译</h2>
-<pre><code>g++ point.cpp -o point
+<div class="codehilite"><pre>g++ point.cpp -o point
 g++ refer.cpp -o refer
-</code></pre>
+</pre></div>
+
+
 <h2>反编译</h2>
-<pre><code>gobjdump -S point &gt; test1
+<div class="codehilite"><pre>gobjdump -S point &gt; test1
 gobjdump -S refer &gt; test2
-</code></pre>
+</pre></div>
+
+
 <h2>比较</h2>
-<pre><code>vimdiff test1 test2
-</code></pre>
+<div class="codehilite"><pre>vimdiff test1 test2
+</pre></div>
+
+
 <h2>结果</h2>
 <p><img alt="result" src="http://7xj431.com1.z0.glb.clouddn.com/prpng" /></p>
 <h2>结论</h2>
@@ -197,52 +267,7 @@ gobjdump -S refer &gt; test2
         </div>
     
         <div class="col-lg-6">
-            <h4>指针和引用</h4>
-            <p>
-            <!-- Button trigger modal -->
-            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#1">
-                Read Post
-            </button>
-            </p>
-            <!-- Modal -->
-            <div class="modal fade bs-example-modal-lg" id="1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-                <div class="modal-dialog modal-lg" role="document">
-                    <div class="modal-content">
-                        <div class="modal-header">
-                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                            <h4 class="modal-title" id="myModalLabel">指针和引用</h4>
-                        </div>
-                        <div class="modal-body">
-                            <h2>指针是什么</h2>
-<p>指针是一个变量,占用内存,指针的值就是其指向的地址。</p>
-<h2>引用是什么</h2>
-<p>引用就是一个对象的别名。其实这个解释只是语言在应用层面的给使用语言的人的解释,引用实际上就是一个常量指针。具体可以参考<a href="http://www.cnblogs.com/ronny/p/3662556.html">这篇文章</a>,
-以及我做的这个<a href="">小实验</a>。</p>
-<h2>举个例子🌰</h2>
-<p>有如下代码</p>
-<pre><code>int main()
-{
-    int i = 2;
-    int *p = &amp;i;
-    int &amp;r = i;
-    return 0;
-}
-</code></pre>
-<p>3个变量的关系如图: <br/>
-<img alt="例子" src="http://7xj431.com1.z0.glb.clouddn.com/blog_pr" /> <br/></p>
-<h2>使用指针还是引用</h2>
-<h2>参考</h2>
-                        </div>
-                        <div class="modal-footer">
-                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    
-        <div class="col-lg-6">
-            <h4>调度场算法(编写中)</h4>
+            <h4>记爬取CET4报名网站的那一夜</h4>
             <p>
             <!-- Button trigger modal -->
             <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#2">
@@ -255,169 +280,106 @@ gobjdump -S refer &gt; test2
                     <div class="modal-content">
                         <div class="modal-header">
                             <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                            <h4 class="modal-title" id="myModalLabel">调度场算法(编写中)</h4>
-                        </div>
-                        <div class="modal-body">
-                            <h2>调度场算法</h2>
-<h3>调度场</h3>
-<pre><code>形象化的表示用于暂时存储数据,进行数据调度的容器,在调度场算法中指[符号栈]
-</code></pre>
-<h3>前缀,中缀,后缀表达式</h3>
-<pre><code>表达式有这三种表现形式, 我们人类一般使用的是中缀表达式,比如: 1+2, 这样与我们的思维"一加二"相符.
-前缀和后缀表达式则是相应的符号位发生变化,前缀:+12, 后缀:12+。
-
-虽然中缀表达式与我们的思维相符而且似乎让我们觉得更自然，但是我们使用中缀表达式时不得不考虑括号和计算优先级的
-问题，或许你会觉得这很简单，但是这是因为你的经验，计算机当下还毫无经验可谈。所以相比于中缀表达式，计算机更喜欢
-自左向右，按序计算的后缀表达式，这更加符合计算机的内存模型。
-</code></pre>
-<h3>调度场算法</h3>
-<pre><code>调度场算法则是解决了中缀表达式与后缀表达式的转化
-
-比如现在有一个中缀表达式   1+2-(3+4)/7*8, 那么如何利用调度场算法将其转换为后缀式呢?
-
-首先我们需要定义一个[数字栈]和一个[符号栈], 数字栈用于自左向右扫描中缀式的时候暂存数字, 符号栈则实现计算和符号的调度
-
-                  1+2-(3+4)/7*8
-                ==================&gt;
-num  [数字栈]                       [符号栈]              后缀式
- 1      [1]                             [+]
-
- 2      [2]                             [-]
-        [1]                             [+]
-
- 3      [2]                             [(] &lt;- top
-        [1]                             [-]
-                                        [+]
-
- 4      [3]                             [+]
-        [2]                             [(]
-        [1]                             [-]
-                                        [+]
-
- 5      [4]                             )   &lt;---
-        [3]                             [+] ()匹配,弹出+,删除弹出后的栈顶(
-        [2]                             [(] &lt;---
-        [1]                             [-]
-                                        [+]
-
- 6      [2]                             [-]                 34+
-        [1]                             [+]
-
- 7      [7]                             [/]
-        [2]                             [-]                 34+
-        [1]                             [+]
-
- 8      [8]                             [*]                 34+7/
-        [2]                             [-]
-        [1]                             [+]
-
-                   34+7/8*21-+
-</code></pre>
-<h3>C++ 代码实现</h3>
-<h2>调度场算法用于AST</h2>
-<h3>A(bstract)S(tructure)T(ree)</h3>
-<h2>调度场算法用于计算器</h2>
-                        </div>
-                        <div class="modal-footer">
-                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    
-        <div class="col-lg-6">
-            <h4>记爬取CET4报名网站的那一夜</h4>
-            <p>
-            <!-- Button trigger modal -->
-            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#3">
-                Read Post
-            </button>
-            </p>
-            <!-- Modal -->
-            <div class="modal fade bs-example-modal-lg" id="3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-                <div class="modal-dialog modal-lg" role="document">
-                    <div class="modal-content">
-                        <div class="modal-header">
-                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
                             <h4 class="modal-title" id="myModalLabel">记爬取CET4报名网站的那一夜</h4>
                         </div>
                         <div class="modal-body">
                             <h2>首先:</h2>
-<pre><code>中秋节快乐
-</code></pre>
+<div class="codehilite"><pre>中秋节快乐
+</pre></div>
+
+
 <h2>然后:</h2>
-<pre><code>没有了...
-</code></pre>
+<div class="codehilite"><pre>没有了...
+</pre></div>
+
+
 <h2>回寝室之前在304的晚上</h2>
 <p>转眼间就大二了，于是就要考四级，考四级就要报名，于是去了报名网站http://cet.tinyin.net/accuse.asp, 上传了照片，报了名,理论上就结束了。但是，中秋要来了，我要做点什么。<br/>
 四级报名网站为了公平公正，将每个报名学生的基本信息(姓名、学号、大头照、报考等级)放在了网上，这样同学院、同年级的同学就可以进行监督。不得不说，证件照是很吸引人的部分，于是我审查了页面元素，希望可以发现更多a。</p>
-<pre><code>&lt;img width="120" border="0" height="160" src="photos/2014210761.jpg"&gt;&lt;/img&gt;
-</code></pre>
+<div class="codehilite"><pre><span class="nt">&lt;img</span> <span class="na">width=</span><span class="s">&quot;120&quot;</span> <span class="na">border=</span><span class="s">&quot;0&quot;</span> <span class="na">height=</span><span class="s">&quot;160&quot;</span> <span class="na">src=</span><span class="s">&quot;photos/2014210761.jpg&quot;</span><span class="nt">&gt;&lt;/img&gt;</span>
+</pre></div>
+
+
 <p><code>photos/2014210761.jpg</code>，有意思，看上去似乎是某个子目录，于是我尝试加上了主机名</p>
-<pre><code>http://cet.tinyin.net/photos/2014210761.jpg
-</code></pre>
+<div class="codehilite"><pre>http://cet.tinyin.net/photos/2014210761.jpg
+</pre></div>
+
+
 <p>于是我可爱的证件照出现了。。。而且，等我登录过期后，我依然可以访问这个url看到图片(现在就可以试试)！！这意味着我可以通过改变学号看到同学的大头照!😄</p>
 <h2>然而我并不知道学号</h2>
 <p>是的，我知道我的同学的名字，但是记不住学号。但是CET4报名网站已经将姓名学号一并奉上了，我要做的就是抓取姓名和学号信息，并将这些信息写入文件，建立关系，就像这样:</p>
-<pre><code>学生学号：2014210761 学生姓名：朱承浩
+<div class="codehilite"><pre>学生学号：2014210761 学生姓名：朱承浩
 学生学号：2014210781 学生姓名：我室友
 ......  ......  ....... .....  ......
-</code></pre>
+</pre></div>
+
+
 <h2>买了两瓶啤酒🍺 ，开爬! 当然还有 httpfox</h2>
 <h3>模拟登录</h3>
 <p>首先就是要登录进报名网站，才可以访问信息页的url。打开 httpfox，监听登录过程
 <img alt="监听过程" src="http://7xj431.com1.z0.glb.clouddn.com/屏幕快照%202015-09-27%20上午4.31.54.png" /> <br/>
 <img alt="相关信息" src="http://7xj431.com1.z0.glb.clouddn.com/屏幕快照%202015-09-27%20上午4.34.51.png" /> <br/>
 CET4网站为了防我这种好奇心很强的人还是做了一些处理，登录url<code>/login.asp</code>实际上是一个refer，真正的登录url是<code>http://cet.tinyin.net/reginfo.asp</code>，我要做的，就是利用我的用户名和密码登入网站，获取cookie，然后利用cookie进行后续登录。当然，首先需要把我自己变成浏览器啦</p>
-<pre><code>def __init__(self):
-    self.user_agent = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.10; rv:42.0) Gecko/20100101 Firefox/42.0"
+<div class="codehilite"><pre>def __init__(self):
+    self.user_agent = &quot;Mozilla/5.0 (Macintosh; Intel Mac OS X 10.10; rv:42.0) Gecko/20100101 Firefox/42.0&quot;
     self.headers = {
-            'User-Agent':self.user_agent,
-            'Referer':'http://cet.tinyin.net/login.asp',
-            'Accept-encoding':'gzip'
+            &#39;User-Agent&#39;:self.user_agent,
+            &#39;Referer&#39;:&#39;http://cet.tinyin.net/login.asp&#39;,
+            &#39;Accept-encoding&#39;:&#39;gzip&#39;
     }
     self.postdata = urllib.urlencode({
-            'stype':'#',
-            'stuno':'2014214761',
-            'stupwd':'密码就不说了'
+            &#39;stype&#39;:&#39;#&#39;,
+            &#39;stuno&#39;:&#39;2014214761&#39;,
+            &#39;stupwd&#39;:&#39;密码就不说了&#39;
     })
-</code></pre>
+</pre></div>
+
+
 <p>然后就是登录获取cookie</p>
-<pre><code>def analog_login(self):
-    """
+<div class="codehilite"><pre>def analog_login(self):
+    &quot;&quot;&quot;
     登录cet4网站，获取cookie，并将
     cookie保存至文件
-    """
-    filename = 'cet4_cookie.txt'
+    &quot;&quot;&quot;
+    filename = &#39;cet4_cookie.txt&#39;
     cookie = cookielib.MozillaCookieJar(filename)
     opener = urllib2.build_opener(urllib2.HTTPCookieProcessor(cookie))
 
-    login_url = 'http://cet.tinyin.net/reginfo.asp'
+    login_url = &#39;http://cet.tinyin.net/reginfo.asp&#39;
     request = urllib2.Request(login_url, self.postdata, self.headers)
     opener.open(request)
     cookie.save(ignore_discard=True, ignore_expires=True)
-</code></pre>
+</pre></div>
+
+
 <p>cookie get!!!</p>
-<pre><code># Netscape HTTP Cookie File
+<div class="codehilite"><pre># Netscape HTTP Cookie File
 # http://www.netscape.com/newsref/std/cookie_spec.html
 # This is a generated file!  Do not edit.
 
 cet.tinyin.net  FALSE   /   FALSE       ASPSESSlllllDAQBASRAC   LKNFEMDCDOLABMFPLLLLL
-</code></pre>
+</pre></div>
+
+
 <h3>该正则表达式上场了!</h3>
 <p>首先实验一下，cookie能否正常使用, 尝试访问 http://cet.tinyin.net/accuse.asp 页面, cookie是没问题，但是html却是中文乱码，没关系，改成utf-8，就行</p>
-<pre><code>html = response.read().decode('gbk').encode('utf-8’)
-</code></pre>
+<div class="codehilite"><pre>html = response.read().decode(&#39;gbk&#39;).encode(&#39;utf-8’)
+</pre></div>
+
+
 <p><img alt="html" src="http://7xj431.com1.z0.glb.clouddn.com/屏幕快照%202015-09-25%20下午11.48.57.png" /> <br/>
 现在，一切都豁然开朗了，我只需要爬取<td>标签，将获取的学号和姓名写入文件就行了。</p>
-<pre><code>正则表达式 parttern = re.compile('&lt;td width=25% &gt;(.*?)&lt;br&gt;&lt;br&gt;(.*?)&lt;br&gt;&lt;br&gt;', re.S)
-</code></pre>
+<div class="codehilite"><pre>正则表达式 parttern = re.compile(&#39;&lt;td width=25% &gt;(.*?)&lt;br&gt;&lt;br&gt;(.*?)&lt;br&gt;&lt;br&gt;&#39;, re.S)
+</pre></div>
+
+
 <p><a href="https://github.com/neo1218/CET4-photo/blob/master/stuinfo.txt">爬取的信息文件</a> <br/></p>
 <h3>flask 靠你了</h3>
 <p>接下来就是用flask搭一个搜索引擎了。在文字编码这一块用了很长时间，因为表单的输入数据编码和文件的编码是不匹配的，经过几次实验，我发现需要将表单输入数据decode为汉字编码</p>
-<pre><code>name = form.name.data.decode('utf-8')
-</code></pre>
+<div class="codehilite"><pre>name = form.name.data.decode(&#39;utf-8&#39;)
+</pre></div>
+
+
 <p>编码真头痛！！看一下这篇吧http://dengshuan.me/misc/xi-shuo-bian-ma-yu-luan-ma.html <br/></p>
 <h3>ok了</h3>
 <p><img alt="有图为证" src="http://7xj431.com1.z0.glb.clouddn.com/屏幕快照%202015-09-27%20上午5.22.50.png" /> <br/></p>
@@ -439,12 +401,12 @@ cet.tinyin.net  FALSE   /   FALSE       ASPSESSlllllDAQBASRAC   LKNFEMDCDOLABMFP
             <h4>Difference between ++*p,*p++,*++p</h4>
             <p>
             <!-- Button trigger modal -->
-            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#4">
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#3">
                 Read Post
             </button>
             </p>
             <!-- Modal -->
-            <div class="modal fade bs-example-modal-lg" id="4" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+            <div class="modal fade bs-example-modal-lg" id="3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
                 <div class="modal-dialog modal-lg" role="document">
                     <div class="modal-content">
                         <div class="modal-header">
@@ -454,91 +416,80 @@ cet.tinyin.net  FALSE   /   FALSE       ASPSESSlllllDAQBASRAC   LKNFEMDCDOLABMFP
                         <div class="modal-body">
                             <h2>猜猜这些代码的输出结果吧!</h2>
 <p>program1</p>
-<pre><code># include &lt;iostream&gt;
-using namespace std;
+<div class="codehilite"><pre><span class="cp"># include &lt;iostream&gt;</span>
+<span class="k">using</span> <span class="k">namespace</span> <span class="n">std</span><span class="p">;</span>
 
-int main(void)
-{
-    int arr[] = {10, 20};  // 定义并初始化了一个数组
-    int *p = arr;  // 定义一个指针指向这个数组
-    ++*p;
-    cout &lt;&lt; "arr[0]=" &lt;&lt; arr[0] &lt;&lt; " arr[1]=" &lt;&lt; arr[1] &lt;&lt; " *p=" &lt;&lt; *p &lt;&lt; endl;
-    return 0;
-}
-</code></pre>
+<span class="kt">int</span> <span class="nf">main</span><span class="p">(</span><span class="kt">void</span><span class="p">)</span>
+<span class="p">{</span>
+    <span class="kt">int</span> <span class="n">arr</span><span class="p">[]</span> <span class="o">=</span> <span class="p">{</span><span class="mi">10</span><span class="p">,</span> <span class="mi">20</span><span class="p">};</span>  <span class="c1">// 定义并初始化了一个数组</span>
+    <span class="kt">int</span> <span class="o">*</span><span class="n">p</span> <span class="o">=</span> <span class="n">arr</span><span class="p">;</span>  <span class="c1">// 定义一个指针指向这个数组</span>
+    <span class="o">++*</span><span class="n">p</span><span class="p">;</span>
+    <span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="s">&quot;arr[0]=&quot;</span> <span class="o">&lt;&lt;</span> <span class="n">arr</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="o">&lt;&lt;</span> <span class="s">&quot; arr[1]=&quot;</span> <span class="o">&lt;&lt;</span> <span class="n">arr</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span> <span class="o">&lt;&lt;</span> <span class="s">&quot; *p=&quot;</span> <span class="o">&lt;&lt;</span> <span class="o">*</span><span class="n">p</span> <span class="o">&lt;&lt;</span> <span class="n">endl</span><span class="p">;</span>
+    <span class="k">return</span> <span class="mi">0</span><span class="p">;</span>
+<span class="p">}</span>
+</pre></div>
+
+
 <p>program2</p>
-<pre><code># include &lt;iostream&gt;
-using namespace std;
+<div class="codehilite"><pre><span class="cp"># include &lt;iostream&gt;</span>
+<span class="k">using</span> <span class="k">namespace</span> <span class="n">std</span><span class="p">;</span>
 
-int main(void)
-{
-    int arr[] = {10, 20};  // 定义并初始化了一个数组
-    int *p = arr;  // 定义一个指针指向这个数组
-    *p++;
-    cout &lt;&lt; "arr[0]=" &lt;&lt; arr[0] &lt;&lt; " arr[1]=" &lt;&lt; arr[1] &lt;&lt; " *p=" &lt;&lt; *p &lt;&lt; endl;
-    return 0;
-}
-</code></pre>
+<span class="kt">int</span> <span class="nf">main</span><span class="p">(</span><span class="kt">void</span><span class="p">)</span>
+<span class="p">{</span>
+    <span class="kt">int</span> <span class="n">arr</span><span class="p">[]</span> <span class="o">=</span> <span class="p">{</span><span class="mi">10</span><span class="p">,</span> <span class="mi">20</span><span class="p">};</span>  <span class="c1">// 定义并初始化了一个数组</span>
+    <span class="kt">int</span> <span class="o">*</span><span class="n">p</span> <span class="o">=</span> <span class="n">arr</span><span class="p">;</span>  <span class="c1">// 定义一个指针指向这个数组</span>
+    <span class="o">*</span><span class="n">p</span><span class="o">++</span><span class="p">;</span>
+    <span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="s">&quot;arr[0]=&quot;</span> <span class="o">&lt;&lt;</span> <span class="n">arr</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="o">&lt;&lt;</span> <span class="s">&quot; arr[1]=&quot;</span> <span class="o">&lt;&lt;</span> <span class="n">arr</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span> <span class="o">&lt;&lt;</span> <span class="s">&quot; *p=&quot;</span> <span class="o">&lt;&lt;</span> <span class="o">*</span><span class="n">p</span> <span class="o">&lt;&lt;</span> <span class="n">endl</span><span class="p">;</span>
+    <span class="k">return</span> <span class="mi">0</span><span class="p">;</span>
+<span class="p">}</span>
+</pre></div>
+
+
 <p>program3</p>
-<pre><code># include &lt;iostream&gt;
-using namespace std;
+<div class="codehilite"><pre><span class="cp"># include &lt;iostream&gt;</span>
+<span class="k">using</span> <span class="k">namespace</span> <span class="n">std</span><span class="p">;</span>
 
-int main(void)
-{
-    int arr[] = {10, 20};  // 定义并初始化了一个数组
-    int *p = arr;  // 定义一个指针指向这个数组
-    *++p;
-    cout &lt;&lt; "arr[0]=" &lt;&lt; arr[0] &lt;&lt; " arr[1]=" &lt;&lt; arr[1] &lt;&lt; " *p=" &lt;&lt; *p &lt;&lt; endl;
-    return 0;
-}
-</code></pre>
+<span class="kt">int</span> <span class="nf">main</span><span class="p">(</span><span class="kt">void</span><span class="p">)</span>
+<span class="p">{</span>
+    <span class="kt">int</span> <span class="n">arr</span><span class="p">[]</span> <span class="o">=</span> <span class="p">{</span><span class="mi">10</span><span class="p">,</span> <span class="mi">20</span><span class="p">};</span>  <span class="c1">// 定义并初始化了一个数组</span>
+    <span class="kt">int</span> <span class="o">*</span><span class="n">p</span> <span class="o">=</span> <span class="n">arr</span><span class="p">;</span>  <span class="c1">// 定义一个指针指向这个数组</span>
+    <span class="o">*++</span><span class="n">p</span><span class="p">;</span>
+    <span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="s">&quot;arr[0]=&quot;</span> <span class="o">&lt;&lt;</span> <span class="n">arr</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="o">&lt;&lt;</span> <span class="s">&quot; arr[1]=&quot;</span> <span class="o">&lt;&lt;</span> <span class="n">arr</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span> <span class="o">&lt;&lt;</span> <span class="s">&quot; *p=&quot;</span> <span class="o">&lt;&lt;</span> <span class="o">*</span><span class="n">p</span> <span class="o">&lt;&lt;</span> <span class="n">endl</span><span class="p">;</span>
+    <span class="k">return</span> <span class="mi">0</span><span class="p">;</span>
+<span class="p">}</span>
+</pre></div>
+
+
 <h2>如何计算？</h2>
 <p>只要遵循下面这两个原则，判断就很简单了</p>
-<pre><code>1. ++p 的优先级和 *p 是一样的, 都具有右结合性
+<div class="codehilite"><pre>1. ++p 的优先级和 *p 是一样的, 都具有右结合性
 2. p++ 的优先级高于 ++p 和 *p, 具有左结合性
-</code></pre>
+</pre></div>
+
+
 <h2>猜对了吗?</h2>
 <p>program1输出:</p>
-<pre><code>arr[0]=10 arr[1]=20 *p=11
-</code></pre>
+<div class="codehilite"><pre>arr[0]=10 arr[1]=20 *p=11
+</pre></div>
+
+
 <p>program2输出:</p>
-<pre><code>arr[0]=10 arr[1]=20 *p=20
-</code></pre>
+<div class="codehilite"><pre>arr[0]=10 arr[1]=20 *p=20
+</pre></div>
+
+
 <p>program3输出:</p>
-<pre><code>arr[0]=10 arr[1]=20 *p=20
-</code></pre>
+<div class="codehilite"><pre>arr[0]=10 arr[1]=20 *p=20
+</pre></div>
+
+
 <h2>总结</h2>
-<pre><code>虽然这篇博客很短，但是很好的总结了自增自减运算符和*运算符的优先级关系
-</code></pre>
+<div class="codehilite"><pre>虽然这篇博客很短，但是很好的总结了自增自减运算符和*运算符的优先级关系
+</pre></div>
+
+
 <h2>参考</h2>
 <p><a href="www.geeksforgeeks.org/difference-between-p-p-and-p/">原文(英文)</a> <br/></p>
-                        </div>
-                        <div class="modal-footer">
-                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    
-        <div class="col-lg-6">
-            <h4>how to write a restful API with flask</h4>
-            <p>
-            <!-- Button trigger modal -->
-            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#5">
-                Read Post
-            </button>
-            </p>
-            <!-- Modal -->
-            <div class="modal fade bs-example-modal-lg" id="5" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-                <div class="modal-dialog modal-lg" role="document">
-                    <div class="modal-content">
-                        <div class="modal-header">
-                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                            <h4 class="modal-title" id="myModalLabel">how to write a restful API with flask</h4>
-                        </div>
-                        <div class="modal-body">
-                            <p>请见github repo: </p>
                         </div>
                         <div class="modal-footer">
                             <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -552,12 +503,12 @@ int main(void)
             <h4>数据结构之 线性表</h4>
             <p>
             <!-- Button trigger modal -->
-            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#6">
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#4">
                 Read Post
             </button>
             </p>
             <!-- Modal -->
-            <div class="modal fade bs-example-modal-lg" id="6" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+            <div class="modal fade bs-example-modal-lg" id="4" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
                 <div class="modal-dialog modal-lg" role="document">
                     <div class="modal-content">
                         <div class="modal-header">
@@ -566,22 +517,28 @@ int main(void)
                         </div>
                         <div class="modal-body">
                             <h2>线性表的定义</h2>
-<pre><code>线性表是由n个数据元素a0, a1...ai...an-1组成的有限序列
+<div class="codehilite"><pre>线性表是由n个数据元素a0, a1...ai...an-1组成的有限序列
 
         组成          关系
 数据项 ----&gt; 数据元素 ----&gt; 数据结构
-</code></pre>
+</pre></div>
+
+
 <h3>线性表的抽象数据类型</h3>
-<pre><code>线性表的抽象数据类型是指一个逻辑概念上的类型和这个类型的操作集合
+<div class="codehilite"><pre>线性表的抽象数据类型是指一个逻辑概念上的类型和这个类型的操作集合
 类型：数据集合、该数据集合上的操作集合
 类型是类
-</code></pre>
+</pre></div>
+
+
 <h3>抽象符号表示</h3>
-<pre><code>线性表的数据集合可以表示为: a0,a1,a2...an-1
+<div class="codehilite"><pre>线性表的数据集合可以表示为: a0,a1,a2...an-1
 这些数据集合的数据结构都是抽象数据类型: DataType
-</code></pre>
+</pre></div>
+
+
 <h2>线性表操作集合</h2>
-<pre><code>(1) ListInitiate(L): 初始化线性表
+<div class="codehilite"><pre>(1) ListInitiate(L): 初始化线性表
 (2) ListLength(L): 求线性表的长度
 (3) ListDelete(L, i, x):
     删除线性表L的第i个元素, 所删除的数据元素由输出参数x带回, 删除成功返回1、删除失败返回0,
@@ -590,14 +547,18 @@ int main(void)
     在线性表L的第i个元素前插入一个元素x,插入成功返回1，插入失败返回0,
     插入成功的条件是: 0=&lt;i&lt;=ListLength(L)
 (5) ListGet(L, i, x): 索引数据元素
-</code></pre>
+</pre></div>
+
+
 <h2>线性表的存储结构</h2>
 <h3>1. 顺序存储结构</h3>
 <h4>1.1. 定义</h4>
-<pre><code>将有限数据元素在内存中顺序存储: 物理和逻辑上的顺序
-</code></pre>
+<div class="codehilite"><pre>将有限数据元素在内存中顺序存储: 物理和逻辑上的顺序
+</pre></div>
+
+
 <h4>1.2 顺序存储结构的实现</h4>
-<pre><code>顺序存储结构的具体实现就是数组: 即逻辑上相邻的数据元素在物理上也相邻
+<div class="codehilite"><pre>顺序存储结构的具体实现就是数组: 即逻辑上相邻的数据元素在物理上也相邻
 
      ----------------------------------------
 list | a0 | a1 | a2 | ...| ai-1 | ... |     |
@@ -615,65 +576,73 @@ list就是一个顺序表(线性表的顺序存储结构的简称)
         int size;
 
     } SeqList;
-</code></pre>
+</pre></div>
+
+
 <h4>1.3 顺序表操作的实现</h4>
 <p>1.3.1: 初始化顺序表</p>
-<pre><code>int ListInitiate(SeqList *L)  // 利用结构体创建一个顺序表L
+<div class="codehilite"><pre>int ListInitiate(SeqList *L)  // 利用结构体创建一个顺序表L
 {
     L-&gt;size = 0;
     return 0;
 }
-</code></pre>
+</pre></div>
+
+
 <p>1.3.2: 求当前数据元素的个数</p>
-<pre><code>int ListLength(SeqList L)
+<div class="codehilite"><pre>int ListLength(SeqList L)
 {
     return L-&gt;size;
 }
-</code></pre>
+</pre></div>
+
+
 <p>1.3.3: 插入数据元素(前插)</p>
-<pre><code>/*先移动后插入*/
-int ListInsert(SeqList *L, int i, DataType x)
-{
-    /*在顺序表第i个位置前插入数据元素x，插入成功返回1
-      插入失败返回0*/
+<div class="codehilite"><pre><span class="cm">/*先移动后插入*/</span><span class="w"></span>
+int<span class="w"> </span>ListInsert<span class="o">(</span>SeqList<span class="w"> </span><span class="o">*</span>L<span class="o">,</span><span class="w"> </span>int<span class="w"> </span>i<span class="o">,</span><span class="w"> </span>DataType<span class="w"> </span>x<span class="o">)</span><span class="w"></span>
+<span class="err">{</span><span class="w"></span>
+<span class="w">    </span><span class="cm">/*在顺序表第i个位置前插入数据元素x，插入成功返回1</span>
+<span class="cm">      插入失败返回0*/</span><span class="w"></span>
 
-    // 判断线性表是否已满
-    int j;
-    if(L-&gt;size &gt;= MaxSize){
-        printf("线性表已满，不能插入!\n");
-        return 0;
-    }
+<span class="w">    </span><span class="o">//</span><span class="w"> </span><span class="err">判断线性表是否已满</span><span class="w"></span>
+<span class="w">    </span>int<span class="w"> </span>j<span class="err">;</span><span class="w"></span>
+<span class="w">    </span><span class="kr">if</span><span class="o">(</span>L<span class="o">-&gt;</span>size<span class="w"> </span><span class="o">&gt;=</span><span class="w"> </span>MaxSize<span class="o">)</span><span class="err">{</span><span class="w"></span>
+<span class="w">        </span>printf<span class="o">(</span><span class="s">&quot;线性表已满，不能插入!\n&quot;</span><span class="o">)</span><span class="err">;</span><span class="w"></span>
+<span class="w">        </span><span class="kr">return</span><span class="w"> </span><span class="m">0</span><span class="err">;</span><span class="w"></span>
+<span class="w">    </span><span class="err">}</span><span class="w"></span>
 
-    // 判断参数i是否正确
-    else if(i &lt; 0 || i &gt; L-&gt;size){
-        printf("参数i不合法! \n");
-        return 0;
-    }
+<span class="w">    </span><span class="o">//</span><span class="w"> </span><span class="err">判断参数</span>i<span class="err">是否正确</span><span class="w"></span>
+<span class="w">    </span><span class="kr">else</span><span class="w"> </span><span class="kr">if</span><span class="o">(</span>i<span class="w"> </span><span class="o">&lt;</span><span class="w"> </span><span class="m">0</span><span class="w"> </span><span class="o">||</span><span class="w"> </span>i<span class="w"> </span><span class="o">&gt;</span><span class="w"> </span>L<span class="o">-&gt;</span>size<span class="o">)</span><span class="err">{</span><span class="w"></span>
+<span class="w">        </span>printf<span class="o">(</span><span class="s">&quot;参数i不合法! \n&quot;</span><span class="o">)</span><span class="err">;</span><span class="w"></span>
+<span class="w">        </span><span class="kr">return</span><span class="w"> </span><span class="m">0</span><span class="err">;</span><span class="w"></span>
+<span class="w">    </span><span class="err">}</span><span class="w"></span>
 
-    else{
-        // 将插入位置后的数据元素从后到前依次向后移动一位
-        for(j=L-&gt;size; j &gt; i; j--) L-&gt;list[j] = L-&gt;list[j-1];
+<span class="w">    </span><span class="kr">else</span><span class="err">{</span><span class="w"></span>
+<span class="w">        </span><span class="o">//</span><span class="w"> </span><span class="err">将插入位置后的数据元素从后到前依次向后移动一位</span><span class="w"></span>
+<span class="w">        </span><span class="kr">for</span><span class="o">(</span>j<span class="o">=</span>L<span class="o">-&gt;</span>size<span class="err">;</span><span class="w"> </span>j<span class="w"> </span><span class="o">&gt;</span><span class="w"> </span>i<span class="err">;</span><span class="w"> </span>j<span class="o">--)</span><span class="w"> </span>L<span class="o">-&gt;</span>list<span class="err">[</span>j<span class="err">]</span><span class="w"> </span><span class="o">=</span><span class="w"> </span>L<span class="o">-&gt;</span>list<span class="err">[</span>j<span class="o">-</span><span class="m">1</span><span class="err">];</span><span class="w"></span>
 
-        L-&gt;list[i] = x;  // 第i个位置空出
-        L-&gt;size++;
-        return 1;
-    }
-}
-</code></pre>
+<span class="w">        </span>L<span class="o">-&gt;</span>list<span class="err">[</span>i<span class="err">]</span><span class="w"> </span><span class="o">=</span><span class="w"> </span>x<span class="err">;</span><span class="w">  </span><span class="o">//</span><span class="w"> </span><span class="err">第</span>i<span class="err">个位置空出</span><span class="w"></span>
+<span class="w">        </span>L<span class="o">-&gt;</span>size<span class="o">++</span><span class="err">;</span><span class="w"></span>
+<span class="w">        </span><span class="kr">return</span><span class="w"> </span><span class="m">1</span><span class="err">;</span><span class="w"></span>
+<span class="w">    </span><span class="err">}</span><span class="w"></span>
+<span class="err">}</span><span class="w"></span>
+</pre></div>
+
+
 <p>1.3.4: 删除数据元素</p>
-<pre><code>int ListDelete(SeqList *L, int i, DataType *x)
+<div class="codehilite"><pre>int ListDelete(SeqList *L, int i, DataType *x)
 {
     // 删除顺序表L中第i(0=&lt;i&lt;size)个元素，并将该元素保存到x中(x以指针最为适宜)
 
     // 判断顺序表是否为空
     if(L-&gt;size == 0){
-        printf("顺序表以空,无数据可删\n");
+        printf(&quot;顺序表以空,无数据可删\n&quot;);
         return 0;
     }
 
     // 判断i是否符合条件
     if(i &lt; 0 || i &gt;= size ){
-        printf("参数i不合法\n")
+        printf(&quot;参数i不合法\n&quot;)
         return 0;
     }
 
@@ -688,12 +657,14 @@ int ListInsert(SeqList *L, int i, DataType x)
         return 1;
     }
 }
-</code></pre>
+</pre></div>
+
+
 <p>1.3.5: 取顺序表中的元素</p>
-<pre><code>int ListGet(SeqList L, int i, DataType *x)
+<div class="codehilite"><pre>int ListGet(SeqList L, int i, DataType *x)
 {
     if(i &lt; 0 || i &gt; L-&gt;size){
-        print("i 超出范围\n");
+        print(&quot;i 超出范围\n&quot;);
         return 0;
     }
 
@@ -702,7 +673,9 @@ int ListInsert(SeqList *L, int i, DataType x)
         return 1;
     }
 }
-</code></pre>
+</pre></div>
+
+
 <h4>1.4 顺序表效率分析</h4>
 <ol>
 <li>
@@ -717,15 +690,17 @@ int ListInsert(SeqList *L, int i, DataType x)
 <p>可见，除插入、删除操作的时间复杂度是O(n),其余操作的时间复杂度是O(1)<br/>
 但是需要预先确定存储容量的大小<br/></p>
 <h3>2. 链式存储结构</h3>
-<pre><code>链式存储结构，即采用指针将有限的数据元素相连,指针域和数据元素域构成结点。
+<div class="codehilite"><pre>链式存储结构，即采用指针将有限的数据元素相连,指针域和数据元素域构成结点。
 链式存储结构中，元素在逻辑上是相互连接的，但是在物理内存中不一定相邻(这样更符合实际)。
 线性表的链式存储结构，简称为: 链表。
 链表分为单链表、单循环链表和双循环链表。
 这里以单链表为主进行链表操作介绍。
-</code></pre>
+</pre></div>
+
+
 <h4>2.1. 单链表</h4>
 <h5>2.1.1: 定义</h5>
-<pre><code>构成链表的结点只有一个指向直接后继结点的指针域
+<div class="codehilite"><pre>构成链表的结点只有一个指向直接后继结点的指针域
 
                 ---------------
 单链表的结点结构| data | next |
@@ -744,23 +719,29 @@ typedef struct
                 空链                                            非空链
 
 单链表一般构造为带头结点的链表，这样可以保证头指针的值不会改变
-</code></pre>
+</pre></div>
+
+
 <h5>2.1.2 单链表的操作实现</h5>
 <p>1.单链表需要程序员申请内存用于储存数据元素,申请的内存需要释放</p>
-<pre><code>void * malloc(unsigned size): 用于动态申请size大小的内存，并返回指向所申请内存空间首地址的指针
+<div class="codehilite"><pre>void * malloc(unsigned size): 用于动态申请size大小的内存，并返回指向所申请内存空间首地址的指针
 void free(*p): 以指向申请内存空间首地址的指针为实参，释放该内存空间
-</code></pre>
+</pre></div>
+
+
 <p>2.单链表的结点定义</p>
-<pre><code>typedef struct Node
+<div class="codehilite"><pre>typedef struct Node
 {
     DataType data;
     struct Node *next;
 
 }SLNode
-</code></pre>
+</pre></div>
+
+
 <p>3.操作实现
 3.1 初始化线性表(链表)</p>
-<pre><code>int ListInitiate(SLNode **head)
+<div class="codehilite"><pre>int ListInitiate(SLNode **head)
 {
     *head = (SLNode *)malloc(sizeof(SLNode));  // 创建头结点，由head指向头结点
     (*head-&gt;next) = Null;
@@ -771,9 +752,11 @@ void free(*p): 以指向申请内存空间首地址的指针为实参，释放�
 head ---&gt; [////][ ^ ]
           -----------
             *head
-</code></pre>
+</pre></div>
+
+
 <p>3.2 求当前数据元素的个数</p>
-<pre><code>int ListLength(SLNode *head)
+<div class="codehilite"><pre>int ListLength(SLNode *head)
 {
     SLNode *p = head;
     int size = 0;  // 长度计数器
@@ -789,9 +772,11 @@ head ---&gt; [///][  ] ---&gt; [a0][next] ---&gt; [a2][next] ---&gt; [ai][^]
             /\
             ||
             p
-</code></pre>
+</pre></div>
+
+
 <p>3.3 插入操作</p>
-<pre><code>int ListInsert(SLNode *head, int i, DataType x)
+<div class="codehilite"><pre>int ListInsert(SLNode *head, int i, DataType x)
 {
     // 注意⚠ : 我们可以操纵的指针是指向结点的指针
     SLNode *p, *q;
@@ -805,7 +790,7 @@ head ---&gt; [///][  ] ---&gt; [a0][next] ---&gt; [a2][next] ---&gt; [ai][^]
     }
 
     if(j != i-1){
-        printf("i 有错误哦\n");
+        printf(&quot;i 有错误哦\n&quot;);
         return 0;
     }
 
@@ -817,9 +802,11 @@ head ---&gt; [///][  ] ---&gt; [a0][next] ---&gt; [a2][next] ---&gt; [ai][^]
     p-&gt;next = q;
     return 1;
 }
-</code></pre>
+</pre></div>
+
+
 <p>3.4 删除结点操作(需要动态释放内存)</p>
-<pre><code>--&gt; [ /// ][   ] --&gt; [ a0 ][   ] --&gt; [ a1 ][   ] --&gt; [  ai  ][   ] --&gt; [ ai+1 ][   ]
+<div class="codehilite"><pre>--&gt; [ /// ][   ] --&gt; [ a0 ][   ] --&gt; [ a1 ][   ] --&gt; [  ai  ][   ] --&gt; [ ai+1 ][   ]
 
 int ListDelete(SLNode *head, int i, DataType *x)
 {
@@ -835,7 +822,7 @@ int ListDelete(SLNode *head, int i, DataType *x)
     }
 
     if(j != i - 1){
-        printf("删除位置出错了!\n");
+        printf(&quot;删除位置出错了!\n&quot;);
         return 0;
     }
 
@@ -845,9 +832,11 @@ int ListDelete(SLNode *head, int i, DataType *x)
     free(s);  // 释放内存空间
     return 1;
 }
-</code></pre>
+</pre></div>
+
+
 <p>3.5 获取结点元素的操作</p>
-<pre><code>int ListGet(SLNode *head, int i, DataType *x)
+<div class="codehilite"><pre>int ListGet(SLNode *head, int i, DataType *x)
 {
     SLNode *p;
     int j;
@@ -862,43 +851,55 @@ int ListDelete(SLNode *head, int i, DataType *x)
     // 此时p是在第i个位置上
 
     if(j != i){
-        printf("获取位置i错误\n");
+        printf(&quot;获取位置i错误\n&quot;);
         return 0;
     }
 
     *x = p-&gt;data;
     return 1;
 }
-</code></pre>
+</pre></div>
+
+
 <p>4.单链表效率分析</p>
-<pre><code>单链表插入和删除数据元素时无须移动数据元素，但是需要进行数据元素的比较，算法的时间复杂度时O(n)
+<div class="codehilite"><pre>单链表插入和删除数据元素时无须移动数据元素，但是需要进行数据元素的比较，算法的时间复杂度时O(n)
 而且单链表的每一个结点都有指针域,空间利用效率不高。
 但是单链表更加灵活，可以跟据实际情况申请内存。
-</code></pre>
+</pre></div>
+
+
 <h2>补充: 循环单链表、双向链表、静态链表</h2>
 <h3>1. 循环单链表</h3>
-<pre><code>单链表处理从头到尾的过程很方便，但无法处理从尾到头的过程，
+<div class="codehilite"><pre>单链表处理从头到尾的过程很方便，但无法处理从尾到头的过程，
 于是便有了循环链表，将链表的头尾连接起来
-</code></pre>
+</pre></div>
+
+
 <p>1 循环单链表是空链表:</p>
-<pre><code>head --&gt; [////][    ]    :     *head -&gt; next != NULL = head
+<div class="codehilite"><pre>head --&gt; [////][    ]    :     *head -&gt; next != NULL = head
               |___|
-</code></pre>
+</pre></div>
+
+
 <p>2 一般循环单链表:</p>
-<pre><code>head --&gt; [//][] -&gt; [//][a0] -&gt; [//][a1] -&gt; [][]...-&gt;[//][an]
+<div class="codehilite"><pre>head --&gt; [//][] -&gt; [//][a0] -&gt; [//][a1] -&gt; [][]...-&gt;[//][an]
             |___________________________________________|
 
 这时只需把循环判断条件 p-&gt;next != NULL, p-&gt;next-&gt;next != NULL 中的 NULL 改为 head
-</code></pre>
+</pre></div>
+
+
 <h3>2. 双向链表</h3>
-<pre><code>双向链表的结点中包含前驱指针域
+<div class="codehilite"><pre>双向链表的结点中包含前驱指针域
 
 [ prior ][ data ][ next ]
 -------------------------
     双向循环链表结点
-</code></pre>
+</pre></div>
+
+
 <p>双向循环链表结点结构体的实现</p>
-<pre><code>typedef struct Node
+<div class="codehilite"><pre>typedef struct Node
 {
 
     DataType data;
@@ -906,18 +907,26 @@ int ListDelete(SLNode *head, int i, DataType *x)
     struct Node *prior;
 
 }DLNode;
-</code></pre>
+</pre></div>
+
+
 <p>1 双向循环链表是空链表</p>
-<pre><code>         |--|        |---|
+<div class="codehilite"><pre>         |--|        |---|
 head --&gt; |-[  ][//][  ] -|
-</code></pre>
+</pre></div>
+
+
 <p>2 一般双向链表</p>
-<pre><code>head --&gt; [  ][//][  ] &lt;--&gt; [  ][//][  ] &lt;--&gt; [  ][//][  ]
-</code></pre>
+<div class="codehilite"><pre>head --&gt; [  ][//][  ] &lt;--&gt; [  ][//][  ] &lt;--&gt; [  ][//][  ]
+</pre></div>
+
+
 <p>当查找某一个结点的前驱结点时,使用单链表需要从头开始进行查找，时间效率太低, 而双向链表可以有效的解决前驱结点的查找问题。</p>
 <h3>3. 静态链表</h3>
-<pre><code>静态链表就是由数组构成的链表，通过在数组中构造一个或一个以上的指针域，存储下一个数组元素的索引值，形成链表
-</code></pre>
+<div class="codehilite"><pre>静态链表就是由数组构成的链表，通过在数组中构造一个或一个以上的指针域，存储下一个数组元素的索引值，形成链表
+</pre></div>
+
+
 <h2>参考</h2>
 <p><a href="https://zh.wikipedia.org/wiki/%E7%BA%BF%E6%80%A7%E8%A1%A8">维基百科:线性表</a> <br/>
 <a href="http://3961409.blog.51cto.com/3951409/1045218">线性表顺序存储插入和删除新节点时平均移动次数 </a> <br/></p>
@@ -934,12 +943,12 @@ head --&gt; |-[  ][//][  ] -|
             <h4>python三个内置装饰器用法小结</h4>
             <p>
             <!-- Button trigger modal -->
-            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#7">
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#5">
                 Read Post
             </button>
             </p>
             <!-- Modal -->
-            <div class="modal fade bs-example-modal-lg" id="7" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+            <div class="modal fade bs-example-modal-lg" id="5" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
                 <div class="modal-dialog modal-lg" role="document">
                     <div class="modal-content">
                         <div class="modal-header">
@@ -953,71 +962,85 @@ head --&gt; |-[  ][//][  ] -|
 并将参数传递给被装饰函数。<br/></p>
 <h2>python 内置三大装饰器🆒</h2>
 <p>python 内置了三个重要的装饰器：</p>
-<pre><code>@staticmethod, @classmethod, @property
-</code></pre>
+<div class="codehilite"><pre>@staticmethod, @classmethod, @property
+</pre></div>
+
+
 <p>这三个装饰器应用广泛，在类中发挥着重要的作用。<br/>
 <br/>
 由于个人水平有限，这篇博客主要介绍这三个装饰器怎么用，源码就不涉及了。<br/>
 <br/></p>
 <h2>@staticmethod</h2>
 <p>顾名思义，这个装饰器用于类中，将类方法变成静态方法，即在对象调用的过程中不传入对象或类实例</p>
-<pre><code>class This_is_a_class(object):
+<div class="codehilite"><pre><span class="k">class</span> <span class="n">This_is_a_class</span>(<span class="n">object</span>):
 
     ...
-    @staticmethod
-    def this_is_staticmethod():
-        print "I am a staticmethod!"
+    <span class="nv">@staticmethod</span>
+    <span class="n">def</span> <span class="n">this_is_staticmethod</span>():
+        <span class="nb">print</span> <span class="s">&quot;I am a staticmethod!&quot;</span>
     ...
-</code></pre>
+</pre></div>
+
+
 <p>运行</p>
-<pre><code>&gt;&gt; obj = This_is_a_class()
+<div class="codehilite"><pre>&gt;&gt; obj = This_is_a_class()
 &gt;&gt; obj.this_is_staticmethod()
 I am a staticmethod!
-</code></pre>
+</pre></div>
+
+
 <p>@staticmethod 就相当于把被修饰函数变成一个独立的函数，并且可以把函数的位置约束在类中，这就是所谓的 身在曹营心在汉吧！<br/></p>
 <h2>@classmethod</h2>
 <p>顾名思义，这个装饰器用于类中，可以使类方法接收类作为参数</p>
-<pre><code>class This_is_a_class(object):
+<div class="codehilite"><pre><span class="k">class</span> <span class="n">This_is_a_class</span>(<span class="n">object</span>):
 
     ...
-    @classmethod
-    def this_is_classmethod(cls):
-        print "I am a classmethod!"
+    <span class="nv">@classmethod</span>
+    <span class="n">def</span> <span class="n">this_is_classmethod</span>(<span class="n">cls</span>):
+        <span class="nb">print</span> <span class="s">&quot;I am a classmethod!&quot;</span>
     ...
-</code></pre>
+</pre></div>
+
+
 <p>运行</p>
-<pre><code>&gt;&gt; obj = This_is_a_class()
+<div class="codehilite"><pre>&gt;&gt; obj = This_is_a_class()
 &gt;&gt; obj.this_is_classmethod()
 I am a classmethod!
-</code></pre>
+</pre></div>
+
+
 <p>一般调用类作为参数的函数需要在类外定义，但 @classmethod 使我们可以在类中调用类作为参数，更加方便我们组织代码!<br/></p>
 <h2>@property</h2>
 <p>@property 可以将方法变为属性</p>
-<pre><code>class This_is_a_class(object):
+<div class="codehilite"><pre><span class="k">class</span> <span class="n">This_is_a_class</span>(<span class="n">object</span>):
 
-    def __init__(self):
-        self._property = "I am a property!"
+    <span class="n">def</span> <span class="n">__init__</span>(<span class="k">self</span>):
+        <span class="k">self</span>.<span class="n">_property</span> = <span class="s">&quot;I am a property!&quot;</span>
     ...
-    @property
-    def obj_property(self):
-        print "get property"
-        return slef._property
+    <span class="nv">@property</span>
+    <span class="n">def</span> <span class="n">obj_property</span>(<span class="k">self</span>):
+        <span class="nb">print</span> <span class="s">&quot;get property&quot;</span>
+        <span class="k">return</span> <span class="n">slef</span>.<span class="n">_property</span>
 
-    @obj_property.setter
-    def property(self, value):
-        print "set property"
-        self._property = self.value
+    <span class="nv">@obj_property</span>.<span class="n">setter</span>
+    <span class="n">def</span> <span class="n">property</span>(<span class="k">self</span>, <span class="nb">value</span>):
+        <span class="nb">print</span> <span class="s">&quot;set property&quot;</span>
+        <span class="k">self</span>.<span class="n">_property</span> = <span class="k">self</span>.<span class="nb">value</span>
     ...
-</code></pre>
+</pre></div>
+
+
 <p>运行</p>
-<pre><code>&gt;&gt; obj = This_is_a_class()
+<div class="codehilite"><pre>&gt;&gt; obj = This_is_a_class()
 &gt;&gt; obj.obj_property
 get property
 I am a property!
-&gt;&gt; obj.obj_property("Yes, I am a property!")
+&gt;&gt; obj.obj_property(&quot;Yes, I am a property!&quot;)
 set property
 Yes, I am a property!
-</code></pre>
+</pre></div>
+
+
 <p>可见 @property 装饰器可以将类方法变成对象属性调用，具有属性的 get、set、delete方法<br/></p>
 <h2>更加深入</h2>
 <p>有不少大神写了很多这方面的博客，这里推荐两篇<br/>
@@ -1036,12 +1059,12 @@ Yes, I am a property!
             <h4>why reload?</h4>
             <p>
             <!-- Button trigger modal -->
-            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#8">
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#6">
                 Read Post
             </button>
             </p>
             <!-- Modal -->
-            <div class="modal fade bs-example-modal-lg" id="8" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+            <div class="modal fade bs-example-modal-lg" id="6" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
                 <div class="modal-dialog modal-lg" role="document">
                     <div class="modal-content">
                         <div class="modal-header">
@@ -1051,34 +1074,46 @@ Yes, I am a property!
                         <div class="modal-body">
                             <h2>设定编码的惯例</h2>
 <p>当设定python文件编码时</p>
-<pre><code>import sys
+<div class="codehilite"><pre><span class="kn">import</span> <span class="nn">sys</span>
 
-reload(sys)
-sys.setdefaultencoding('utf-8')
-</code></pre>
+<span class="nb">reload</span><span class="p">(</span><span class="n">sys</span><span class="p">)</span>
+<span class="n">sys</span><span class="o">.</span><span class="n">setdefaultencoding</span><span class="p">(</span><span class="s">&#39;utf-8&#39;</span><span class="p">)</span>
+</pre></div>
+
+
 <p>三行搞定，妈妈再也不用担心汉字乱码了！😄</p>
 <h2>然而：问题来了</h2>
 <p>几个月后的一天，一名女程序员问我：为什么要 reload(sys) ? 😔</p>
 <h2>SO: Why reload(sys)</h2>
 <h3>1. sys</h3>
-<pre><code>sys 是一个python模块，包含系统对应的功能，比如通过argv获取运行时命令行参数
-</code></pre>
+<div class="codehilite"><pre>sys 是一个python模块，包含系统对应的功能，比如通过argv获取运行时命令行参数
+</pre></div>
+
+
 <p>具体见http://www.cnblogs.com/diege/archive/2012/10/03/2710776.html <br/></p>
 <h3>2. setdefaultencoding 函数</h3>
-<pre><code>setdefaultencoding 是sys模块提供的一个函数，用来&lt;strong&gt;修改默认编码&lt;/strong&gt;&lt;br/&gt;
-</code></pre>
+<div class="codehilite"><pre>setdefaultencoding 是sys模块提供的一个函数，用来<span class="nt">&lt;strong&gt;</span>修改默认编码<span class="nt">&lt;/strong&gt;&lt;br/&gt;</span>
+</pre></div>
+
+
 <h3>3. python 加载模块的过程</h3>
-<pre><code>运行解释器 -&gt; 加载库文件(ex: site.py) -&gt; 加载模块(ex: sys)
-</code></pre>
+<div class="codehilite"><pre>运行解释器 -&gt; 加载库文件(ex: site.py) -&gt; 加载模块(ex: sys)
+</pre></div>
+
+
 <h3>4. python reload 函数</h3>
-<pre><code>reload 是python内置函数，用于在当前运行时重新加载模块，不会改变先前文件中的模块状态
-</code></pre>
+<div class="codehilite"><pre>reload 是python内置函数，用于在当前运行时重新加载模块，不会改变先前文件中的模块状态
+</pre></div>
+
+
 <h3>5. reload(sys)</h3>
 <p>如果我们尝试运行</p>
-<pre><code>&gt;&gt; import sys
-&gt;&gt; sys.setdefaultencoding('utf-8')
-AttributeError: 'module' object has no attribute 'setdefaultencoding'
-</code></pre>
+<div class="codehilite"><pre><span class="o">&gt;&gt;</span> <span class="kn">import</span> <span class="nn">sys</span>
+<span class="o">&gt;&gt;</span> <span class="n">sys</span><span class="o">.</span><span class="n">setdefaultencoding</span><span class="p">(</span><span class="s">&#39;utf-8&#39;</span><span class="p">)</span>
+<span class="ne">AttributeError</span><span class="p">:</span> <span class="s">&#39;module&#39;</span> <span class="nb">object</span> <span class="n">has</span> <span class="n">no</span> <span class="n">attribute</span> <span class="s">&#39;setdefaultencoding&#39;</span>
+</pre></div>
+
+
 <p>这又是怎么回事呢？<br/>
 当我们导入加载 sys 模块时首先会加载 site.py(/usr/lib/python2.7), 看一下 site.py 的源码：
 <img alt="源码" src="http://7xj431.com1.z0.glb.clouddn.com/屏幕快照%202015-09-08%20下午11.17.14.png" /><br/></p>
@@ -1097,12 +1132,12 @@ AttributeError: 'module' object has no attribute 'setdefaultencoding'
             <h4>数据结构－抽象：节点与边</h4>
             <p>
             <!-- Button trigger modal -->
-            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#9">
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#7">
                 Read Post
             </button>
             </p>
             <!-- Modal -->
-            <div class="modal fade bs-example-modal-lg" id="9" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+            <div class="modal fade bs-example-modal-lg" id="7" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
                 <div class="modal-dialog modal-lg" role="document">
                     <div class="modal-content">
                         <div class="modal-header">
@@ -1123,7 +1158,7 @@ AttributeError: 'module' object has no attribute 'setdefaultencoding'
 <p>线性表是对数据对象最基础的抽象，即使用表表示数据元素及其关系。使用
 节点与边可以将线性表转化为图。<br/>
 示例: 田径赛赛程分配问题</p>
-<pre><code>学校要举办运动会😄，有5个项目，3个同学报名参加，每个同学最多报3个
+<div class="codehilite"><pre>学校要举办运动会😄，有5个项目，3个同学报名参加，每个同学最多报3个
 项目,报名表如下:
 --------------------------------
 | 姓名   |  项目1 | 项目2 | 项目3  
@@ -1137,7 +1172,9 @@ AttributeError: 'module' object has no attribute 'setdefaultencoding'
 |Armin  | 写文档  |  开源 |
 --------------------------------
 现在如何分配赛程，使得运动会时间最短且赛程不冲突?
-</code></pre>
+</pre></div>
+
+
 <p>解答<br/>
 <img alt="图示" src="http://7xj431.com1.z0.glb.clouddn.com/屏幕快照%202015-09-07%20下午5.28.48.png" /></p>
 <h3>2. 树</h3>
@@ -1158,12 +1195,12 @@ AttributeError: 'module' object has no attribute 'setdefaultencoding'
             <h4>python尾递归优化</h4>
             <p>
             <!-- Button trigger modal -->
-            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#10">
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#8">
                 Read Post
             </button>
             </p>
             <!-- Modal -->
-            <div class="modal fade bs-example-modal-lg" id="10" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+            <div class="modal fade bs-example-modal-lg" id="8" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
                 <div class="modal-dialog modal-lg" role="document">
                     <div class="modal-content">
                         <div class="modal-header">
@@ -1173,128 +1210,205 @@ AttributeError: 'module' object has no attribute 'setdefaultencoding'
                         <div class="modal-body">
                             <h2>一般递归与尾递归</h2>
 <h4>一般递归:</h4>
-<pre><code>def normal_recursion(n):
+<div class="codehilite"><pre>def normal_recursion(n):
     if n == 1:
         return 1
     else:
         return n + normal_recursion(n-1)
-</code></pre>
+</pre></div>
+
+
 <p>执行：</p>
-<pre><code>normal_recursion(5)
+<div class="codehilite"><pre>normal_recursion(5)
 5 + normal_recursion(4)
 5 + 4 + normal_recursion(3)
 5 + 4 + 3 + normal_recursion(2)
 5 + 4 + 3 + 2 + normal_recursion(1)
 5 + 4 + 3 + 2 + 1
 15
-</code></pre>
+</pre></div>
+
+
 <p><strong>一般递归</strong>的效率是比较低的，因为在<code>return n + normal_recursion(n-1)</code>时需要
 调用栈保存中间变量n的值，递归进行的越深入，需要调用的栈就越多，效率也就越低。<br/></p>
 <h4>尾递归</h4>
 <p>如果可以将中间变量作为参数直接传递给递归调用函数，那么可以大大提高递归效率，这就是尾递归
 的实现</p>
-<pre><code>def tail_recursion(n, total=0):
+<div class="codehilite"><pre>def tail_recursion(n, total=0):
     if n == 0:
         return total
     else:
         return tail_recursion(n-1, total+n)
-</code></pre>
+</pre></div>
+
+
 <p>执行：</p>
-<pre><code>tail_recursion(5)
+<div class="codehilite"><pre>tail_recursion(5)
 tail_recursion(4, 5)
 tail_recursion(3, 9)
 tail_recursion(2, 12)
 tail_recursion(1, 14)
 tail_recursion(0, 15)
 15
-</code></pre>
+</pre></div>
+
+
 <h2>存在的问题</h2>
 <p>python 本身对尾递归的支持不太好，当递归深度超过1000时会报错</p>
-<pre><code>RuntimeError: maximum recursion depth exceeded
-</code></pre>
+<div class="codehilite"><pre><span class="n">RuntimeError</span><span class="o">:</span> <span class="n">maximum</span> <span class="n">recursion</span> <span class="n">depth</span> <span class="n">exceeded</span>
+</pre></div>
+
+
 <h2>一个牛人想出的解决办法：</h2>
 <h4>实现一个 tail_call_optimized 装饰器</h4>
-<pre><code>#!/usr/bin/env python2.4
-# This program shows off a python decorator(
-# which implements tail call optimization. It
-# does this by throwing an exception if it is
-# it's own grandparent, and catching such
-# exceptions to recall the stack.
-# 抛出异常，捕获异常，重新调用栈...牛
+<table class="codehilitetable"><tr><td class="linenos"><div class="linenodiv"><pre> 1
+ 2
+ 3
+ 4
+ 5
+ 6
+ 7
+ 8
+ 9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56
+57
+58
+59
+60
+61
+62
+63
+64</pre></div></td><td class="code"><div class="codehilite"><pre><span class="c">#!/usr/bin/env python2.4</span>
+<span class="c"># This program shows off a python decorator(</span>
+<span class="c"># which implements tail call optimization. It</span>
+<span class="c"># does this by throwing an exception if it is</span>
+<span class="c"># it&#39;s own grandparent, and catching such</span>
+<span class="c"># exceptions to recall the stack.</span>
+<span class="c"># 抛出异常，捕获异常，重新调用栈...牛</span>
 
-import sys
+<span class="kn">import</span> <span class="nn">sys</span>
 
-class TailRecurseException:
-    """尾递归异常类"""
-    def __init__(self, args, kwargs):
-        self.args = args
-        self.kwargs = kwargs
+<span class="k">class</span> <span class="nc">TailRecurseException</span><span class="p">:</span>
+    <span class="sd">&quot;&quot;&quot;尾递归异常类&quot;&quot;&quot;</span>
+    <span class="k">def</span> <span class="nf">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">args</span><span class="p">,</span> <span class="n">kwargs</span><span class="p">):</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">args</span> <span class="o">=</span> <span class="n">args</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">kwargs</span> <span class="o">=</span> <span class="n">kwargs</span>
 
-def tail_call_optimized(g):
-    """
-    This function decorates a function with tail call
-    optimization. It does this by throwing an exception
-    if it is it's own grandparent, and catching such
-    exceptions to fake the tail call optimization.
+<span class="k">def</span> <span class="nf">tail_call_optimized</span><span class="p">(</span><span class="n">g</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    This function decorates a function with tail call</span>
+<span class="sd">    optimization. It does this by throwing an exception</span>
+<span class="sd">    if it is it&#39;s own grandparent, and catching such</span>
+<span class="sd">    exceptions to fake the tail call optimization.</span>
 
-    This function fails if the decorated
-    function recurses in a non-tail context.
-    """
-    def func(*args, **kwargs):
-        f = sys._getframe()
-        if f.f_back and f.f_back.f_back \
-            and f.f_back.f_back.f_code == f.f_code:
-            # 抛出异常
-            raise TailRecurseException(args, kwargs)
-        else:
-            while 1:
-                try:
-                    return g(*args, **kwargs)
-                except TailRecurseException, e:
-                    # 捕获异常，重新调用栈
-                    args = e.args
-                    kwargs = e.kwargs
-    func.__doc__ = g.__doc__
-    return func
+<span class="sd">    This function fails if the decorated</span>
+<span class="sd">    function recurses in a non-tail context.</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="k">def</span> <span class="nf">func</span><span class="p">(</span><span class="o">*</span><span class="n">args</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">):</span>
+        <span class="n">f</span> <span class="o">=</span> <span class="n">sys</span><span class="o">.</span><span class="n">_getframe</span><span class="p">()</span>
+        <span class="k">if</span> <span class="n">f</span><span class="o">.</span><span class="n">f_back</span> <span class="ow">and</span> <span class="n">f</span><span class="o">.</span><span class="n">f_back</span><span class="o">.</span><span class="n">f_back</span> \
+            <span class="ow">and</span> <span class="n">f</span><span class="o">.</span><span class="n">f_back</span><span class="o">.</span><span class="n">f_back</span><span class="o">.</span><span class="n">f_code</span> <span class="o">==</span> <span class="n">f</span><span class="o">.</span><span class="n">f_code</span><span class="p">:</span>
+            <span class="c"># 抛出异常</span>
+            <span class="k">raise</span> <span class="n">TailRecurseException</span><span class="p">(</span><span class="n">args</span><span class="p">,</span> <span class="n">kwargs</span><span class="p">)</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="k">while</span> <span class="mi">1</span><span class="p">:</span>
+                <span class="k">try</span><span class="p">:</span>
+                    <span class="k">return</span> <span class="n">g</span><span class="p">(</span><span class="o">*</span><span class="n">args</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">)</span>
+                <span class="k">except</span> <span class="n">TailRecurseException</span><span class="p">,</span> <span class="n">e</span><span class="p">:</span>
+                    <span class="c"># 捕获异常，重新调用栈</span>
+                    <span class="n">args</span> <span class="o">=</span> <span class="n">e</span><span class="o">.</span><span class="n">args</span>
+                    <span class="n">kwargs</span> <span class="o">=</span> <span class="n">e</span><span class="o">.</span><span class="n">kwargs</span>
+    <span class="n">func</span><span class="o">.</span><span class="n">__doc__</span> <span class="o">=</span> <span class="n">g</span><span class="o">.</span><span class="n">__doc__</span>
+    <span class="k">return</span> <span class="n">func</span>
 
-@tail_call_optimized
-def factorial(n, acc=1):
-    "calculate a factorial"
-    if n == 0:
-        return acc
-    return factorial(n-1, n*acc)
+<span class="nd">@tail_call_optimized</span>
+<span class="k">def</span> <span class="nf">factorial</span><span class="p">(</span><span class="n">n</span><span class="p">,</span> <span class="n">acc</span><span class="o">=</span><span class="mi">1</span><span class="p">):</span>
+    <span class="s">&quot;calculate a factorial&quot;</span>
+    <span class="k">if</span> <span class="n">n</span> <span class="o">==</span> <span class="mi">0</span><span class="p">:</span>
+        <span class="k">return</span> <span class="n">acc</span>
+    <span class="k">return</span> <span class="n">factorial</span><span class="p">(</span><span class="n">n</span><span class="o">-</span><span class="mi">1</span><span class="p">,</span> <span class="n">n</span><span class="o">*</span><span class="n">acc</span><span class="p">)</span>
 
-print factorial(10000)
-# prints a big, big number,
-# but doesn't hit the recursion limit.
+<span class="k">print</span> <span class="n">factorial</span><span class="p">(</span><span class="mi">10000</span><span class="p">)</span>
+<span class="c"># prints a big, big number,</span>
+<span class="c"># but doesn&#39;t hit the recursion limit.</span>
 
-@tail_call_optimized
-def fib(i, current = 0, next = 1):
-    if i == 0:
-        return current
-    else:
-        return fib(i - 1, next, current + next)
+<span class="nd">@tail_call_optimized</span>
+<span class="k">def</span> <span class="nf">fib</span><span class="p">(</span><span class="n">i</span><span class="p">,</span> <span class="n">current</span> <span class="o">=</span> <span class="mi">0</span><span class="p">,</span> <span class="nb">next</span> <span class="o">=</span> <span class="mi">1</span><span class="p">):</span>
+    <span class="k">if</span> <span class="n">i</span> <span class="o">==</span> <span class="mi">0</span><span class="p">:</span>
+        <span class="k">return</span> <span class="n">current</span>
+    <span class="k">else</span><span class="p">:</span>
+        <span class="k">return</span> <span class="n">fib</span><span class="p">(</span><span class="n">i</span> <span class="o">-</span> <span class="mi">1</span><span class="p">,</span> <span class="nb">next</span><span class="p">,</span> <span class="n">current</span> <span class="o">+</span> <span class="nb">next</span><span class="p">)</span>
 
-print fib(10000)
-# also prints a big number,
-# but doesn't hit the recursion limit.
-</code></pre>
+<span class="k">print</span> <span class="n">fib</span><span class="p">(</span><span class="mi">10000</span><span class="p">)</span>
+<span class="c"># also prints a big number,</span>
+<span class="c"># but doesn&#39;t hit the recursion limit.</span>
+</pre></div>
+</td></tr></table>
+
 <p>作者的基本思想就是当尾递归达到最大深度时自己抛出一个异常(TailRecurseException), 然后
 捕获这个异常，然后重新调用栈，而不是让异常终止尾递归的运行。<br/></p>
 <p>这里解释一下 sys._getframe() 函数:<br/></p>
-<pre><code>sys.getframe([depth]):
-Return a frame object from the call stack. If optional integer depth is given, return the frame object that many calls below the top of the stack. If that is deeper than the call stack, ValueError is raised. The default for depth is zero, returning the frame at the top of the call stack.
+<div class="codehilite"><pre><span class="n">sys</span><span class="o">.</span><span class="n">getframe</span><span class="p">([</span><span class="n">depth</span><span class="p">]):</span>
+<span class="n">Return</span> <span class="n">a</span> <span class="n">frame</span> <span class="nb">object</span> <span class="kn">from</span> <span class="nn">the</span> <span class="nn">call</span> <span class="nn">stack.</span> <span class="nn">If</span> <span class="nn">optional</span> <span class="nn">integer</span> <span class="nn">depth</span> <span class="nn">is</span> <span class="nn">given</span><span class="p">,</span> <span class="k">return</span> <span class="n">the</span> <span class="n">frame</span> <span class="nb">object</span> <span class="n">that</span> <span class="n">many</span> <span class="n">calls</span> <span class="n">below</span> <span class="n">the</span> <span class="n">top</span> <span class="n">of</span> <span class="n">the</span> <span class="n">stack</span><span class="o">.</span> <span class="n">If</span> <span class="n">that</span> <span class="ow">is</span> <span class="n">deeper</span> <span class="n">than</span> <span class="n">the</span> <span class="n">call</span> <span class="n">stack</span><span class="p">,</span> <span class="ne">ValueError</span> <span class="ow">is</span> <span class="n">raised</span><span class="o">.</span> <span class="n">The</span> <span class="n">default</span> <span class="k">for</span> <span class="n">depth</span> <span class="ow">is</span> <span class="n">zero</span><span class="p">,</span> <span class="n">returning</span> <span class="n">the</span> <span class="n">frame</span> <span class="n">at</span> <span class="n">the</span> <span class="n">top</span> <span class="n">of</span> <span class="n">the</span> <span class="n">call</span> <span class="n">stack</span><span class="o">.</span>
 
-即返回depth深度调用的栈帧对象.
+<span class="err">即返回</span><span class="n">depth</span><span class="err">深度调用的栈帧对象</span><span class="o">.</span>
 
-import sys
+<span class="kn">import</span> <span class="nn">sys</span>
 
-def get_cur_info():
-    print sys._getframe().f_code.co_filename  # 当前文件名
-    print sys._getframe().f_code.co_name  # 当前函数名
-    print sys._getframe().f_lineno # 当前行号
-    print sys._getframe().f_back # 调用者的帧
-</code></pre>
+<span class="k">def</span> <span class="nf">get_cur_info</span><span class="p">():</span>
+    <span class="k">print</span> <span class="n">sys</span><span class="o">.</span><span class="n">_getframe</span><span class="p">()</span><span class="o">.</span><span class="n">f_code</span><span class="o">.</span><span class="n">co_filename</span>  <span class="c"># 当前文件名</span>
+    <span class="k">print</span> <span class="n">sys</span><span class="o">.</span><span class="n">_getframe</span><span class="p">()</span><span class="o">.</span><span class="n">f_code</span><span class="o">.</span><span class="n">co_name</span>  <span class="c"># 当前函数名</span>
+    <span class="k">print</span> <span class="n">sys</span><span class="o">.</span><span class="n">_getframe</span><span class="p">()</span><span class="o">.</span><span class="n">f_lineno</span> <span class="c"># 当前行号</span>
+    <span class="k">print</span> <span class="n">sys</span><span class="o">.</span><span class="n">_getframe</span><span class="p">()</span><span class="o">.</span><span class="n">f_back</span> <span class="c"># 调用者的帧</span>
+</pre></div>
+
+
 <h2>参考</h2>
 <p>http://www.cnblogs.com/hello--the-world/archive/2012/07/19/2599003.html<br/>
 http://www.chinaz.com/program/2013/0917/318157_2.shtml</p>
@@ -1311,12 +1425,12 @@ http://www.chinaz.com/program/2013/0917/318157_2.shtml</p>
             <h4>Flask 文档笔记(1) flaskr</h4>
             <p>
             <!-- Button trigger modal -->
-            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#11">
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#9">
                 Read Post
             </button>
             </p>
             <!-- Modal -->
-            <div class="modal fade bs-example-modal-lg" id="11" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+            <div class="modal fade bs-example-modal-lg" id="9" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
                 <div class="modal-dialog modal-lg" role="document">
                     <div class="modal-content">
                         <div class="modal-header">
@@ -1332,17 +1446,19 @@ flaskr是一个比较简单的flask应用，所以它的文件结构就是项目
 <p><strong>2.配置加载</strong><br/>
 flaskr的配置不多，所以将配置和app实例放在了一个文件中(flask配置名大写):
 /flaskr/flaskr.py</p>
-<pre><code>from flask import Flask
+<div class="codehilite"><pre><span class="kn">from</span> <span class="nn">flask</span> <span class="kn">import</span> <span class="n">Flask</span>
 
-DATABASE = '/tmp/flaskr.db'
-DEBUG = True
-SECRET_KEY = 'development key'
-USERNAME = 'admin'
-PASSWORD = 'default'
+<span class="n">DATABASE</span> <span class="o">=</span> <span class="s">&#39;/tmp/flaskr.db&#39;</span>
+<span class="n">DEBUG</span> <span class="o">=</span> <span class="bp">True</span>
+<span class="n">SECRET_KEY</span> <span class="o">=</span> <span class="s">&#39;development key&#39;</span>
+<span class="n">USERNAME</span> <span class="o">=</span> <span class="s">&#39;admin&#39;</span>
+<span class="n">PASSWORD</span> <span class="o">=</span> <span class="s">&#39;default&#39;</span>
 
-app = Flask(__name__)
-app.config.from_object(__name__)
-</code></pre>
+<span class="n">app</span> <span class="o">=</span> <span class="n">Flask</span><span class="p">(</span><span class="n">__name__</span><span class="p">)</span>
+<span class="n">app</span><span class="o">.</span><span class="n">config</span><span class="o">.</span><span class="n">from_object</span><span class="p">(</span><span class="n">__name__</span><span class="p">)</span>
+</pre></div>
+
+
 <p>这里app实例调用了from_object()方法加载配置<br/>
 flask加载配置有三种方式: from_object(), from_pyfile(), from_envvar()。from_object()会自动搜寻并加载字符串配置以及名称
 为大写的配置变量;此外,也可以把配置类或者配置字典作为from_object()的参数。但是如果想直接加载配置文件，则
@@ -1354,98 +1470,108 @@ flask加载配置有三种方式: from_object(), from_pyfile(), from_envvar()。
 实现。但是flaskr则没有使用扩展，而是完全依据原生的flask与sql。<br/></p>
 <p>3.1: 创建数据库表:<br/>
 flaskr/schema.sql</p>
-<pre><code>drop table if exists entries;
+<div class="codehilite"><pre>drop table if exists entries;
 create table entries (
     id integer primary key autoincrement,
     title text not null,
     text text not null,
 );
-</code></pre>
+</pre></div>
+
+
 <p>just sql语句:)<br/></p>
 <p>3.2:创建数据库<br/>
 最简单的方法就是使用管道和sqlite3，将之前创建的表导入到数据库中:<br/>
 <code>sqlite3 /tmp/flaskr.db &lt; schema.sql</code><br/>
 你也可以这样做：</p>
-<pre><code>from contextlib import closing
+<div class="codehilite"><pre><span class="kn">from</span> <span class="nn">contextlib</span> <span class="kn">import</span> <span class="n">closing</span>
 
 
-def connect_db():
-   return sqlite3.connect(app.config['DATABASE'])
+<span class="k">def</span> <span class="nf">connect_db</span><span class="p">():</span>
+   <span class="k">return</span> <span class="n">sqlite3</span><span class="o">.</span><span class="n">connect</span><span class="p">(</span><span class="n">app</span><span class="o">.</span><span class="n">config</span><span class="p">[</span><span class="s">&#39;DATABASE&#39;</span><span class="p">])</span>
 
 
-def init_db():
-    with closing(connect_db()) as db:  # closing 函数可以使数据库再整个with block中保持连接
-        with app.open_resource('schema.sql', mode='r') as f:
-            db.cursor.excutescript(f.read())  # 执行整个脚本
-        db.commit()  # 向数据库提交
-</code></pre>
+<span class="k">def</span> <span class="nf">init_db</span><span class="p">():</span>
+    <span class="k">with</span> <span class="n">closing</span><span class="p">(</span><span class="n">connect_db</span><span class="p">())</span> <span class="k">as</span> <span class="n">db</span><span class="p">:</span>  <span class="c"># closing 函数可以使数据库再整个with block中保持连接</span>
+        <span class="k">with</span> <span class="n">app</span><span class="o">.</span><span class="n">open_resource</span><span class="p">(</span><span class="s">&#39;schema.sql&#39;</span><span class="p">,</span> <span class="n">mode</span><span class="o">=</span><span class="s">&#39;r&#39;</span><span class="p">)</span> <span class="k">as</span> <span class="n">f</span><span class="p">:</span>
+            <span class="n">db</span><span class="o">.</span><span class="n">cursor</span><span class="o">.</span><span class="n">excutescript</span><span class="p">(</span><span class="n">f</span><span class="o">.</span><span class="n">read</span><span class="p">())</span>  <span class="c"># 执行整个脚本</span>
+        <span class="n">db</span><span class="o">.</span><span class="n">commit</span><span class="p">()</span>  <span class="c"># 向数据库提交</span>
+</pre></div>
+
+
 <p>然后进入python shell:</p>
-<pre><code>&gt;&gt;from flaskr import init_db()
-&gt;&gt;init_db()
-</code></pre>
+<div class="codehilite"><pre><span class="o">&gt;&gt;</span><span class="kn">from</span> <span class="nn">flaskr</span> <span class="kn">import</span> <span class="n">init_db</span><span class="p">()</span>
+<span class="o">&gt;&gt;</span><span class="n">init_db</span><span class="p">()</span>
+</pre></div>
+
+
 <p>数据库就创建完成了。</p>
 <p>3.3:请求和关闭数据库连接<br/>
 使用三个重要的装饰器：before_request[被注册函数在每次请求之前执行], after_request[被注册函数在每次请求之后执行,
 如遇异常则终止执行], teardown_request[被注册函数在所有请求后(ctx pop 以后)执行，且遇异常不会终止，而且会接受error
 的object!]<br/></p>
-<pre><code>from flask import g
+<div class="codehilite"><pre><span class="kn">from</span> <span class="nn">flask</span> <span class="kn">import</span> <span class="n">g</span>
 
 
-@app.before_request
-def before_request():
-    """用来在请求之前连接数据库"""
-    g.db = connect_db()
+<span class="nd">@app.before_request</span>
+<span class="k">def</span> <span class="nf">before_request</span><span class="p">():</span>
+    <span class="sd">&quot;&quot;&quot;用来在请求之前连接数据库&quot;&quot;&quot;</span>
+    <span class="n">g</span><span class="o">.</span><span class="n">db</span> <span class="o">=</span> <span class="n">connect_db</span><span class="p">()</span>
 
 
-@app.teardown_request()
-def teardown_request():
-    """用来在请求之后关闭数据库"""
-    if flask.g.get('db', None) is not None:
-        db.close()
-</code></pre>
+<span class="nd">@app.teardown_request</span><span class="p">()</span>
+<span class="k">def</span> <span class="nf">teardown_request</span><span class="p">():</span>
+    <span class="sd">&quot;&quot;&quot;用来在请求之后关闭数据库&quot;&quot;&quot;</span>
+    <span class="k">if</span> <span class="n">flask</span><span class="o">.</span><span class="n">g</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s">&#39;db&#39;</span><span class="p">,</span> <span class="bp">None</span><span class="p">)</span> <span class="ow">is</span> <span class="ow">not</span> <span class="bp">None</span><span class="p">:</span>
+        <span class="n">db</span><span class="o">.</span><span class="n">close</span><span class="p">()</span>
+</pre></div>
+
+
 <p>3.4:视图函数<br/></p>
-<pre><code>from flask import render_template, session, absort, flash, redirect, url_for, request
+<div class="codehilite"><pre><span class="kn">from</span> <span class="nn">flask</span> <span class="kn">import</span> <span class="n">render_template</span><span class="p">,</span> <span class="n">session</span><span class="p">,</span> <span class="n">absort</span><span class="p">,</span> <span class="n">flash</span><span class="p">,</span> <span class="n">redirect</span><span class="p">,</span> <span class="n">url_for</span><span class="p">,</span> <span class="n">request</span>
 
 
-@app.route('/')
-def show_entries():
-    cur = g.db.excute('select title, text from entries order by id desc')
-    entries = [dict(title=row[0], text=row[1]) for row in cur.fechall()]
-    return render_template('show_entries.html', entries=entries)
+<span class="nd">@app.route</span><span class="p">(</span><span class="s">&#39;/&#39;</span><span class="p">)</span>
+<span class="k">def</span> <span class="nf">show_entries</span><span class="p">():</span>
+    <span class="n">cur</span> <span class="o">=</span> <span class="n">g</span><span class="o">.</span><span class="n">db</span><span class="o">.</span><span class="n">excute</span><span class="p">(</span><span class="s">&#39;select title, text from entries order by id desc&#39;</span><span class="p">)</span>
+    <span class="n">entries</span> <span class="o">=</span> <span class="p">[</span><span class="nb">dict</span><span class="p">(</span><span class="n">title</span><span class="o">=</span><span class="n">row</span><span class="p">[</span><span class="mi">0</span><span class="p">],</span> <span class="n">text</span><span class="o">=</span><span class="n">row</span><span class="p">[</span><span class="mi">1</span><span class="p">])</span> <span class="k">for</span> <span class="n">row</span> <span class="ow">in</span> <span class="n">cur</span><span class="o">.</span><span class="n">fechall</span><span class="p">()]</span>
+    <span class="k">return</span> <span class="n">render_template</span><span class="p">(</span><span class="s">&#39;show_entries.html&#39;</span><span class="p">,</span> <span class="n">entries</span><span class="o">=</span><span class="n">entries</span><span class="p">)</span>
 
 
-@app.route('/add', methods=["POST"])
-def add_entry():
-    if not session.get('logged_in'):
-        absort(401)
-    g.db.excute('insert into entries (title,text) in values (?,?) ')
-    g.db.commit()
-    flash('New entries was successfully posted!')
-    return redirect(url_for('show_entries'))  # 重定向到show_entries，由show_entries调用GET方法，表单也在
-                                              # show_entries中
+<span class="nd">@app.route</span><span class="p">(</span><span class="s">&#39;/add&#39;</span><span class="p">,</span> <span class="n">methods</span><span class="o">=</span><span class="p">[</span><span class="s">&quot;POST&quot;</span><span class="p">])</span>
+<span class="k">def</span> <span class="nf">add_entry</span><span class="p">():</span>
+    <span class="k">if</span> <span class="ow">not</span> <span class="n">session</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s">&#39;logged_in&#39;</span><span class="p">):</span>
+        <span class="n">absort</span><span class="p">(</span><span class="mi">401</span><span class="p">)</span>
+    <span class="n">g</span><span class="o">.</span><span class="n">db</span><span class="o">.</span><span class="n">excute</span><span class="p">(</span><span class="s">&#39;insert into entries (title,text) in values (?,?) &#39;</span><span class="p">)</span>
+    <span class="n">g</span><span class="o">.</span><span class="n">db</span><span class="o">.</span><span class="n">commit</span><span class="p">()</span>
+    <span class="n">flash</span><span class="p">(</span><span class="s">&#39;New entries was successfully posted!&#39;</span><span class="p">)</span>
+    <span class="k">return</span> <span class="n">redirect</span><span class="p">(</span><span class="n">url_for</span><span class="p">(</span><span class="s">&#39;show_entries&#39;</span><span class="p">))</span>  <span class="c"># 重定向到show_entries，由show_entries调用GET方法，表单也在</span>
+                                              <span class="c"># show_entries中</span>
 
 
-@app.route('/login', methods=["GET", "POST"])
-def login():
-    error = None
-    if request.method == 'POST':
-        if request.form['username'] != app.config["USERNAME"]:
-            error = 'Invalid username'
-        elif request.form['password'] != app.config['PASSWORD']:
-            error = 'Invalid password'
-        else:
-            session['logged_in'] = True
-            flash('You were logged in')
-            return redirect(url_for('show_entries'))
-    return render_template('login.html', error=error)
+<span class="nd">@app.route</span><span class="p">(</span><span class="s">&#39;/login&#39;</span><span class="p">,</span> <span class="n">methods</span><span class="o">=</span><span class="p">[</span><span class="s">&quot;GET&quot;</span><span class="p">,</span> <span class="s">&quot;POST&quot;</span><span class="p">])</span>
+<span class="k">def</span> <span class="nf">login</span><span class="p">():</span>
+    <span class="n">error</span> <span class="o">=</span> <span class="bp">None</span>
+    <span class="k">if</span> <span class="n">request</span><span class="o">.</span><span class="n">method</span> <span class="o">==</span> <span class="s">&#39;POST&#39;</span><span class="p">:</span>
+        <span class="k">if</span> <span class="n">request</span><span class="o">.</span><span class="n">form</span><span class="p">[</span><span class="s">&#39;username&#39;</span><span class="p">]</span> <span class="o">!=</span> <span class="n">app</span><span class="o">.</span><span class="n">config</span><span class="p">[</span><span class="s">&quot;USERNAME&quot;</span><span class="p">]:</span>
+            <span class="n">error</span> <span class="o">=</span> <span class="s">&#39;Invalid username&#39;</span>
+        <span class="k">elif</span> <span class="n">request</span><span class="o">.</span><span class="n">form</span><span class="p">[</span><span class="s">&#39;password&#39;</span><span class="p">]</span> <span class="o">!=</span> <span class="n">app</span><span class="o">.</span><span class="n">config</span><span class="p">[</span><span class="s">&#39;PASSWORD&#39;</span><span class="p">]:</span>
+            <span class="n">error</span> <span class="o">=</span> <span class="s">&#39;Invalid password&#39;</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="n">session</span><span class="p">[</span><span class="s">&#39;logged_in&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="bp">True</span>
+            <span class="n">flash</span><span class="p">(</span><span class="s">&#39;You were logged in&#39;</span><span class="p">)</span>
+            <span class="k">return</span> <span class="n">redirect</span><span class="p">(</span><span class="n">url_for</span><span class="p">(</span><span class="s">&#39;show_entries&#39;</span><span class="p">))</span>
+    <span class="k">return</span> <span class="n">render_template</span><span class="p">(</span><span class="s">&#39;login.html&#39;</span><span class="p">,</span> <span class="n">error</span><span class="o">=</span><span class="n">error</span><span class="p">)</span>
 
 
-@app.route('/logout', methods=['GET'])
-def logout():
-    session.pop('logged_in', None)
-    flash('you were logged out!')
-    return redirect(url_for('show_entries'))
-</code></pre>
+<span class="nd">@app.route</span><span class="p">(</span><span class="s">&#39;/logout&#39;</span><span class="p">,</span> <span class="n">methods</span><span class="o">=</span><span class="p">[</span><span class="s">&#39;GET&#39;</span><span class="p">])</span>
+<span class="k">def</span> <span class="nf">logout</span><span class="p">():</span>
+    <span class="n">session</span><span class="o">.</span><span class="n">pop</span><span class="p">(</span><span class="s">&#39;logged_in&#39;</span><span class="p">,</span> <span class="bp">None</span><span class="p">)</span>
+    <span class="n">flash</span><span class="p">(</span><span class="s">&#39;you were logged out!&#39;</span><span class="p">)</span>
+    <span class="k">return</span> <span class="n">redirect</span><span class="p">(</span><span class="n">url_for</span><span class="p">(</span><span class="s">&#39;show_entries&#39;</span><span class="p">))</span>
+</pre></div>
+
+
 <p><strong>3.4:表单</strong><br/>
 一般对表单的处理都是使用 flask-wtf 扩展，然后在模版中渲染表单。但是flaskr则是直接在html中构造表单，用action属性
 与视图函数连接。</p>
@@ -1464,12 +1590,12 @@ def logout():
             <h4>python 学习笔记(day 2)</h4>
             <p>
             <!-- Button trigger modal -->
-            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#12">
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#10">
                 Read Post
             </button>
             </p>
             <!-- Modal -->
-            <div class="modal fade bs-example-modal-lg" id="12" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+            <div class="modal fade bs-example-modal-lg" id="10" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
                 <div class="modal-dialog modal-lg" role="document">
                     <div class="modal-content">
                         <div class="modal-header">
@@ -1488,34 +1614,42 @@ python的特性: 动态语言,面向对象，python的内存管理也很有特�
 对象的引用。python通过引用控制对象,引用与对象的分离使得引用对于对象的入侵性
 减少。<br/>
 为了更好的探明对象在内存中的存储,我们借助<strong>id()</strong>函数<br/></p>
-<pre><code>&gt;&gt;a = 1
+<div class="codehilite"><pre>&gt;&gt;a = 1
 &gt;&gt;id(a)
 7431496L
-</code></pre>
+</pre></div>
+
+
 <p>可见,我们创建一个对象时,系统就自动为这个对象分配了内存空间<br/>
 在python中，python会缓存整数、短字符串,这些缓存的对象在重复创建时不会建立新
 的引用<br/></p>
-<pre><code>&gt;&gt;b = 1
+<div class="codehilite"><pre>&gt;&gt;b = 1
 &gt;&gt;id(b)
 7431496L
-</code></pre>
+</pre></div>
+
+
 <p>可见这里的b和a指向的是同一个对象<br/>
 我们还可以使用is关键字判断两个引用是否是同一个引用<br/></p>
-<pre><code>&gt;&gt;a is b
+<div class="codehilite"><pre>&gt;&gt;a is b
 True
-</code></pre>
+</pre></div>
+
+
 <p><strong>在python中,每个对象都存有指向这个对象的引用总数:引用计数</strong><br/>
 我们可以使用sys包中的<strong>getrefcount()</strong>函数查看某个对象的引用计数(注意调用函数时也是一次引用)</p>
-<pre><code>&gt;&gt;from sys import getrefcount
-&gt;&gt;getrefcount(1)
-3
-&gt;&gt;# 作为函数参数时被引用了一次
-</code></pre>
+<div class="codehilite"><pre><span class="o">&gt;&gt;</span><span class="kn">from</span> <span class="nn">sys</span> <span class="kn">import</span> <span class="n">getrefcount</span>
+<span class="o">&gt;&gt;</span><span class="n">getrefcount</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span>
+<span class="mi">3</span>
+<span class="o">&gt;&gt;</span><span class="c"># 作为函数参数时被引用了一次</span>
+</pre></div>
+
+
 <p><strong>2.对象引用对象</strong><br/>
 所谓对象引用对象即python的容器对象引用基本对象,但是这种引用并不是真正的包含
 元素对象本身,而是指向各个元素对象的引用(类似C中的指针)<br/>
 我们可以自定义一个对象,并引用其他对象</p>
-<pre><code>&gt;&gt;class from_obj(object):
+<div class="codehilite"><pre>&gt;&gt;class from_obj(object):
 &gt;&gt;...  def __init__(self,to_obj):
 &gt;&gt;...    self.to_obj = to_obj
 &gt;&gt;a = from_obj(b)
@@ -1523,20 +1657,24 @@ True
 &gt;&gt;35023112
 &gt;&gt;id(b)
 &gt;&gt;35023112
-</code></pre>
+</pre></div>
+
+
 <p>这里的a的确引用了b<br/>
 再看赋值:<code>a = 1</code><br/>
 对象引用对象是python最基本的构成方式,赋值语句也是对象引用对象的体现
 这里的a不仅仅是引用,他还是一个字典,用以存放赋值语句的键值对!<br/>
 其实这涉及到python namespace的问题,我们下一讲重点复习(预习...)<br/>
 容器对象的引用可以形成很复杂的拓扑结构,我们可以用objgraph包绘制这种关系<br/></p>
-<pre><code>x = [1,2,3]
-y = [x,dict(key1=x)
-z = [y,(x,y)]
+<div class="codehilite"><pre><span class="n">x</span> <span class="o">=</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span><span class="mi">2</span><span class="p">,</span><span class="mi">3</span><span class="p">]</span>
+<span class="n">y</span> <span class="o">=</span> <span class="p">[</span><span class="n">x</span><span class="p">,</span><span class="nb">dict</span><span class="p">(</span><span class="n">key1</span><span class="o">=</span><span class="n">x</span><span class="p">)</span>
+<span class="n">z</span> <span class="o">=</span> <span class="p">[</span><span class="n">y</span><span class="p">,(</span><span class="n">x</span><span class="p">,</span><span class="n">y</span><span class="p">)]</span>
 
-import objgraph
-objgraph.show_refs([z],filename='refs.png')
-</code></pre>
+<span class="kn">import</span> <span class="nn">objgraph</span>
+<span class="n">objgraph</span><span class="o">.</span><span class="n">show_refs</span><span class="p">([</span><span class="n">z</span><span class="p">],</span><span class="n">filename</span><span class="o">=</span><span class="s">&#39;refs.png&#39;</span><span class="p">)</span>
+</pre></div>
+
+
 <p><img alt="图" src="http://7xj431.com1.z0.glb.clouddn.com/361A.tmp.png" /><br/>
 两个对象可以互相引用构成引用环<br/>
 <code>a = []</code><br/>
@@ -1551,45 +1689,53 @@ objgraph.show_refs([z],filename='refs.png')
 当我们不在需要一个对象时,他的引用计数是如何减少的呢？<br/>
 1.del删除对象<br/>
 我们可以通过del删除某个对象从而减少对这个对象的引用<br/></p>
-<pre><code>from sys import getrefcount
-a = 1
-b = a
-print getrefcount(b)
-del a
-print getrefcount(b)
+<div class="codehilite"><pre><span class="kn">from</span> <span class="nn">sys</span> <span class="kn">import</span> <span class="n">getrefcount</span>
+<span class="n">a</span> <span class="o">=</span> <span class="mi">1</span>
+<span class="n">b</span> <span class="o">=</span> <span class="n">a</span>
+<span class="k">print</span> <span class="n">getrefcount</span><span class="p">(</span><span class="n">b</span><span class="p">)</span>
+<span class="k">del</span> <span class="n">a</span>
+<span class="k">print</span> <span class="n">getrefcount</span><span class="p">(</span><span class="n">b</span><span class="p">)</span>
 
-#122
-#121
-</code></pre>
+<span class="c">#122</span>
+<span class="c">#121</span>
+</pre></div>
+
+
 <p>del 也可以用删除容器中的对象<br/></p>
-<pre><code>&gt;&gt;lit = [1,2,3,4]
+<div class="codehilite"><pre>&gt;&gt;lit = [1,2,3,4]
 &gt;&gt;del lit[2]
 &gt;&gt;lit
 [1,2,4]
-</code></pre>
+</pre></div>
+
+
 <p>2.引用对象改变从而减少引用计数<br/></p>
-<pre><code>&gt;&gt;from sys import getrefcount
-&gt;&gt;a = [1,2,3]
-&gt;&gt;b = a
-&gt;&gt;b
-[1,2,3]
-&gt;&gt;getrefcount(b)
-4
-&gt;&gt;a = 1
-&gt;&gt;b
-[1,2,3]
-&gt;&gt;getrefcount(b)
-3
-</code></pre>
+<div class="codehilite"><pre><span class="o">&gt;&gt;</span><span class="kn">from</span> <span class="nn">sys</span> <span class="kn">import</span> <span class="n">getrefcount</span>
+<span class="o">&gt;&gt;</span><span class="n">a</span> <span class="o">=</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span><span class="mi">2</span><span class="p">,</span><span class="mi">3</span><span class="p">]</span>
+<span class="o">&gt;&gt;</span><span class="n">b</span> <span class="o">=</span> <span class="n">a</span>
+<span class="o">&gt;&gt;</span><span class="n">b</span>
+<span class="p">[</span><span class="mi">1</span><span class="p">,</span><span class="mi">2</span><span class="p">,</span><span class="mi">3</span><span class="p">]</span>
+<span class="o">&gt;&gt;</span><span class="n">getrefcount</span><span class="p">(</span><span class="n">b</span><span class="p">)</span>
+<span class="mi">4</span>
+<span class="o">&gt;&gt;</span><span class="n">a</span> <span class="o">=</span> <span class="mi">1</span>
+<span class="o">&gt;&gt;</span><span class="n">b</span>
+<span class="p">[</span><span class="mi">1</span><span class="p">,</span><span class="mi">2</span><span class="p">,</span><span class="mi">3</span><span class="p">]</span>
+<span class="o">&gt;&gt;</span><span class="n">getrefcount</span><span class="p">(</span><span class="n">b</span><span class="p">)</span>
+<span class="mi">3</span>
+</pre></div>
+
+
 <p><strong>4.垃圾回收</strong><br/>
 python 的垃圾回收是自动的,当对象的引用计数为0时,会自动开启垃圾回收,
 当对象的数目达到某个阈值时,python也会自动清除没有用的对象。python的垃圾
 回收并不是完全对coder封闭的,我们可以使用gc模块的get_threshold()函数查看
 这个阈值<br/></p>
-<pre><code>import gc
-print(gc.get_threshold())
-# （700，10，10）
-</code></pre>
+<div class="codehilite"><pre><span class="kn">import</span> <span class="nn">gc</span>
+<span class="k">print</span><span class="p">(</span><span class="n">gc</span><span class="o">.</span><span class="n">get_threshold</span><span class="p">())</span>
+<span class="c"># （700，10，10）</span>
+</pre></div>
+
+
 <p>这里的700就是垃圾回收的阈值,我们可以通过set_threshold()函数设置阈值<br/>
 我们还可以手动启动垃圾回收: gc.collect()<br/></p>
 <p><strong>5.分代回收</strong><br/>
@@ -1600,13 +1746,15 @@ python就会越信任他,也就不会清除他。python中的对象分为三等�
 就会扫描一次2代对象,哈哈:)<br/></p>
 <p><strong>6.孤立的引用环</strong><br/>
 还记的之前的引用环吗？他会对垃圾回收机制带来很大的麻烦！</p>
-<pre><code>a = []
+<div class="codehilite"><pre>a = []
 b = [a]
 a = b.append(b)
 
 del a
 del b
-</code></pre>
+</pre></div>
+
+
 <p>由于引用环的存在,a,b的引用计数不会降为0,所以python就不会回收这两个变量<br/>
 当然python也有他的解决办法,他会遍历所有的变量并将该变量引用的变量的引用计数减一,最后将引用计数为0的
 变量回收<br/>
@@ -1625,12 +1773,12 @@ ok,就是这些啦,虽然有点小麻烦,但在绝大多数情况下,程序员�
             <h4>python 学习笔记(day 1)</h4>
             <p>
             <!-- Button trigger modal -->
-            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#13">
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#11">
                 Read Post
             </button>
             </p>
             <!-- Modal -->
-            <div class="modal fade bs-example-modal-lg" id="13" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+            <div class="modal fade bs-example-modal-lg" id="11" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
                 <div class="modal-dialog modal-lg" role="document">
                     <div class="modal-content">
                         <div class="modal-header">
@@ -1649,9 +1797,12 @@ linux 和 mac 已经安装好了python(所以争取暑假换mac)<br/>
 主要还是Cpython,先占位,等以后弄懂了原理好好分析一下<br/>
 <a href="https://github.com/python/cpython">源代码</a><br/>
 <strong>4.第一个坑</strong><br/></p>
-<pre><code>#!/usr/bin/env python
-# -*- coding: utf-8 -*-
-</code></pre>
+<table class="codehilitetable"><tr><td class="linenos"><div class="linenodiv"><pre>1
+2</pre></div></td><td class="code"><div class="codehilite"><pre><span class="c">#!/usr/bin/env python</span>
+<span class="c"># -*- coding: utf-8 -*-</span>
+</pre></div>
+</td></tr></table>
+
 <p>我接触python的第一个坑是字符编码,而且这个坑伴着我度过了新年,直到我换了windows的用户名(所以争取暑假换mac)<br/>
 ok,关于字符编码:首先来张自己总结的图<br/>
 <img alt="字符编码" src="http://7xj431.com1.z0.glb.clouddn.com/pic.png" />
@@ -1659,43 +1810,51 @@ ok,关于字符编码:首先来张自己总结的图<br/>
 了解了字符编码,现在来看看python对字符编码的支持<br/>
 1.python 与 ASCII<br/>
 python最早支持的编码方式就是ASCII(因为那时只有ASCII。。)<br/></p>
-<pre><code>&gt;&gt;ord('A')
+<div class="codehilite"><pre>&gt;&gt;ord(&#39;A&#39;)
 65
 &gt;&gt;chr(65)
-'A'
-</code></pre>
+&#39;A&#39;
+</pre></div>
+
+
 <p>2.python 与 unicode<br/>
 python 比 unicode要大,python中采用 u"..."表示unicode字符串<br/></p>
-<pre><code>&gt;&gt;u"neo1218"
-u'neo1218'
-</code></pre>
+<div class="codehilite"><pre>&gt;&gt;u&quot;neo1218&quot;
+u&#39;neo1218&#39;
+</pre></div>
+
+
 <p>3.python中字符编码相互转换问题<br/>
 ASCII码可以视为utf-8的一部分,所以仅需讨论utf-8 与 unicode的转换<br/></p>
-<pre><code>&gt;&gt;# 把unicode转换为utf-8编码
-&gt;&gt;u'neo1218'.encode('utf-8')
-'neo1218'
+<div class="codehilite"><pre>&gt;&gt;# 把unicode转换为utf-8编码
+&gt;&gt;u&#39;neo1218&#39;.encode(&#39;utf-8&#39;)
+&#39;neo1218&#39;
 &gt;&gt;# 把utf-8转化为unicode编码
-&gt;&gt;'neo1218'.decode('utf-8')
-u'neo1218'
-</code></pre>
+&gt;&gt;&#39;neo1218&#39;.decode(&#39;utf-8&#39;)
+u&#39;neo1218&#39;
+</pre></div>
+
+
 <p>改变<br/>
 utf-8 与 unicode 的转化似乎看上去没有什么改变,但是：<strong>我举的例子都是英文呀！！</strong></p>
-<pre><code>&gt;&gt;len("朱承浩")
+<div class="codehilite"><pre>&gt;&gt;len(&quot;朱承浩&quot;)
 9
-&gt;&gt;len(u"朱承浩")
+&gt;&gt;len(u&quot;朱承浩&quot;)
 3
-</code></pre>
+</pre></div>
+
+
 <p>也就是说一个<strong>unicode中文字符</strong>转化后会变成3个utf-8字符<br/>
 <strong>4.坑在何方?<br/></strong>
 所以要用utf-8 无 bom格式写代码,就是这样。<br/>
 开头加上这句注释<code># -*<em>- coding: utf-8 -</em>-</code><br/>
 如果调用html文件则在调用前加上:</p>
-<pre><code>#-------------------编码设置---------------------------
-import sys
-reload(sys)
-sys.setdefaultencoding('utf-8')
-#-----------------------------------------------------
-</code></pre>
+<div class="codehilite"><pre><span class="c">#-------------------编码设置---------------------------</span>
+<span class="kn">import</span> <span class="nn">sys</span>
+<span class="nb">reload</span><span class="p">(</span><span class="n">sys</span><span class="p">)</span>
+<span class="n">sys</span><span class="o">.</span><span class="n">setdefaultencoding</span><span class="p">(</span><span class="s">&#39;utf-8&#39;</span><span class="p">)</span>
+<span class="c">#-----------------------------------------------------</span>
+</pre></div>
                         </div>
                         <div class="modal-footer">
                             <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -1709,12 +1868,12 @@ sys.setdefaultencoding('utf-8')
             <h4>Github gist 的使用</h4>
             <p>
             <!-- Button trigger modal -->
-            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#14">
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#12">
                 Read Post
             </button>
             </p>
             <!-- Modal -->
-            <div class="modal fade bs-example-modal-lg" id="14" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+            <div class="modal fade bs-example-modal-lg" id="12" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
                 <div class="modal-dialog modal-lg" role="document">
                     <div class="modal-content">
                         <div class="modal-header">
@@ -1727,11 +1886,13 @@ sys.setdefaultencoding('utf-8')
 <img alt="就是这个" src="http://7xj431.com1.z0.glb.clouddn.com/github.png" />
 so:什么是Gist?<br/>
 gist.github.com 是一个有趣的服务，最简单的功能就是分享代码片段，但是gist提供的功能不仅限于此。</p>
-<pre><code>gist提供了包括markdown语法在内的大多数“写作风格”
+<div class="codehilite"><pre>gist提供了包括markdown语法在内的大多数“写作风格”
 gist具有版本管理功能
 gist还可以无限制的创建私有的代码片段
 gist随同github提供了api开发接口，可以在本地创建gist
-</code></pre>
+</pre></div>
+
+
 <p>说的有点玄乎,我就说说我拿Gist在做什么:)<br/>
 <strong>1.写作:</strong><br/>
 Gist本身就是一个很好的文本编辑器,你可以在gist上写一些东西,甚至是博客！我一般用gist记录每天晚上要做什么。当然,如果你不想让别人看到你写的东西,你可以创建一个私有的gist(不要钱哦)。<br/>
@@ -1756,12 +1917,12 @@ Gist可以说是代码分享的首选!自动语法高亮,你可以让你的代�
             <h4>import this</h4>
             <p>
             <!-- Button trigger modal -->
-            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#15">
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#13">
                 Read Post
             </button>
             </p>
             <!-- Modal -->
-            <div class="modal fade bs-example-modal-lg" id="15" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+            <div class="modal fade bs-example-modal-lg" id="13" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
                 <div class="modal-dialog modal-lg" role="document">
                     <div class="modal-content">
                         <div class="modal-header">
@@ -1769,51 +1930,51 @@ Gist可以说是代码分享的首选!自动语法高亮,你可以让你的代�
                             <h4 class="modal-title" id="myModalLabel">import this</h4>
                         </div>
                         <div class="modal-body">
-                            <pre><code>The Zen of Python, by Tim Peters
+                            <div class="codehilite"><pre><span class="n">The</span> <span class="n">Zen</span> <span class="k">of</span> <span class="n">Python</span><span class="p">,</span> <span class="n">by</span> <span class="n">Tim</span> <span class="n">Peters</span>
 
-Beautiful is better than ugly.
-Explicit is better than implicit.
-Simple is better than complex.
-Complex is better than complicated.
-Flat is better than nested.
-Sparse is better than dense.
-Readability counts.
-Special cases aren't special enough to break the rules.
-Although practicality beats purity.
-Errors should never pass silently.
-Unless explicitly silenced.
-In the face of ambiguity, refuse the temptation to guess.
-There should be one-- and preferably only one --obvious way to do it.
-Although that way may not be obvious at first unless you're Dutch.
-Now is better than never.
-Although never is often better than *right* now.
-If the implementation is hard to explain, it's a bad idea.
-If the implementation is easy to explain, it may be a good idea.
-Namespaces are one honking great idea -- let's do more of those!
+<span class="n">Beautiful</span> <span class="ow">is</span> <span class="n">better</span> <span class="n">than</span> <span class="n">ugly</span><span class="p">.</span>
+<span class="n">Explicit</span> <span class="ow">is</span> <span class="n">better</span> <span class="n">than</span> <span class="n">implicit</span><span class="p">.</span>
+<span class="n">Simple</span> <span class="ow">is</span> <span class="n">better</span> <span class="n">than</span> <span class="n">complex</span><span class="p">.</span>
+<span class="n">Complex</span> <span class="ow">is</span> <span class="n">better</span> <span class="n">than</span> <span class="n">complicated</span><span class="p">.</span>
+<span class="n">Flat</span> <span class="ow">is</span> <span class="n">better</span> <span class="n">than</span> <span class="n">nested</span><span class="p">.</span>
+<span class="n">Sparse</span> <span class="ow">is</span> <span class="n">better</span> <span class="n">than</span> <span class="n">dense</span><span class="p">.</span>
+<span class="n">Readability</span> <span class="n">counts</span><span class="p">.</span>
+<span class="n">Special</span> <span class="n">cases</span> <span class="n">aren</span><span class="c">&#39;t special enough to break the rules.</span>
+<span class="n">Although</span> <span class="n">practicality</span> <span class="n">beats</span> <span class="n">purity</span><span class="p">.</span>
+<span class="n">Errors</span> <span class="n">should</span> <span class="n">never</span> <span class="n">pass</span> <span class="n">silently</span><span class="p">.</span>
+<span class="n">Unless</span> <span class="n">explicitly</span> <span class="n">silenced</span><span class="p">.</span>
+<span class="ow">In</span> <span class="n">the</span> <span class="n">face</span> <span class="k">of</span> <span class="n">ambiguity</span><span class="p">,</span> <span class="n">refuse</span> <span class="n">the</span> <span class="n">temptation</span> <span class="k">to</span> <span class="n">guess</span><span class="p">.</span>
+<span class="n">There</span> <span class="n">should</span> <span class="n">be</span> <span class="n">one</span><span class="o">--</span> <span class="ow">and</span> <span class="n">preferably</span> <span class="n">only</span> <span class="n">one</span> <span class="o">--</span><span class="n">obvious</span> <span class="n">way</span> <span class="k">to</span> <span class="k">do</span> <span class="n">it</span><span class="p">.</span>
+<span class="n">Although</span> <span class="n">that</span> <span class="n">way</span> <span class="n">may</span> <span class="k">not</span> <span class="n">be</span> <span class="n">obvious</span> <span class="n">at</span> <span class="n">first</span> <span class="n">unless</span> <span class="n">you</span><span class="c">&#39;re Dutch.</span>
+<span class="n">Now</span> <span class="ow">is</span> <span class="n">better</span> <span class="n">than</span> <span class="n">never</span><span class="p">.</span>
+<span class="n">Although</span> <span class="n">never</span> <span class="ow">is</span> <span class="n">often</span> <span class="n">better</span> <span class="n">than</span> <span class="o">*</span><span class="n">right</span><span class="o">*</span> <span class="n">now</span><span class="p">.</span>
+<span class="k">If</span> <span class="n">the</span> <span class="n">implementation</span> <span class="ow">is</span> <span class="n">hard</span> <span class="k">to</span> <span class="n">explain</span><span class="p">,</span> <span class="n">it</span><span class="c">&#39;s a bad idea.</span>
+<span class="k">If</span> <span class="n">the</span> <span class="n">implementation</span> <span class="ow">is</span> <span class="n">easy</span> <span class="k">to</span> <span class="n">explain</span><span class="p">,</span> <span class="n">it</span> <span class="n">may</span> <span class="n">be</span> <span class="n">a</span> <span class="n">good</span> <span class="n">idea</span><span class="p">.</span>
+<span class="n">Namespaces</span> <span class="n">are</span> <span class="n">one</span> <span class="n">honking</span> <span class="n">great</span> <span class="n">idea</span> <span class="o">--</span> <span class="k">let</span><span class="c">&#39;s do more of those!</span>
 
 
-python之禅 ， neo1218译
+<span class="n">python</span><span class="err">之禅</span> <span class="err">，</span> <span class="n">neo1218</span><span class="err">译</span>
 
-美丽胜于丑陋。
-直率胜于含糊。
-简单胜于复杂。
-复杂胜于难以理解的代码。
-段块胜于嵌套。
-稀少胜于稠密。
-可读性才最重要。
-异常代码还不足以打破规则的天牢。
-为了实用需要牺牲。
-不能让错误静静的离开。
-除非我愿如此。
-面对歧义的面具,拒绝猜测的诱惑。
-你要相信,完美的道路只有一条，就是最明显的那个。
-如果你不是造物主,你可能还在寻找。
-现在总比没有好。
-没有总比立刻好。
-难以解释的实现是一个坏想法。
-易于理解的实现或许才是好办法。
-命名空间很棒，让我们做的更多吧!
-</code></pre>
+<span class="err">美丽胜于丑陋。</span>
+<span class="err">直率胜于含糊。</span>
+<span class="err">简单胜于复杂。</span>
+<span class="err">复杂胜于难以理解的代码。</span>
+<span class="err">段块胜于嵌套。</span>
+<span class="err">稀少胜于稠密。</span>
+<span class="err">可读性才最重要。</span>
+<span class="err">异常代码还不足以打破规则的天牢。</span>
+<span class="err">为了实用需要牺牲。</span>
+<span class="err">不能让错误静静的离开。</span>
+<span class="err">除非我愿如此。</span>
+<span class="err">面对歧义的面具</span><span class="p">,</span><span class="err">拒绝猜测的诱惑。</span>
+<span class="err">你要相信</span><span class="p">,</span><span class="err">完美的道路只有一条，就是最明显的那个。</span>
+<span class="err">如果你不是造物主</span><span class="p">,</span><span class="err">你可能还在寻找。</span>
+<span class="err">现在总比没有好。</span>
+<span class="err">没有总比立刻好。</span>
+<span class="err">难以解释的实现是一个坏想法。</span>
+<span class="err">易于理解的实现或许才是好办法。</span>
+<span class="err">命名空间很棒，让我们做的更多吧</span><span class="p">!</span>
+</pre></div>
                         </div>
                         <div class="modal-footer">
                             <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -1827,12 +1988,12 @@ python之禅 ， neo1218译
             <h4>python 正则表达式</h4>
             <p>
             <!-- Button trigger modal -->
-            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#16">
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#14">
                 Read Post
             </button>
             </p>
             <!-- Modal -->
-            <div class="modal fade bs-example-modal-lg" id="16" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+            <div class="modal fade bs-example-modal-lg" id="14" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
                 <div class="modal-dialog modal-lg" role="document">
                     <div class="modal-content">
                         <div class="modal-header">
@@ -1849,24 +2010,30 @@ python之禅 ， neo1218译
 <hr />
 <p>正则表达式的强大体现在元字符的匹配处理,以下是常见的元字符<br/>
 1. '\' 同其他编程语言(包括python!!!)一样,'\'是转义符,'\'后面加上不同字符表示不同意义,但是注意在python中的使用,r"string"可以解除\的作用<br/></p>
-<pre><code>\d 匹配任何10进制的数字,相当于类[0-9]&lt;br/&gt;
+<div class="codehilite"><pre>\d 匹配任何10进制的数字,相当于类[0-9]&lt;br/&gt;
 \D 匹配任何非数字字符,相当于类[^0-9]&lt;br/&gt;
 \s 匹配任何空白字符,相当于类[\t\n\r\f\v]&lt;br/&gt;
 \S 相当于类[^\t\n\r\f\v]&lt;br/&gt;
 \w 匹配任何字母数字字符,相当于类[a-zA-Z0-9]&lt;br/&gt;
 \W 非\w类
-</code></pre>
+</pre></div>
+
+
 <p>'\'还有取消所有元字符的作用<br/>
 2.'*'<br/>
 指定前一个字符可以被匹配0次或更多次,匹配引擎会试着重复尽可能多的次数(不超过正数界定的范围,20亿)<br/></p>
-<pre><code>正则表达式: ab*
+<div class="codehilite"><pre>正则表达式: ab*
 匹配字符串: abbbbbbbbbbbbbbbbbbbbbbb
-</code></pre>
+</pre></div>
+
+
 <p>3.'+'<br/>
 匹配一次或更多次<br/></p>
-<pre><code>正则表达式: ab+ 
+<div class="codehilite"><pre>正则表达式: ab+ 
 匹配字符串: abbbbbbbbbbbbbbbbbbbbbbb
-</code></pre>
+</pre></div>
+
+
 <p>注意'<em>','+'的区别: "</em>"模式下被匹配的字符串可以根本不出现<br/>
 4.'?'<br/>
 匹配一次或0次,可以认为是标志某物是可选的<br/>
@@ -1874,26 +2041,32 @@ python之禅 ， neo1218译
 <hr />
 <p>python re模块提供了一个正则表达式引擎接口,可以将REstring编译成对象并用它们来进行匹配<br/>
 编译正则表达式</p>
-<pre><code>&gt;&gt;import re
-&gt;&gt;p = re.compile("ab?")
-&gt;&gt;print p
- &lt;_sre.SRE_Pattern object at 0x7f7d30cc8c00&gt;
-</code></pre>
+<div class="codehilite"><pre><span class="o">&gt;&gt;</span><span class="kn">import</span> <span class="nn">re</span>
+<span class="o">&gt;&gt;</span><span class="n">p</span> <span class="o">=</span> <span class="n">re</span><span class="o">.</span><span class="n">compile</span><span class="p">(</span><span class="s">&quot;ab?&quot;</span><span class="p">)</span>
+<span class="o">&gt;&gt;</span><span class="k">print</span> <span class="n">p</span>
+ <span class="o">&lt;</span><span class="n">_sre</span><span class="o">.</span><span class="n">SRE_Pattern</span> <span class="nb">object</span> <span class="n">at</span> <span class="mh">0x7f7d30cc8c00</span><span class="o">&gt;</span>
+</pre></div>
+
+
 <p>python万物都是对象<br/>
 对象可直接调用方法<code>p.findall("abb")</code><br/>
 re.compile()也接受可选的标志参数,用来实现不同的特殊功能和语法变更<br/>
 编译后的正则对象可以调用以下方法<br/></p>
-<pre><code>match() 在字符串开始位置匹配,并以对象的形式返回
+<div class="codehilite"><pre>match() 在字符串开始位置匹配,并以对象的形式返回
 search() 在字符串的任意位置开始匹配,并以对象的形式返回
 findall() 在字符串的任意位置匹配,并以列表的形式返回
 finditer() 在字符串的任意位置匹配,并以迭代器的形式返回
-</code></pre>
+</pre></div>
+
+
 <p>match()和search()返回的对象可以调用以下方法<br/></p>
-<pre><code>group(num) 返回被RE匹配的字符串,支持num索引
+<div class="codehilite"><pre>group(num) 返回被RE匹配的字符串,支持num索引
 start() 返回匹配开始的位置
 end() 返回匹配结束的位置
 span() 返回一个元组包含匹配(开始,结束)的位置
-</code></pre>
+</pre></div>
+
+
 <h2>5.正则表达式在python中的应用</h2>
 <p><a href="http://python.jobbole.com/81332/" target="_blank">python 爬虫</a:></p>
                         </div>
@@ -1909,12 +2082,12 @@ span() 返回一个元组包含匹配(开始,结束)的位置
             <h4>Python Vim</h4>
             <p>
             <!-- Button trigger modal -->
-            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#17">
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#15">
                 Read Post
             </button>
             </p>
             <!-- Modal -->
-            <div class="modal fade bs-example-modal-lg" id="17" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+            <div class="modal fade bs-example-modal-lg" id="15" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
                 <div class="modal-dialog modal-lg" role="document">
                     <div class="modal-content">
                         <div class="modal-header">
@@ -1938,12 +2111,12 @@ span() 返回一个元组包含匹配(开始,结束)的位置
             <h4>flask后台集成ckEditor编辑器</h4>
             <p>
             <!-- Button trigger modal -->
-            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#18">
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#16">
                 Read Post
             </button>
             </p>
             <!-- Modal -->
-            <div class="modal fade bs-example-modal-lg" id="18" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+            <div class="modal fade bs-example-modal-lg" id="16" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
                 <div class="modal-dialog modal-lg" role="document">
                     <div class="modal-content">
                         <div class="modal-header">
@@ -1952,10 +2125,12 @@ span() 返回一个元组包含匹配(开始,结束)的位置
                         </div>
                         <div class="modal-body">
                             <h3>传统的集成方式需要手动下载ckeditor，复制粘贴大量代码，十分麻烦，于是自己写了一个包，简化集成过程。</h3>
-<pre><code>包: flask-ckeditor
+<div class="codehilite"><pre>包: flask-ckeditor
 github: https://github.com/neo1218/flask-ckeditor
 文档: https://github.com/neo1218/flask-ckeditor/blob/master/README.md
-</code></pre>
+</pre></div>
+
+
 <p>希望可以帮助大家方便的集成 ckeditor 😄</p>
                         </div>
                         <div class="modal-footer">
@@ -1970,12 +2145,12 @@ github: https://github.com/neo1218/flask-ckeditor
             <h4>Windows下搭建github博客</h4>
             <p>
             <!-- Button trigger modal -->
-            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#19">
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#17">
                 Read Post
             </button>
             </p>
             <!-- Modal -->
-            <div class="modal fade bs-example-modal-lg" id="19" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+            <div class="modal fade bs-example-modal-lg" id="17" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
                 <div class="modal-dialog modal-lg" role="document">
                     <div class="modal-content">
                         <div class="modal-header">
@@ -2012,11 +2187,13 @@ github: https://github.com/neo1218/flask-ckeditor
 如果你成功搭建了你的博客,请千万把博客利用好，空间是有限的，免费不能浪费！<br/>
 1.在你的git终端输入<code>npm install hexo-deployer-git --save</code><br/>
 2.在你的hexo文件夹中修改_config.yml</p>
-<pre><code>deploy:
-type: git
-repository: https://github.com/用户名/用户名.github.io.git
-branch: master
-</code></pre>
+<div class="codehilite"><pre><span class="n">deploy</span><span class="o">:</span>
+<span class="n">type</span><span class="o">:</span> <span class="n">git</span>
+<span class="n">repository</span><span class="o">:</span> <span class="n">https</span><span class="o">://</span><span class="n">github</span><span class="o">.</span><span class="na">com</span><span class="sr">/用户名/</span><span class="err">用户名</span><span class="o">.</span><span class="na">github</span><span class="o">.</span><span class="na">io</span><span class="o">.</span><span class="na">git</span>
+<span class="n">branch</span><span class="o">:</span> <span class="n">master</span>
+</pre></div>
+
+
 <p>注意":"后的空格！<br/>
 3.从git终端进入hexo文件夹，输入<br/>
 <code>hexo g</code><br/>
@@ -2050,12 +2227,12 @@ over.......</p>
             <h4>My Birth_Day</h4>
             <p>
             <!-- Button trigger modal -->
-            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#20">
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#18">
                 Read Post
             </button>
             </p>
             <!-- Modal -->
-            <div class="modal fade bs-example-modal-lg" id="20" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+            <div class="modal fade bs-example-modal-lg" id="18" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
                 <div class="modal-dialog modal-lg" role="document">
                     <div class="modal-content">
                         <div class="modal-header">
@@ -2082,12 +2259,12 @@ over.......</p>
             <h4>知道别人是怎么想的</h4>
             <p>
             <!-- Button trigger modal -->
-            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#21">
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#19">
                 Read Post
             </button>
             </p>
             <!-- Modal -->
-            <div class="modal fade bs-example-modal-lg" id="21" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+            <div class="modal fade bs-example-modal-lg" id="19" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
                 <div class="modal-dialog modal-lg" role="document">
                     <div class="modal-content">
                         <div class="modal-header">
@@ -2131,12 +2308,12 @@ linux入门必看！！<br/>
             <h4>uwsgi配置(1)——进程与线程</h4>
             <p>
             <!-- Button trigger modal -->
-            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#22">
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#20">
                 Read Post
             </button>
             </p>
             <!-- Modal -->
-            <div class="modal fade bs-example-modal-lg" id="22" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+            <div class="modal fade bs-example-modal-lg" id="20" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
                 <div class="modal-dialog modal-lg" role="document">
                     <div class="modal-content">
                         <div class="modal-header">
@@ -2163,12 +2340,12 @@ ok，回到博客的主题——进程与线程，其实上文中的邮箱bug就
             <h4>flask学习笔记(7)——API 下</h4>
             <p>
             <!-- Button trigger modal -->
-            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#23">
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#21">
                 Read Post
             </button>
             </p>
             <!-- Modal -->
-            <div class="modal fade bs-example-modal-lg" id="23" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+            <div class="modal fade bs-example-modal-lg" id="21" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
                 <div class="modal-dialog modal-lg" role="document">
                     <div class="modal-content">
                         <div class="modal-header">
@@ -2180,61 +2357,69 @@ ok，回到博客的主题——进程与线程，其实上文中的邮箱bug就
 <strong>资源和JSON的序列化转换</strong></br>
 在第一篇已经介绍过，JSON（Javascript Object Notation）是http协议的传输和响应格式，所以我们需要把数据库中的资源以JSON的格式规范化。<br/>
 把文章转化为json格式的序列化字典(app/models.py)</p>
-<pre><code>class Post(db.Model):
-    #...
-    def to_json(self):
-        json_post = {
-            'url': url_for('api.get_post', id=self.id, _external=True),
-            'body': self.body,
-            'body_html': self.body_html,
-            'timestamp': self.timestamp,
-            'author': url_for('api.get_user', id=self.author_id,
-                          _external=True),
-            'comments': url_for('api.get_post_comments', id=self.id,
-                            _external=True),
-            'comment_count': self.comments.count()
+<div class="codehilite"><pre><span class="k">class</span> <span class="n">Post</span>(<span class="n">db</span>.<span class="n">Model</span>):
+    <span class="c-Singleline">#...</span>
+    <span class="n">def</span> <span class="n">to_json</span>(<span class="k">self</span>):
+        <span class="n">json_post</span> = {
+            <span class="s">&#39;url&#39;</span>: <span class="n">url_for</span>(<span class="s">&#39;api.get_post&#39;</span>, <span class="n">id</span>=<span class="k">self</span>.<span class="n">id</span>, <span class="n">_external</span>=<span class="nb">True</span>),
+            <span class="s">&#39;body&#39;</span>: <span class="k">self</span>.<span class="nb">body</span>,
+            <span class="s">&#39;body_html&#39;</span>: <span class="k">self</span>.<span class="n">body_html</span>,
+            <span class="s">&#39;timestamp&#39;</span>: <span class="k">self</span>.<span class="n">timestamp</span>,
+            <span class="s">&#39;author&#39;</span>: <span class="n">url_for</span>(<span class="s">&#39;api.get_user&#39;</span>, <span class="n">id</span>=<span class="k">self</span>.<span class="n">author_id</span>,
+                          <span class="n">_external</span>=<span class="nb">True</span>),
+            <span class="s">&#39;comments&#39;</span>: <span class="n">url_for</span>(<span class="s">&#39;api.get_post_comments&#39;</span>, <span class="n">id</span>=<span class="k">self</span>.<span class="n">id</span>,
+                            <span class="n">_external</span>=<span class="nb">True</span>),
+            <span class="s">&#39;comment_count&#39;</span>: <span class="k">self</span>.<span class="n">comments</span>.<span class="nb">count</span>()
         }
-        return json_post
-</code></pre>
+        <span class="k">return</span> <span class="n">json_post</span>
+</pre></div>
+
+
 <p>可以看到，资源的绝大多数属性和数据库模型是一致的，但是我们也可以自己添加虚拟的属性比如comments_count<br/>
 我们给每一个返回url的属性都添加了_externel=True,从而返回url的绝对路径，这样的好处是用户可以从明确的顶级url中自己挖掘出其他资源的url。<br/>
 把用户转化为json格式的序列化字典（app/models.py）</p>
-<pre><code>class User(UserMixin,db.Model):
-    #...
-    def to_json(self):
-        json_user = {
-            'url': url_for('api.get_post', id=self.id, _external=True),
-            'username': self.username,
-            'member_since': self.member_since,
-            'last_seen': self.last_seen,
-            'posts': url_for('api.get_user_posts', id=self.id, _external=True),
-            'followed_posts': url_for('api.get_user_followed_posts',
-                                  id=self.id, _external=True),
-            'post_count': self.posts.count()
+<div class="codehilite"><pre><span class="k">class</span> <span class="n">User</span>(<span class="n">UserMixin</span>,<span class="n">db</span>.<span class="n">Model</span>):
+    <span class="c-Singleline">#...</span>
+    <span class="n">def</span> <span class="n">to_json</span>(<span class="k">self</span>):
+        <span class="n">json_user</span> = {
+            <span class="s">&#39;url&#39;</span>: <span class="n">url_for</span>(<span class="s">&#39;api.get_post&#39;</span>, <span class="n">id</span>=<span class="k">self</span>.<span class="n">id</span>, <span class="n">_external</span>=<span class="nb">True</span>),
+            <span class="s">&#39;username&#39;</span>: <span class="k">self</span>.<span class="n">username</span>,
+            <span class="s">&#39;member_since&#39;</span>: <span class="k">self</span>.<span class="n">member_since</span>,
+            <span class="s">&#39;last_seen&#39;</span>: <span class="k">self</span>.<span class="n">last_seen</span>,
+            <span class="s">&#39;posts&#39;</span>: <span class="n">url_for</span>(<span class="s">&#39;api.get_user_posts&#39;</span>, <span class="n">id</span>=<span class="k">self</span>.<span class="n">id</span>, <span class="n">_external</span>=<span class="nb">True</span>),
+            <span class="s">&#39;followed_posts&#39;</span>: <span class="n">url_for</span>(<span class="s">&#39;api.get_user_followed_posts&#39;</span>,
+                                  <span class="n">id</span>=<span class="k">self</span>.<span class="n">id</span>, <span class="n">_external</span>=<span class="nb">True</span>),
+            <span class="s">&#39;post_count&#39;</span>: <span class="k">self</span>.<span class="n">posts</span>.<span class="nb">count</span>()
         }
-        return json_user
-</code></pre>
+        <span class="k">return</span> <span class="n">json_user</span>
+</pre></div>
+
+
 <p>然而客户端提供的数据可能是空的、错误的，所以客户端创建文章的时候我们要对客户端提交的文章进行验证。<br/>
 从JSON格式数据创建一篇文章（app/models.py）</p>
-<pre><code>from app.exceptions import ValidationError
+<div class="codehilite"><pre><span class="kn">from</span> <span class="nn">app.exceptions</span> <span class="kn">import</span> <span class="n">ValidationError</span>
 
-Class Post(db.Model):
-    #...
-    @staticmethod
-    def from_json(json_comment):
-        body = json_comment.get('body')
-        if body is None or body == '':
-            raise ValidationError('comment does not have a body')
-        return Comment(body=body)
-</code></pre>
+<span class="n">Class</span> <span class="n">Post</span><span class="p">(</span><span class="n">db</span><span class="o">.</span><span class="n">Model</span><span class="p">):</span>
+    <span class="c">#...</span>
+    <span class="nd">@staticmethod</span>
+    <span class="k">def</span> <span class="nf">from_json</span><span class="p">(</span><span class="n">json_comment</span><span class="p">):</span>
+        <span class="n">body</span> <span class="o">=</span> <span class="n">json_comment</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s">&#39;body&#39;</span><span class="p">)</span>
+        <span class="k">if</span> <span class="n">body</span> <span class="ow">is</span> <span class="bp">None</span> <span class="ow">or</span> <span class="n">body</span> <span class="o">==</span> <span class="s">&#39;&#39;</span><span class="p">:</span>
+            <span class="k">raise</span> <span class="n">ValidationError</span><span class="p">(</span><span class="s">&#39;comment does not have a body&#39;</span><span class="p">)</span>
+        <span class="k">return</span> <span class="n">Comment</span><span class="p">(</span><span class="n">body</span><span class="o">=</span><span class="n">body</span><span class="p">)</span>
+</pre></div>
+
+
 <p>当用户提供的文章出现问题的时候会抛出ValidationError异常，接下来我们要来处理这个异常。<br/>
 API中ValidationError异常的处理程序(app/api-1-0/errors.py)</p>
-<pre><code>@api.errorhandler(ValidationError)
+<div class="codehilite"><pre>@api.errorhandler(ValidationError)
 def validation_error(e):
     return bad_request(e.args[0])
-</code></pre>
+</pre></div>
+
+
 <p>我们还要在视图函数中定义用户提交文章的路由(flasky/app/api-1-0/posts.py)</p>
-<pre><code>@api.route('/posts/', methods=['POST'])
+<div class="codehilite"><pre>@api.route(&#39;/posts/&#39;, methods=[&#39;POST&#39;])
 @permission_required(Permission.WRITE_ARTICLES)
 def new_post():
     post = Post.from_json(request.json)
@@ -2242,39 +2427,45 @@ def new_post():
     db.session.add(post)
     db.session.commit()
     return jsonify(post.to_json()), 201, \
-        {'Location': url_for('api.get_post', id=post.id, _external=True)}
-</code></pre>
+        {&#39;Location&#39;: url_for(&#39;api.get_post&#39;, id=post.id, _external=True)}
+</pre></div>
+
+
 <p>可以看到有了前面的铺垫，视图函数的代码已经很简洁了。</p>
 <p>到目前为止，我们的资源已经很好的序列化了，用户认证也很完善了，接下来我们将实现api真正的功能——与客户端交互。客户端将请求http方法，而我们将返回相应的路由。让我们再来回顾一下http方法ba:<br/></p>
-<pre><code>1.GET: 单个资源的url 获取目标资源  
+<div class="codehilite"><pre>1.GET: 单个资源的url 获取目标资源  
 2.GET: 资源集合的url 获取目标资源的集合（如果实现了分页则返回该页的资源集合）
 3.PUT: 单个资源的url 修改一个现有资源，如果客户端能够指派一个新的url则可以创建一个新的资源
 4.POST:资源集合的url 创建一个新的资源，并加入资源集合，由服务器为资源指派一个新的url
 5.DELETE: 单个资源的url 删除该资源
 6.DELETE: 资源集合的url 删除该资源集合中的所有资源
-</code></pre>
+</pre></div>
+
+
 <p>文章资源GET请求处理程序（app/api-1-0/posts.py）</p>
-<pre><code>@api.route('/posts/')
+<div class="codehilite"><pre>@api.route(&#39;/posts/&#39;)
 @auth.login_required
 def get_post():
-    '''
+    &#39;&#39;&#39;
     返回文章资源的集合
-    '''
+    &#39;&#39;&#39;
     posts = Post.query.all()
-    return jsonify({'posts':[post.to_json() for post in posts]})
+    return jsonify({&#39;posts&#39;:[post.to_json() for post in posts]})
 
-@api.route('/posts/&lt;int:id&gt;')
+@api.route(&#39;/posts/&lt;int:id&gt;&#39;)
 @auth.login_required
 def get_post(id):
-    '''
+    &#39;&#39;&#39;
     返回特定id的文章
-    ''' 
+    &#39;&#39;&#39; 
     post = Post.query.get_or_404(id)
     return jsonify(post.to_json())
-</code></pre>
+</pre></div>
+
+
 <p>如果特定id的文章不存在，会返回404错误。你也可以自己定义404错误界面。<br/></p>
 <p>文章资源的POST请求处理程序（app/api-1-0/posts.py）</p>
-<pre><code>@api.route('/posts/', methods=['POST'])
+<div class="codehilite"><pre>@api.route(&#39;/posts/&#39;, methods=[&#39;POST&#39;])
 @permission_required(Permission.WRITE_ARTICLES)
 def new_post():
     post = Post.from_json(request.json)
@@ -2282,32 +2473,38 @@ def new_post():
     db.session.add(post)
     db.session.commit()
     return jsonify(post.to_json()), 201, \
-        {'Location': url_for('api.get_post', id=post.id, _external=True)}
-</code></pre>
+        {&#39;Location&#39;: url_for(&#39;api.get_post&#39;, id=post.id, _external=True)}
+</pre></div>
+
+
 <p>permission_required()装饰器（app/api-1-0/decorators.py）</p>
-<pre><code>def permission_required(permission):
-    def decorator(f):
-        @wraps(f)
-        def decorated_function(*args, **kwargs):
-            if not g.current_user.can(permission):
-                return forbidden('Insufficient permissions')
-            return f(*args, **kwargs)
-        return decorated_function
-    return decorator
-</code></pre>
+<div class="codehilite"><pre><span class="nx">def</span> <span class="nx">permission_required</span><span class="p">(</span><span class="nx">permission</span><span class="p">)</span><span class="o">:</span>
+    <span class="nx">def</span> <span class="nx">decorator</span><span class="p">(</span><span class="nx">f</span><span class="p">)</span><span class="o">:</span>
+        <span class="err">@</span><span class="nx">wraps</span><span class="p">(</span><span class="nx">f</span><span class="p">)</span>
+        <span class="nx">def</span> <span class="nx">decorated_function</span><span class="p">(</span><span class="o">*</span><span class="nx">args</span><span class="p">,</span> <span class="o">**</span><span class="nx">kwargs</span><span class="p">)</span><span class="o">:</span>
+            <span class="k">if</span> <span class="nx">not</span> <span class="nx">g</span><span class="p">.</span><span class="nx">current_user</span><span class="p">.</span><span class="nx">can</span><span class="p">(</span><span class="nx">permission</span><span class="p">)</span><span class="o">:</span>
+                <span class="k">return</span> <span class="nx">forbidden</span><span class="p">(</span><span class="s1">&#39;Insufficient permissions&#39;</span><span class="p">)</span>
+            <span class="k">return</span> <span class="nx">f</span><span class="p">(</span><span class="o">*</span><span class="nx">args</span><span class="p">,</span> <span class="o">**</span><span class="nx">kwargs</span><span class="p">)</span>
+        <span class="k">return</span> <span class="nx">decorated_function</span>
+    <span class="k">return</span> <span class="nx">decorator</span>
+</pre></div>
+
+
 <p>我们还需要PUT方法对文章进行更新<br/>
 文章资源的PUT请求处理程序（app/api-1-0/posts.py）</p>
-<pre><code>@api.route('/posts/&lt;int:id&gt;', methods=['PUT'])
+<div class="codehilite"><pre>@api.route(&#39;/posts/&lt;int:id&gt;&#39;, methods=[&#39;PUT&#39;])
 @permission_required(Permission.WRITE_ARTICLES)
 def edit_post(id):
     post = Post.query.get_or_404(id)
     if g.current_user != post.author and \
             not g.current_user.can(Permission.ADMINISTER):
-        return forbidden('Insufficient permissions')
-    post.body = request.json.get('body', post.body)
+        return forbidden(&#39;Insufficient permissions&#39;)
+    post.body = request.json.get(&#39;body&#39;, post.body)
     db.session.add(post)
     return jsonify(post.to_json())
-</code></pre>
+</pre></div>
+
+
 <p>这里的验证比较复杂，不过程序还比较好懂。<br/></p>
 <p>到这里，我们的API学习就要接近尾声了，我们实现了API客户端的认证、资源的JSON序列化、以及如何利用http方法与客户端交互，当然还有对错误格式的处理。不过大家对API可能还是觉得有些抽象，API呈现给客户端的究竟是什么样的呢？<br/>
 不用着急，利用火狐的RESTCilent插件，我们就可以一窥API的真容了！<br/>
@@ -2326,12 +2523,12 @@ def edit_post(id):
             <h4>flask学习笔记(6)——API 中</h4>
             <p>
             <!-- Button trigger modal -->
-            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#24">
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#22">
                 Read Post
             </button>
             </p>
             <!-- Modal -->
-            <div class="modal fade bs-example-modal-lg" id="24" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+            <div class="modal fade bs-example-modal-lg" id="22" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
                 <div class="modal-dialog modal-lg" role="document">
                     <div class="modal-content">
                         <div class="modal-header">
@@ -2342,68 +2539,74 @@ def edit_post(id):
                             <p>在上一篇博文中我们已经安装了flask-httpauth，接下来我们可以利用它进行用户认证了；<br/>
 在我们初始化flask-httpauth扩展之前，我们要先创建一个HTTPBasicAuth类对象。<br/>
 初始化Flask-HTTPAuth(app/api-1-0/authentication.py)</p>
-<pre><code>from flask.ext.httpauth import HTTPBasicAuth
-auth = HTTPBasicAuth()
+<div class="codehilite"><pre><span class="kn">from</span> <span class="nn">flask.ext.httpauth</span> <span class="kn">import</span> <span class="n">HTTPBasicAuth</span>
+<span class="n">auth</span> <span class="o">=</span> <span class="n">HTTPBasicAuth</span><span class="p">()</span>
 
-@auth.verify_password
-def verify_password(email_or_token, password):
-    if email_or_token == '':
-        g.current_user = AnonymousUser()
-        return True
-    if password == '':
-        g.current_user = User.verify_auth_token(email_or_token)
-        g.token_used = True
-        return g.current_user is not None
-    user = User.query.filter_by(email=email_or_token).first()
-    if not user:
-        return False
-    g.current_user = user
-    g.token_used = False
-    return user.verify_password(password)
-</code></pre>
+<span class="nd">@auth.verify_password</span>
+<span class="k">def</span> <span class="nf">verify_password</span><span class="p">(</span><span class="n">email_or_token</span><span class="p">,</span> <span class="n">password</span><span class="p">):</span>
+    <span class="k">if</span> <span class="n">email_or_token</span> <span class="o">==</span> <span class="s">&#39;&#39;</span><span class="p">:</span>
+        <span class="n">g</span><span class="o">.</span><span class="n">current_user</span> <span class="o">=</span> <span class="n">AnonymousUser</span><span class="p">()</span>
+        <span class="k">return</span> <span class="bp">True</span>
+    <span class="k">if</span> <span class="n">password</span> <span class="o">==</span> <span class="s">&#39;&#39;</span><span class="p">:</span>
+        <span class="n">g</span><span class="o">.</span><span class="n">current_user</span> <span class="o">=</span> <span class="n">User</span><span class="o">.</span><span class="n">verify_auth_token</span><span class="p">(</span><span class="n">email_or_token</span><span class="p">)</span>
+        <span class="n">g</span><span class="o">.</span><span class="n">token_used</span> <span class="o">=</span> <span class="bp">True</span>
+        <span class="k">return</span> <span class="n">g</span><span class="o">.</span><span class="n">current_user</span> <span class="ow">is</span> <span class="ow">not</span> <span class="bp">None</span>
+    <span class="n">user</span> <span class="o">=</span> <span class="n">User</span><span class="o">.</span><span class="n">query</span><span class="o">.</span><span class="n">filter_by</span><span class="p">(</span><span class="n">email</span><span class="o">=</span><span class="n">email_or_token</span><span class="p">)</span><span class="o">.</span><span class="n">first</span><span class="p">()</span>
+    <span class="k">if</span> <span class="ow">not</span> <span class="n">user</span><span class="p">:</span>
+        <span class="k">return</span> <span class="bp">False</span>
+    <span class="n">g</span><span class="o">.</span><span class="n">current_user</span> <span class="o">=</span> <span class="n">user</span>
+    <span class="n">g</span><span class="o">.</span><span class="n">token_used</span> <span class="o">=</span> <span class="bp">False</span>
+    <span class="k">return</span> <span class="n">user</span><span class="o">.</span><span class="n">verify_password</span><span class="p">(</span><span class="n">password</span><span class="p">)</span>
+</pre></div>
+
+
 <p>还记得上一篇博文中提到的401错误吗？当用户认证密令不正确时，服务器向客户端返回401错误，为了让服务器端返回的错误格式统一，我们可以自定义这个错误响应。<br/>
 flask-httpauth错误处理程序(app/api-1-0/authentication.py)</p>
-<pre><code>@api.before_request
+<div class="codehilite"><pre>@api.before_request
 @auth.login_required
 def before_request():
     if not g.current_user.is_anonymous and \
         not g.current_user.confirmed:
-    return forbidden('Unconfirmed account')
-</code></pre>
+    return forbidden(&#39;Unconfirmed account&#39;)
+</pre></div>
+
+
 <p>在这里使用了before_request装饰器，如此我们便可以调用一次login_required装饰器并将其应用到整个api蓝本中。</p>
 <p><strong>基于令牌的认证</strong><br/>
 由于rest风格的api具有无状态性，所以客户端在每次请求时都要发送http认证密令，但密令中包含着一些敏感信息，为了保护客户端的信息（这也是认证的初衷），我们采用更安全的、基于令牌的认证模式——用户向特定的url发送密令即可生成令牌，在令牌的寿命期限内只需令牌就可以完成认证。<br/>
 为了生成和验证令牌，我们需要在数据库模型中新增两个方法，这两个方法用到了itsdangerous包<br/>
 支持基于令牌的认证(app/models.py)</p>
-<pre><code>class User(UserMixin, db.Model):
-#...
-def generate_auth_token(self, expiration):
-    '''
-    1.使用编码后用户的id生成签名令牌；2.指定以秒为单位的令牌寿命。
-    '''
-    s = Serializer(current_app.config['SECRET_KEY'],
-                   expires_in=expiration)
-    return s.dumps({'id': self.id}).decode('ascii')
+<div class="codehilite"><pre><span class="k">class</span> <span class="n">User</span>(<span class="n">UserMixin</span>, <span class="n">db</span>.<span class="n">Model</span>):
+<span class="c-Singleline">#...</span>
+<span class="n">def</span> <span class="n">generate_auth_token</span>(<span class="k">self</span>, <span class="n">expiration</span>):
+    <span class="s">&#39;&#39;&#39;</span>
+<span class="s">    1.使用编码后用户的id生成签名令牌；2.指定以秒为单位的令牌寿命。</span>
+<span class="s">    &#39;&#39;&#39;</span>
+    <span class="o">s</span> = <span class="n">Serializer</span>(<span class="n">current_app</span>.<span class="n">config</span>[<span class="s">&#39;SECRET_KEY&#39;</span>],
+                   <span class="n">expires_in</span>=<span class="n">expiration</span>)
+    <span class="k">return</span> <span class="o">s</span>.<span class="n">dumps</span>({<span class="s">&#39;id&#39;</span>: <span class="k">self</span>.<span class="n">id</span>}).<span class="n">decode</span>(<span class="s">&#39;ascii&#39;</span>)
 
-@staticmethod
-def verify_auth_token(token):
-    '''
-    验证解码后的令牌，并返回相应的用户id；
-    '''
-    s = Serializer(current_app.config['SECRET_KEY'])
-    try:
-        data = s.loads(token)
-    except:
-        return None
-    return User.query.get(data['id'])
-</code></pre>
+<span class="nv">@staticmethod</span>
+<span class="n">def</span> <span class="n">verify_auth_token</span>(<span class="k">token</span>):
+    <span class="s">&#39;&#39;&#39;</span>
+<span class="s">    验证解码后的令牌，并返回相应的用户id；</span>
+<span class="s">    &#39;&#39;&#39;</span>
+    <span class="o">s</span> = <span class="n">Serializer</span>(<span class="n">current_app</span>.<span class="n">config</span>[<span class="s">&#39;SECRET_KEY&#39;</span>])
+    <span class="n">try:</span>
+        <span class="n">data</span> = <span class="o">s</span>.<span class="n">loads</span>(<span class="k">token</span>)
+    <span class="n">except:</span>
+        <span class="k">return</span> <span class="n">None</span>
+    <span class="k">return</span> <span class="n">User</span>.<span class="n">query</span>.<span class="n">get</span>(<span class="n">data</span>[<span class="s">&#39;id&#39;</span>])
+</pre></div>
+
+
 <p>支持令牌的改进验证回掉(app/api-1-0/authentication.py)</p>
-<pre><code>@auth.verify_password
+<div class="codehilite"><pre>@auth.verify_password
 def verify_password(email_or_token, password):
-    if email_or_token == '':
+    if email_or_token == &#39;&#39;:
         g.current_user = AnonymousUser()
         return True
-    if password == '':
+    if password == &#39;&#39;:
         g.current_user = User.verify_auth_token(email_or_token)
         g.token_used = True
         return g.current_user is not None
@@ -2413,15 +2616,19 @@ def verify_password(email_or_token, password):
     g.current_user = user
     g.token_used = False
     return user.verify_password(password)
-</code></pre>
+</pre></div>
+
+
 <p>发送令牌至客户端的路由(app/api-1-0/authentication.py)</p>
-<pre><code>@api.route('/token')
+<div class="codehilite"><pre>@api.route(&#39;/token&#39;)
 def get_token():
     if g.current_user.is_anonymous() or g.token_used:
-        return unauthorized('Invalid credentials')
-    return jsonify({'token': g.current_user.generate_auth_token(
-        expiration=3600), 'expiration': 3600})
-</code></pre>
+        return unauthorized(&#39;Invalid credentials&#39;)
+    return jsonify({&#39;token&#39;: g.current_user.generate_auth_token(
+        expiration=3600), &#39;expiration&#39;: 3600})
+</pre></div>
+
+
 <p>到此，我们已经能够很好的处理客户端用户认证了。在接下来的博文中，让我们把目光放在如何用json的序列化表示资源吧！</p>
                         </div>
                         <div class="modal-footer">
@@ -2436,12 +2643,12 @@ def get_token():
             <h4>flask学习笔记（5）——API 上</h4>
             <p>
             <!-- Button trigger modal -->
-            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#25">
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#23">
                 Read Post
             </button>
             </p>
             <!-- Modal -->
-            <div class="modal fade bs-example-modal-lg" id="25" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+            <div class="modal fade bs-example-modal-lg" id="23" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
                 <div class="modal-dialog modal-lg" role="document">
                     <div class="modal-content">
                         <div class="modal-header">
@@ -2471,7 +2678,7 @@ flask支持rest风格的API，这是API的的一种，详见：
 如果需要代码：<code>git clone https://github.com/neo1218/flasky.git</code><br/>
 <strong>5.1:API蓝图结构</strong><br/>
 如果不清楚什么是蓝图的话，请参见我的另一篇博客:<a href="http://neo1218.github.io/2015/04/02/post6-1/" target="_blank">flask学习笔记（3）——蓝图</a></p>
-<pre><code>|-flasky
+<div class="codehilite"><pre>|-flasky
     |-app/
         |-api_1_0
             |-__init__.py
@@ -2481,35 +2688,43 @@ flask支持rest风格的API，这是API的的一种，详见：
             |-authentication.py
             |-errors.py
             |-decorators.py
-</code></pre>
+</pre></div>
+
+
 <p>注：api_1_0,是api的版本号，要想明白为什么要设置版本号，首先我们要了解web浏览器和智能手机客户端的区别，web浏览器其实就是一个显示工具（显示html代码），它执行的代码就是服务器端的代码，所以服务器端版本更新后，浏览器能够很好的更新所有的用户。但是，手机的原生应用就不一样了，它只是利用服务器端的数据，app的开发代码都不一样(比如我们学校的桂声app，java开发，后台是python)，也就是说，应用更新是需要得到机主的允许的，如果机主不想更新呢？那么只有继续运行旧的程序啦，所以我们的服务器上要运行多套程序的，版本号的作用就不言而喻了吧！<br/>
 1.API蓝图的构造文件(app/api-1-0/-init-.py)</p>
-<pre><code>from flask import Blueprint
+<div class="codehilite"><pre><span class="kn">from</span> <span class="nn">flask</span> <span class="kn">import</span> <span class="n">Blueprint</span>
 
-api = Blueprint('api',__name__)
+<span class="n">api</span> <span class="o">=</span> <span class="n">Blueprint</span><span class="p">(</span><span class="s">&#39;api&#39;</span><span class="p">,</span><span class="n">__name__</span><span class="p">)</span>
 
-from . import authentication, posts, users, comments, errors
-</code></pre>
+<span class="kn">from</span> <span class="nn">.</span> <span class="kn">import</span> <span class="n">authentication</span><span class="p">,</span> <span class="n">posts</span><span class="p">,</span> <span class="n">users</span><span class="p">,</span> <span class="n">comments</span><span class="p">,</span> <span class="n">errors</span>
+</pre></div>
+
+
 <p>2.注册API蓝图(app/-init.py-)</p>
-<pre><code>def create_app(config_name):
-    #...
-    from .api_1_0 import api as api_1_0_blueprint
-    app.register_blueprint(api_1_0_blueprint,url_prefix='/api/v1.0')
-    #...
-</code></pre>
+<div class="codehilite"><pre><span class="k">def</span> <span class="nf">create_app</span><span class="p">(</span><span class="n">config_name</span><span class="p">):</span>
+    <span class="c">#...</span>
+    <span class="kn">from</span> <span class="nn">.api_1_0</span> <span class="kn">import</span> <span class="n">api</span> <span class="k">as</span> <span class="n">api_1_0_blueprint</span>
+    <span class="n">app</span><span class="o">.</span><span class="n">register_blueprint</span><span class="p">(</span><span class="n">api_1_0_blueprint</span><span class="p">,</span><span class="n">url_prefix</span><span class="o">=</span><span class="s">&#39;/api/v1.0&#39;</span><span class="p">)</span>
+    <span class="c">#...</span>
+</pre></div>
+
+
 <p>3.错误处理<br/>
 在学习错误处理之前我们要了解两个概念：1.rest风格支持的http方法    ，2.http状态码<br/>
 1.rest风格支持以下几种http请求方法：<br/></p>
-<pre><code>1.GET: 单个资源的url 获取目标资源  
+<div class="codehilite"><pre>1.GET: 单个资源的url 获取目标资源  
 2.GET: 资源集合的url 获取目标资源的集合（如果实现了分页则返回该页的资源集合）
 3.PUT: 单个资源的url 修改一个现有资源，如果客户端能够指派一个新的url则可以创建一个新的资源
 4.POST:资源集合的url 创建一个新的资源，并加入资源集合，由服务器为资源指派一个新的url
 5.DELETE: 单个资源的url 删除该资源
 6.DELETE: 资源集合的url 删除该资源集合中的所有资源
-</code></pre>
+</pre></div>
+
+
 <p>由上表我们可以看到url的重要性，客户端对资源的操控是以url为核心！<br/>
 2.http状态码：</p>
-<pre><code>200：                    OK                      请求成功完成 
+<div class="codehilite"><pre>200：                    OK                      请求成功完成 
 201：                    Greated                 请求成功完成，并创建一个新资源
 400：                    Bad request             请求不可用或不一致                 
 401：                    Unauthorized            请求未包含认证信息
@@ -2517,29 +2732,33 @@ from . import authentication, posts, users, comments, errors
 404：                    Notfound                URL对应的资源不存在
 405：                    Method not allowed      指定资源不支持请求所用的方法
 500：                    Internal server error   内部服务器发生意外错误
-</code></pre>
+</pre></div>
+
+
 <p>另附上链接<a href="http://www.w3cschool.cc/w3cnote/404-page-design.html" target="_blank">创意404界面</a><br/>
 <a href="https://thepiratebay.se/404" target="_blank">tpb</a><br/>
 处理405和500状态码会比较麻烦，因为这两个错误是api自己生成的，而且返回的是html响应，所以我们要通过内容协商机制，把响应改为json格式（javascript object notation）<br/>
 使用http内容协商处理错误(app/main/errors.py)</p>
-<pre><code>@main.app_errorhandler(404)
+<div class="codehilite"><pre>@main.app_errorhandler(404)
 def page_not_found(e):
 #程序在请求的首部进行响应格式检查
 if request.accept_mimetypes.accept_json and \
         not request.accept_mimetypes.accept_html:
-    response = jsonify({'error': 'not found'})
+    response = jsonify({&#39;error&#39;: &#39;not found&#39;})
     response.status_code = 404
     return response
-return render_template('404.html'), 404
-</code></pre>
+return render_template(&#39;404.html&#39;), 404
+</pre></div>
+
+
 <p><strong>使用Flask-HTTPAuth认证用户</strong><br/>
 资源很重要，所以资源也是需要保护的，但更多的是保护用户的信息不对外泄露。<br/>
 如果大家之前认真看过我给的rest介绍（那个链接），那么你肯定会记得rest web 服务有一个很重要的一个特征--无状态，也就是说rest在两次请求之间不能记住客户端的任何信息，也就是服务器是不存储任何关于用户信息的，对于浏览器而言，可以把用户信息存储在cookies中，但对于手机端这种并不支持cookies的客户端就无能为力了！所以在每次请求中，客户端都要包含密令。<br/>
 因为rest服务基于http协议，所以我们采用基于flask的httpauth认证!<br/>
 1.在虚拟环境中安装flask-httpauth：<br/>
 <code>pip install flask-httpauth</code></p>
-<pre><code>现在我们已经安装好了flask-httpauth，在下一篇博客中我们会继续处理认证系统，以及如何以json格式返回资源，和对资源url的处理！
-</code></pre>
+<div class="codehilite"><pre>现在我们已经安装好了flask-httpauth，在下一篇博客中我们会继续处理认证系统，以及如何以json格式返回资源，和对资源url的处理！
+</pre></div>
                         </div>
                         <div class="modal-footer">
                             <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -2553,12 +2772,12 @@ return render_template('404.html'), 404
             <h4>Flask学习笔记(4)——web 表单</h4>
             <p>
             <!-- Button trigger modal -->
-            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#26">
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#24">
                 Read Post
             </button>
             </p>
             <!-- Modal -->
-            <div class="modal fade bs-example-modal-lg" id="26" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+            <div class="modal fade bs-example-modal-lg" id="24" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
                 <div class="modal-dialog modal-lg" role="document">
                     <div class="modal-content">
                         <div class="modal-header">
@@ -2573,29 +2792,33 @@ return render_template('404.html'), 404
 <p><code><venv>$ pip install flask-wtf</code></p>
 <p><strong>2.创建app文件</strong></p>
 <p><code><venv>$ vim hello.py</code></p>
-<pre><code>from flask import Flask
-app = Flask(__name__)
+<div class="codehilite"><pre><span class="kn">from</span> <span class="nn">flask</span> <span class="kn">import</span> <span class="n">Flask</span>
+<span class="n">app</span> <span class="o">=</span> <span class="n">Flask</span><span class="p">(</span><span class="n">__name__</span><span class="p">)</span>
 
-@app.route('/')
-def hello():
-    return '&lt;h1&gt;Hello 木犀！&lt;/h1&gt;'
+<span class="nd">@app.route</span><span class="p">(</span><span class="s">&#39;/&#39;</span><span class="p">)</span>
+<span class="k">def</span> <span class="nf">hello</span><span class="p">():</span>
+    <span class="k">return</span> <span class="s">&#39;&lt;h1&gt;Hello 木犀！&lt;/h1&gt;&#39;</span>
 
-if __name__=='__main__':
-    app.run(debug=True,port=8080)
-</code></pre>
+<span class="k">if</span> <span class="n">__name__</span><span class="o">==</span><span class="s">&#39;__main__&#39;</span><span class="p">:</span>
+    <span class="n">app</span><span class="o">.</span><span class="n">run</span><span class="p">(</span><span class="n">debug</span><span class="o">=</span><span class="bp">True</span><span class="p">,</span><span class="n">port</span><span class="o">=</span><span class="mi">8080</span><span class="p">)</span>
+</pre></div>
+
+
 <p><strong>3.配置Flask-WTF(./hello.py)</strong></p>
 <p><code>app.config['SECRET_KEY'] = 'hard to guess string'</code>
 <p>配置密钥的目的是为了防止CSRF攻击，关于CSRF攻击，请戳^^</p>
 <a href="http://zh.wikipedia.org/wiki/%E8%B7%A8%E7%AB%99%E8%AF%B7%E6%B1%82%E4%BC%AA%E9%80%A0">CSRF</a></p>
 <p><strong>4.创建表单类(./hello.py)</strong></p>
-<pre><code>from flask.ext.wtf import Form
-from wtforms import StringField,SubmitField
-from wtforms.validators import Required
+<div class="codehilite"><pre><span class="kn">from</span> <span class="nn">flask.ext.wtf</span> <span class="kn">import</span> <span class="n">Form</span>
+<span class="kn">from</span> <span class="nn">wtforms</span> <span class="kn">import</span> <span class="n">StringField</span><span class="p">,</span><span class="n">SubmitField</span>
+<span class="kn">from</span> <span class="nn">wtforms.validators</span> <span class="kn">import</span> <span class="n">Required</span>
 
-class NameForm(Form):
-    name = StringField('你的姓名是？'，validators=[Required()])
-    submit = SubmitField("提交！")
-</code></pre>
+<span class="k">class</span> <span class="nc">NameForm</span><span class="p">(</span><span class="n">Form</span><span class="p">):</span>
+    <span class="n">name</span> <span class="o">=</span> <span class="n">StringField</span><span class="p">(</span><span class="s">&#39;你的姓名是？&#39;</span><span class="err">，</span><span class="n">validators</span><span class="o">=</span><span class="p">[</span><span class="n">Required</span><span class="p">()])</span>
+    <span class="n">submit</span> <span class="o">=</span> <span class="n">SubmitField</span><span class="p">(</span><span class="s">&quot;提交！&quot;</span><span class="p">)</span>
+</pre></div>
+
+
 <p> python是一种面向对象的编程语言，类的概念尤其重要，在这里我们创建了一个NameForm类--这是Form类的子类，继承表单的基本属性和行为。同时，我们给了他特殊的功能--用于提交你的名字！cool！
     StringField、和SubmitField 是两个类，分别用于处理字符串和提交。其实他们的背后是html代码的实现！
     至于Required()则是验证器--防止提交空的表单。</p>
@@ -2624,12 +2847,12 @@ class NameForm(Form):
             <h4>flask学习笔记(3)——蓝图</h4>
             <p>
             <!-- Button trigger modal -->
-            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#27">
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#25">
                 Read Post
             </button>
             </p>
             <!-- Modal -->
-            <div class="modal fade bs-example-modal-lg" id="27" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+            <div class="modal fade bs-example-modal-lg" id="25" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
                 <div class="modal-dialog modal-lg" role="document">
                     <div class="modal-content">
                         <div class="modal-header">
@@ -2645,42 +2868,48 @@ class NameForm(Form):
 <strong>3.代码实现</strong><br/>
 附上一个小例子：<br/>
 1.~/flasky/app/-init-.py<br/></p>
-<pre><code>from flask import Flask
-from config import config
+<div class="codehilite"><pre><span class="kn">from</span> <span class="nn">flask</span> <span class="kn">import</span> <span class="n">Flask</span>
+<span class="kn">from</span> <span class="nn">config</span> <span class="kn">import</span> <span class="n">config</span>
 
-def create_app(config_name):
-    '''
-    工厂函数
-    '''
-    app = Flask(__name__)
-    app.config.from_object(config[config_name])                                    
-    config[config_name].init_app(app) 
-    #注册蓝图
-    from .main import main as main_blueprint                                        
-    app.register_blueprint(main_blueprint)
+<span class="k">def</span> <span class="nf">create_app</span><span class="p">(</span><span class="n">config_name</span><span class="p">):</span>
+    <span class="sd">&#39;&#39;&#39;</span>
+<span class="sd">    工厂函数</span>
+<span class="sd">    &#39;&#39;&#39;</span>
+    <span class="n">app</span> <span class="o">=</span> <span class="n">Flask</span><span class="p">(</span><span class="n">__name__</span><span class="p">)</span>
+    <span class="n">app</span><span class="o">.</span><span class="n">config</span><span class="o">.</span><span class="n">from_object</span><span class="p">(</span><span class="n">config</span><span class="p">[</span><span class="n">config_name</span><span class="p">])</span>                                    
+    <span class="n">config</span><span class="p">[</span><span class="n">config_name</span><span class="p">]</span><span class="o">.</span><span class="n">init_app</span><span class="p">(</span><span class="n">app</span><span class="p">)</span> 
+    <span class="c">#注册蓝图</span>
+    <span class="kn">from</span> <span class="nn">.main</span> <span class="kn">import</span> <span class="n">main</span> <span class="k">as</span> <span class="n">main_blueprint</span>                                        
+    <span class="n">app</span><span class="o">.</span><span class="n">register_blueprint</span><span class="p">(</span><span class="n">main_blueprint</span><span class="p">)</span>
 
-    return app
-</code></pre>
+    <span class="k">return</span> <span class="n">app</span>
+</pre></div>
+
+
 <p>2.~/flasky/app/main/-init-.py<br/></p>
-<pre><code>#导入蓝图
-from flask import Blueprint
-#实例化蓝图（参数1：蓝图的名字；参数2：蓝图所在的包or模块）
-main = Blueprint('main', __name__)
+<div class="codehilite"><pre><span class="c">#导入蓝图</span>
+<span class="kn">from</span> <span class="nn">flask</span> <span class="kn">import</span> <span class="n">Blueprint</span>
+<span class="c">#实例化蓝图（参数1：蓝图的名字；参数2：蓝图所在的包or模块）</span>
+<span class="n">main</span> <span class="o">=</span> <span class="n">Blueprint</span><span class="p">(</span><span class="s">&#39;main&#39;</span><span class="p">,</span> <span class="n">__name__</span><span class="p">)</span>
 
-from . import views
+<span class="kn">from</span> <span class="nn">.</span> <span class="kn">import</span> <span class="n">views</span>
 
-@main.app_context_processor
-def inject_permissions():
-    return dict(Permission=Permission)
-</code></pre>
+<span class="nd">@main.app_context_processor</span>
+<span class="k">def</span> <span class="nf">inject_permissions</span><span class="p">():</span>
+    <span class="k">return</span> <span class="nb">dict</span><span class="p">(</span><span class="n">Permission</span><span class="o">=</span><span class="n">Permission</span><span class="p">)</span>
+</pre></div>
+
+
 <p>3.~/flasky/app/main/views.py</p>
-<pre><code>from flask import render_template
-from . import main
+<div class="codehilite"><pre><span class="kn">from</span> <span class="nn">flask</span> <span class="kn">import</span> <span class="n">render_template</span>
+<span class="kn">from</span> <span class="nn">.</span> <span class="kn">import</span> <span class="n">main</span>
 
-@main.route('/')
-def index():
-    return render_template('index.html')
-</code></pre>
+<span class="nd">@main.route</span><span class="p">(</span><span class="s">&#39;/&#39;</span><span class="p">)</span>
+<span class="k">def</span> <span class="nf">index</span><span class="p">():</span>
+    <span class="k">return</span> <span class="n">render_template</span><span class="p">(</span><span class="s">&#39;index.html&#39;</span><span class="p">)</span>
+</pre></div>
+
+
 <p>注意咯，这里路由的注册方式是main.route，此外，蓝图还提供命名空间注册路由，这样index在main.index 和 auth.index 下是不一样的路由哦。</p>
                         </div>
                         <div class="modal-footer">
@@ -2695,12 +2924,12 @@ def index():
             <h4>修好了</h4>
             <p>
             <!-- Button trigger modal -->
-            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#28">
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#26">
                 Read Post
             </button>
             </p>
             <!-- Modal -->
-            <div class="modal fade bs-example-modal-lg" id="28" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+            <div class="modal fade bs-example-modal-lg" id="26" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
                 <div class="modal-dialog modal-lg" role="document">
                     <div class="modal-content">
                         <div class="modal-header">
@@ -2730,12 +2959,12 @@ def index():
             <h4>flask 学习笔记(2)——flask基本程序结构</h4>
             <p>
             <!-- Button trigger modal -->
-            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#29">
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#27">
                 Read Post
             </button>
             </p>
             <!-- Modal -->
-            <div class="modal fade bs-example-modal-lg" id="29" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+            <div class="modal fade bs-example-modal-lg" id="27" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
                 <div class="modal-dialog modal-lg" role="document">
                     <div class="modal-content">
                         <div class="modal-header">
@@ -2751,15 +2980,17 @@ def index():
 <code>source venv/bin/activate</code>进入虚拟环境
 <code>pip install flask</code>安装flask
 <code>vim hello.py</code></p>
-<pre><code>from flask import Flask 
-app = Flask(__name__)
+<div class="codehilite"><pre><span class="kn">from</span> <span class="nn">flask</span> <span class="kn">import</span> <span class="n">Flask</span> 
+<span class="n">app</span> <span class="o">=</span> <span class="n">Flask</span><span class="p">(</span><span class="n">__name__</span><span class="p">)</span>
 
-@app.route('/') 
-def index():
-    return 'Come from MuxiStudio!'
-if __name__=="__main__":
-    app.run(debug=True)
-</code></pre>
+<span class="nd">@app.route</span><span class="p">(</span><span class="s">&#39;/&#39;</span><span class="p">)</span> 
+<span class="k">def</span> <span class="nf">index</span><span class="p">():</span>
+    <span class="k">return</span> <span class="s">&#39;Come from MuxiStudio!&#39;</span>
+<span class="k">if</span> <span class="n">__name__</span><span class="o">==</span><span class="s">&quot;__main__&quot;</span><span class="p">:</span>
+    <span class="n">app</span><span class="o">.</span><span class="n">run</span><span class="p">(</span><span class="n">debug</span><span class="o">=</span><span class="bp">True</span><span class="p">)</span>
+</pre></div>
+
+
 <p>程序的首先从flask模块中导入Flask类，利用Flask类实例化app(<strong>name</strong>是Flask类的一个属性)，利用route(路由)装饰器关联url和执行函数(index)，index函数会在相应的url地址返回字符串“Come from MuxiStudio!”。最后程序判别<strong>name</strong>属性，调用run方法，开启调试模式(debug=True),运行app。</p>
 <p>好吧，我想你肯定是一头雾水，不过不要着急，我接下来将逐字逐句的解释上面这段话！</p>
 <h2>1.Flask类实例化app</h2>
@@ -2769,14 +3000,16 @@ if __name__=="__main__":
 <h2>2."<strong>name</strong>"属性</h2>
 <p>"<strong>name</strong>"属性就是Flask类的一个很重要的属性啦！在正式介绍他的用处之前我们先理解一下flask的目录组织方式。
 ----flask的目录组织结构没有强制要求--</p>
-<pre><code>------|——&gt;app————————————————|——&gt;__init__.py
+<div class="codehilite"><pre>------|——&gt;app————————————————|——&gt;__init__.py
 ------|——&gt;db_repository------|——&gt;static
 flask—&gt;venv------------------|——&gt;templates
 ------|——&gt;config.py----------|——&gt;views.py
 ------|——&gt;run.py-------------|——&gt;forms.py
 ------|——&gt;runp.py------------|——&gt;modles.py
 ------|——&gt;readme.md
-</code></pre>
+</pre></div>
+
+
 <p>以上就是一个flask项目的文件组织结构，<strong>app</strong>是app应用程序所在的主目录，<strong>db_repository</strong>是与数据库迁移相关的(以后再说)，<strong>venv</strong>就是我们创建的虚拟环境入口文件夹,<strong>config.py</strong>是配置文件，<strong>run.py</strong>是开发时应用程序的启动文件，<strong>runp.py</strong>是生产环境下的启动文件( 两者的区别在于生产环境千万不能开调试器，这会让使用者看到不该看到的代码！)<strong>readme.md</strong>是一个项目介绍文件，用的也是markdown语法。 
 再看看<strong>app</strong>文件夹，<strong>static</strong>用于存放css、image等静态文件，<strong>templates</strong>用于放置模板文件，<strong>views.py</strong>是视图函数所在的模块，<strong>forms.py</strong>则是表单所在的模块，<strong>modles.py</strong>是数据库表对象所在的模块，而<strong><strong>init</strong></strong>.py....</p>
 <p>对，<strong>init</strong>.py和我们的<strong>name</strong>属性有着密切的关系：首先<strong>init</strong>.py是app创建的地方，但我们知道app的运行是在run.py中调用的呀！这时就需要把app变成包，以便让其他程序导入app文件夹中的模块，而<strong>init</strong>.py就是模块的标志。通过在运行时判别<strong>name</strong>属性就可以知道该程序究竟是作为模块被导入还是直接执行！原来如此！可是这有什么用呢？这就要谈到templates文件夹了，程序在运行时会寻找该文件夹中的模板，如果app是直接执行则templates文件夹应放置在于app所在文件同级的位置，如果app作为模块被导入则应该一起放于包中！</p>
@@ -2791,26 +3024,30 @@ flask—&gt;venv------------------|——&gt;templates
 1.设置nginx
 ---
 找到nginx的安装目录，打开conf/nginx.conf文件，修改server配置</p>
-<pre><code>server {
-        listen       80;
-        server_name  localhost;
-        location / {            
-            include  uwsgi_params;
-            uwsgi_pass  公网IP:9090;                          //必须和uwsgi中的设置一致
-            uwsgi_param UWSGI_SCRIPT /root/www/flasky.wsgi; //. 就相当于一层目录了 
-            uwsgi_param UWSGI_CHDIR /root/www/flasky;       //项目根目录(例如)
-            index  index.html index.htm;
-            client_max_body_size 35m;
-        }
-}
-</code></pre>
+<div class="codehilite"><pre><span class="nt">server</span> <span class="p">{</span>
+        <span class="n">listen</span>       <span class="m">80</span><span class="p">;</span>
+        <span class="n">server_name</span>  <span class="n">localhost</span><span class="p">;</span>
+        <span class="n">location</span> <span class="o">/</span> <span class="err">{</span>            
+            <span class="n">include</span>  <span class="n">uwsgi_params</span><span class="p">;</span>
+            <span class="n">uwsgi_pass</span>  <span class="err">公网</span><span class="n">IP</span><span class="o">:</span><span class="m">9090</span><span class="p">;</span>                          <span class="o">//</span><span class="err">必须和</span><span class="n">uwsgi</span><span class="err">中的设置一致</span>
+            <span class="n">uwsgi_param</span> <span class="n">UWSGI_SCRIPT</span> <span class="o">/</span><span class="n">root</span><span class="o">/</span><span class="n">www</span><span class="o">/</span><span class="n">flasky</span><span class="o">.</span><span class="n">wsgi</span><span class="p">;</span> <span class="o">//.</span> <span class="err">就相当于一层目录了</span> 
+            <span class="n">uwsgi_param</span> <span class="n">UWSGI_CHDIR</span> <span class="o">/</span><span class="n">root</span><span class="o">/</span><span class="n">www</span><span class="o">/</span><span class="n">flasky</span><span class="p">;</span>       <span class="o">//</span><span class="err">项目根目录</span><span class="p">(</span><span class="err">例如</span><span class="p">)</span>
+            <span class="n">index</span>  <span class="n">index</span><span class="o">.</span><span class="n">html</span> <span class="n">index</span><span class="o">.</span><span class="n">htm</span><span class="p">;</span>
+            <span class="n">client_max_body_size</span> <span class="m">35</span><span class="n">m</span><span class="p">;</span>
+        <span class="p">}</span>
+<span class="err">}</span>
+</pre></div>
+
+
 <h2>2.建立引导文件</h2>
 <p>在 /root/www/flasky 下新建 wsgi.py</p>
-<pre><code>from hello import app
+<div class="codehilite"><pre><span class="kn">from</span> <span class="nn">hello</span> <span class="kn">import</span> <span class="n">app</span>
 
-if __name__=="__main__":
-    app.run(host="0.0.0.0",port=8080)
-</code></pre>
+<span class="k">if</span> <span class="n">__name__</span><span class="o">==</span><span class="s">&quot;__main__&quot;</span><span class="p">:</span>
+    <span class="n">app</span><span class="o">.</span><span class="n">run</span><span class="p">(</span><span class="n">host</span><span class="o">=</span><span class="s">&quot;0.0.0.0&quot;</span><span class="p">,</span><span class="n">port</span><span class="o">=</span><span class="mi">8080</span><span class="p">)</span>
+</pre></div>
+
+
 <p>3.开启uwsgi服务器
 在/root/www/flasky/下进入虚拟环境 还记得命令吗？ source venv/bin/activate
 输入：uwsgi —socket 公网IP:8080 —protocol=http -w wsgi:app -H /root/www/flasky/venv</p>
@@ -2830,12 +3067,12 @@ if __name__=="__main__":
             <h4>flask 学习笔记(1)——flask简介&amp;安装</h4>
             <p>
             <!-- Button trigger modal -->
-            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#30">
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#28">
                 Read Post
             </button>
             </p>
             <!-- Modal -->
-            <div class="modal fade bs-example-modal-lg" id="30" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+            <div class="modal fade bs-example-modal-lg" id="28" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
                 <div class="modal-dialog modal-lg" role="document">
                     <div class="modal-content">
                         <div class="modal-header">
@@ -2894,12 +3131,12 @@ flask 是基于python的一个轻量级的web开发框架——&gt;让我来解�
             <h4>服务器部署flask</h4>
             <p>
             <!-- Button trigger modal -->
-            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#31">
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#29">
                 Read Post
             </button>
             </p>
             <!-- Modal -->
-            <div class="modal fade bs-example-modal-lg" id="31" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+            <div class="modal fade bs-example-modal-lg" id="29" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
                 <div class="modal-dialog modal-lg" role="document">
                     <div class="modal-content">
                         <div class="modal-header">
@@ -2990,39 +3227,45 @@ uwsgi灵活的配置可以让flask应用的性能达到最佳，但对于你我�
 ！！跑起来再说！！</p>
 <h2>步骤7.设置nginx</h2>
 <p>找到nginx的安装目录，打开conf/nginx.conf文件，修改server配置</p>
-<pre><code>server {
-        listen       80;
-        server_name  localhost;
-        location / {            
-            include  uwsgi_params;
-            uwsgi_pass  公网IP:9090;                          //必须和uwsgi中的设置一致
-            uwsgi_param UWSGI_SCRIPT /root/www/flaskr.wsgi; //. 就相当于一层目录了 
-            uwsgi_param UWSGI_CHDIR /root/www/flaskr;       //项目根目录(例如)
-            index  index.html index.htm;
-            client_max_body_size 35m;
-            }
-}
-</code></pre>
+<div class="codehilite"><pre><span class="nt">server</span> <span class="p">{</span>
+        <span class="n">listen</span>       <span class="m">80</span><span class="p">;</span>
+        <span class="n">server_name</span>  <span class="n">localhost</span><span class="p">;</span>
+        <span class="n">location</span> <span class="o">/</span> <span class="err">{</span>            
+            <span class="n">include</span>  <span class="n">uwsgi_params</span><span class="p">;</span>
+            <span class="n">uwsgi_pass</span>  <span class="err">公网</span><span class="n">IP</span><span class="o">:</span><span class="m">9090</span><span class="p">;</span>                          <span class="o">//</span><span class="err">必须和</span><span class="n">uwsgi</span><span class="err">中的设置一致</span>
+            <span class="n">uwsgi_param</span> <span class="n">UWSGI_SCRIPT</span> <span class="o">/</span><span class="n">root</span><span class="o">/</span><span class="n">www</span><span class="o">/</span><span class="n">flaskr</span><span class="o">.</span><span class="n">wsgi</span><span class="p">;</span> <span class="o">//.</span> <span class="err">就相当于一层目录了</span> 
+            <span class="n">uwsgi_param</span> <span class="n">UWSGI_CHDIR</span> <span class="o">/</span><span class="n">root</span><span class="o">/</span><span class="n">www</span><span class="o">/</span><span class="n">flaskr</span><span class="p">;</span>       <span class="o">//</span><span class="err">项目根目录</span><span class="p">(</span><span class="err">例如</span><span class="p">)</span>
+            <span class="n">index</span>  <span class="n">index</span><span class="o">.</span><span class="n">html</span> <span class="n">index</span><span class="o">.</span><span class="n">htm</span><span class="p">;</span>
+            <span class="n">client_max_body_size</span> <span class="m">35</span><span class="n">m</span><span class="p">;</span>
+            <span class="p">}</span>
+<span class="err">}</span>
+</pre></div>
+
+
 <h2>步骤8.部署flask应用</h2>
 <p>终于---改装的装完了，该配的配完了。可我们的应用还不见踪影。。不要着急，我们将部署一个最简单的flask应用。
 其实原理都是一样的！</p>
 <p>在项目目录下（/root/www/flaskr）新建welcome.py文件，内容如下：</p>
-<pre><code>from flask import Flask
-app=Flask(__name__)
+<div class="codehilite"><pre><span class="kn">from</span> <span class="nn">flask</span> <span class="kn">import</span> <span class="n">Flask</span>
+<span class="n">app</span><span class="o">=</span><span class="n">Flask</span><span class="p">(</span><span class="n">__name__</span><span class="p">)</span>
 
-@app.route("/")
-def welcom():
-    return "Welcome to MuxiStudio!"
+<span class="nd">@app.route</span><span class="p">(</span><span class="s">&quot;/&quot;</span><span class="p">)</span>
+<span class="k">def</span> <span class="nf">welcom</span><span class="p">():</span>
+    <span class="k">return</span> <span class="s">&quot;Welcome to MuxiStudio!&quot;</span>
 
-if __name__=="__main__":
-    app.run(host="0.0.0.0",port=8080)
-</code></pre>
+<span class="k">if</span> <span class="n">__name__</span><span class="o">==</span><span class="s">&quot;__main__&quot;</span><span class="p">:</span>
+    <span class="n">app</span><span class="o">.</span><span class="n">run</span><span class="p">(</span><span class="n">host</span><span class="o">=</span><span class="s">&quot;0.0.0.0&quot;</span><span class="p">,</span><span class="n">port</span><span class="o">=</span><span class="mi">8080</span><span class="p">)</span>
+</pre></div>
+
+
 <p>注意单有应用文件还不行，我们还要建立引导文件，在 /root/www/flaskr 下新建 wsgi.py</p>
-<pre><code>from welcome import app
+<div class="codehilite"><pre><span class="kn">from</span> <span class="nn">welcome</span> <span class="kn">import</span> <span class="n">app</span>
 
-if __name__=="__main__":
-    app.run(host="0.0.0.0",port=8080)
-</code></pre>
+<span class="k">if</span> <span class="n">__name__</span><span class="o">==</span><span class="s">&quot;__main__&quot;</span><span class="p">:</span>
+    <span class="n">app</span><span class="o">.</span><span class="n">run</span><span class="p">(</span><span class="n">host</span><span class="o">=</span><span class="s">&quot;0.0.0.0&quot;</span><span class="p">,</span><span class="n">port</span><span class="o">=</span><span class="mi">8080</span><span class="p">)</span>
+</pre></div>
+
+
 <p>导入app，设置运行状态--yep！</p>
 <p>接下来就是最激动人心的部署环节了！
 在/root/www/flaskr/下进入虚拟环境 还记得命令吗？ <code>source venv/bin/activate</code>
